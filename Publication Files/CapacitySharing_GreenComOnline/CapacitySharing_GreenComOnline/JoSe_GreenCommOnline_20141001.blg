@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_1)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: JoSe_GreenCommOnline_20141001.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: content.bib
+I was expecting a `,' or a `}'---line 40 of file content.bib
+ : 
+ : year = {2014}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring ShKuDaWa05's extra "month" field
+--line 104 of file content.bib
+Warning--I'm ignoring Me13's extra "month" field
+--line 211 of file content.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in VNI14
+Warning--empty year in Qian:2014dw
+
+Done.
+You've used 21 entries,
+            4039 wiz_defined-function locations,
+            963 strings with 11685 characters,
+and the built_in function-call counts, 18300 in all, are:
+= -- 1443
+> -- 422
+< -- 174
++ -- 232
+- -- 66
+* -- 910
+:= -- 2582
+add.period$ -- 42
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 420
+cite$ -- 23
+duplicate$ -- 1300
+empty$ -- 1525
+format.name$ -- 84
+if$ -- 4266
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 226
+newline$ -- 86
+num.names$ -- 21
+pop$ -- 526
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1361
+stack$ -- 0
+substring$ -- 1001
+swap$ -- 1114
+text.length$ -- 34
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 21
+warning$ -- 2
+while$ -- 101
+width$ -- 23
+write$ -- 224
+(There was 1 error message)

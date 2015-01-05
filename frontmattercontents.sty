@@ -1,0 +1,37 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{frontmattercontents}[2014/20/05 v0.1 CMU Thesis]
+
+\@ifclassloaded{memoir}{\let\endfrontmattercontents\relax}{\let\endfrontmattercontents\endinput\PackageError{frontmattercontents}{The frontmattercontents package only works with the memoir class}%
+	{\@ehd}}
+\endfrontmattercontents
+
+\usepackage{url}
+\urlstyle{same}
+
+\newcommand{\settitle}[1]{\def\cmutitle{#1}}
+
+\newcommand{\setauthor}[1]{\def\cmuauthor{#1}}
+
+\newcommand{\setdoctype}[1]{\def\cmudoctype{#1}}
+
+\newcommand{\masters}{\def\cmudegree{Master of Science}}
+\newcommand{\doctors}{\def\cmudegree{Doctor of Philosophy}}
+
+\newcommand{\setdefdate}[1]{\def\cmudefdate{#1}}
+
+\newcommand{\setgraddate}[1]{\def\cmugraddate{#1}}
+
+\newcommand{\setchair}[1]{\def\cmuchair{#1, Chair}}
+
+\newcommand{\setchairs}[2]{%
+
+\def\cmuchair{#1, Co-chair \\ #2, Co-chair}}
+
+\newcommand{\setmembers}[1]{\def\cmumembers{#1\par}}
+
+
+
+\newenvironment{biosketch}{
+\pretoctitle{BIOGRAPHICAL SKETCH}\thispagestyle{empty}\SingleSpacing}%
+{}
+\endinput

@@ -1,0 +1,438 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.26)  30 DEC 2013 13:58
+entering extended mode
+**main_v1_large_images.tex
+
+("C:\Users\seeli1p\Box Sync\Publications\_submitted\Johnson_HTTPARCHIVE_COMMAG\
+Submission\main_v1_large_images.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\seeli1p\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 366.
+
+(C:\miktex\tex\latex\psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+** ATTENTION: Single column mode is not typically used with IEEE publications.
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 12 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 724.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count90
+\@IEEEtranrubishbin=\box26
+) (C:\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\miktex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(C:\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(C:\miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\miktex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(C:\miktex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(C:\miktex\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(C:\miktex\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(C:\miktex\tex\latex\oberdiek\grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(C:\miktex\tex\generic\oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(C:\miktex\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(C:\miktex\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(C:\miktex\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(C:\miktex\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\miktex\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\miktex\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(C:\Users\seeli1p\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\seeli1p\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2011/08/18 v1.3b caption3 kernel (AR)
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+\c@KVtest=\count92
+\sf@farskip=\skip44
+\sf@captopadj=\dimen125
+\sf@capskip=\skip45
+\sf@nearskip=\skip46
+\c@subfigure=\count93
+\c@subfigure@save=\count94
+\c@lofdepth=\count95
+\c@subtable=\count96
+\c@subtable@save=\count97
+\c@lotdepth=\count98
+\sf@top=\skip47
+\sf@bottom=\skip48
+)
+(C:\miktex\tex\latex\dblfloatfix\dblfloatfix.sty
+Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+
+(C:\miktex\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+\@dblbotnum=\count99
+\c@dblbotnumber=\count100
+) (C:\miktex\tex\latex\url\url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Users\seeli1p\Box Sync\Publications\_submitted\Johnson_HTTPARCHIVE_COMMAG\
+Submission\main_v1_large_images.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+
+(C:\Users\seeli1p\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen126
+\scratchbox=\box27
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen127
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks17
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package 1.2 or 1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
+ (C:\miktex\tex\latex\psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 33.
+ (C:\miktex\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 45.
+[1{C:/Users/seeli1p/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2]
+
+pdfTeX warning: pdflatex (file C:/Users/seeli1p/Box Sync/Publications/_submitte
+d/Johnson_HTTPARCHIVE_COMMAG/Submission/figures/setup.pdf): PDF inclusion: foun
+d PDF version <1.6>, but at most version <1.5> allowed
+<./figures/./setup.pdf, id=13, 365.19937pt x 102.13156pt>
+File: ./figures/./setup.pdf Graphic file (type pdf)
+
+<use ./figures/./setup.pdf>
+Package pdftex.def Info: ./figures/./setup.pdf used on input line 93.
+(pdftex.def)             Requested size: 345.71906pt x 96.68625pt.
+ [3 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMM
+AG/Submission/figures/setup.pdf>]
+<./figures/theil.pdf, id=36, 794.97pt x 614.295pt>
+File: ./figures/theil.pdf Graphic file (type pdf)
+ <use ./figures/theil.pdf>
+Package pdftex.def Info: ./figures/theil.pdf used on input line 119.
+(pdftex.def)             Requested size: 490.19843pt x 378.79681pt.
+
+<./figures/totalRequests.pdf, id=37, 794.97pt x 614.295pt>
+File: ./figures/totalRequests.pdf Graphic file (type pdf)
+
+<use ./figures/totalRequests.pdf>
+Package pdftex.def Info: ./figures/totalRequests.pdf used on input line 140.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/req_by_type_fixed.pdf, id=38, 794.97pt x 614.295pt>
+File: ./figures/req_by_type_fixed.pdf Graphic file (type pdf)
+
+<use ./figures/req_by_type_fixed.pdf>
+Package pdftex.def Info: ./figures/req_by_type_fixed.pdf used on input line 141
+.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/req_by_type_mobile.pdf, id=39, 794.97pt x 614.295pt>
+File: ./figures/req_by_type_mobile.pdf Graphic file (type pdf)
+
+<use ./figures/req_by_type_mobile.pdf>
+Package pdftex.def Info: ./figures/req_by_type_mobile.pdf used on input line 14
+2.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+
+LaTeX Warning: Float too large for page by 95.9031pt on input line 144.
+
+[4] [5 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_C
+OMMAG/Submission/figures/theil.pdf, page is rotated 90 degrees>] [6 <C:/Users/s
+eeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/f
+igures/totalRequests.pdf, page is rotated 90 degrees> <C:/Users/seeli1p/Box Syn
+c/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/figures/req_by_
+type_fixed.pdf, page is rotated 90 degrees> <C:/Users/seeli1p/Box Sync/Publicat
+ions/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/figures/req_by_type_mobil
+e.pdf, page is rotated 90 degrees>]
+<./figures/bytes_total.pdf, id=61, 794.97pt x 614.295pt>
+File: ./figures/bytes_total.pdf Graphic file (type pdf)
+
+<use ./figures/bytes_total.pdf>
+Package pdftex.def Info: ./figures/bytes_total.pdf used on input line 176.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/bytes_by_type_fixed.pdf, id=62, 794.97pt x 614.295pt>
+File: ./figures/bytes_by_type_fixed.pdf Graphic file (type pdf)
+
+<use ./figures/bytes_by_type_fixed.pdf>
+Package pdftex.def Info: ./figures/bytes_by_type_fixed.pdf used on input line 1
+77.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/bytes_by_type_mobile.pdf, id=63, 794.97pt x 614.295pt>
+File: ./figures/bytes_by_type_mobile.pdf Graphic file (type pdf)
+
+<use ./figures/bytes_by_type_mobile.pdf>
+Package pdftex.def Info: ./figures/bytes_by_type_mobile.pdf used on input line 
+178.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+
+LaTeX Warning: Float too large for page by 95.9031pt on input line 180.
+
+[7] [8 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_C
+OMMAG/Submission/figures/bytes_total.pdf, page is rotated 90 degrees> <C:/Users
+/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission
+/figures/bytes_by_type_fixed.pdf, page is rotated 90 degrees> <C:/Users/seeli1p
+/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/figures
+/bytes_by_type_mobile.pdf, page is rotated 90 degrees>]
+<./figures/bpr.pdf, id=80, 794.97pt x 614.295pt>
+File: ./figures/bpr.pdf Graphic file (type pdf)
+ <use ./figures/bpr.pdf>
+Package pdftex.def Info: ./figures/bpr.pdf used on input line 207.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/bpr_by_type_fixed.pdf, id=81, 794.97pt x 614.295pt>
+File: ./figures/bpr_by_type_fixed.pdf Graphic file (type pdf)
+
+<use ./figures/bpr_by_type_fixed.pdf>
+Package pdftex.def Info: ./figures/bpr_by_type_fixed.pdf used on input line 208
+.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/bpr_by_type_mobile.pdf, id=82, 794.97pt x 614.295pt>
+File: ./figures/bpr_by_type_mobile.pdf Graphic file (type pdf)
+
+<use ./figures/bpr_by_type_mobile.pdf>
+Package pdftex.def Info: ./figures/bpr_by_type_mobile.pdf used on input line 20
+9.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+
+LaTeX Warning: Float too large for page by 95.9031pt on input line 211.
+
+[9] [10 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_
+COMMAG/Submission/figures/bpr.pdf, page is rotated 90 degrees> <C:/Users/seeli1
+p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/figure
+s/bpr_by_type_fixed.pdf, page is rotated 90 degrees> <C:/Users/seeli1p/Box Sync
+/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submission/figures/bpr_by_t
+ype_mobile.pdf, page is rotated 90 degrees>]
+<./figures/cache_fix.pdf, id=98, 794.97pt x 614.295pt>
+File: ./figures/cache_fix.pdf Graphic file (type pdf)
+
+<use ./figures/cache_fix.pdf>
+Package pdftex.def Info: ./figures/cache_fix.pdf used on input line 238.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+
+<./figures/cache_mob.pdf, id=99, 794.97pt x 614.295pt>
+File: ./figures/cache_mob.pdf Graphic file (type pdf)
+
+<use ./figures/cache_mob.pdf>
+Package pdftex.def Info: ./figures/cache_mob.pdf used on input line 239.
+(pdftex.def)             Requested size: 294.12378pt x 227.28558pt.
+ [11] [12 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIV
+E_COMMAG/Submission/figures/cache_fix.pdf, page is rotated 90 degrees> <C:/User
+s/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIVE_COMMAG/Submissio
+n/figures/cache_mob.pdf, page is rotated 90 degrees>] <./figures/loadtimes.pdf,
+ id=112, 794.97pt x 614.295pt>
+File: ./figures/loadtimes.pdf Graphic file (type pdf)
+
+<use ./figures/loadtimes.pdf>
+Package pdftex.def Info: ./figures/loadtimes.pdf used on input line 284.
+(pdftex.def)             Requested size: 387.0pt x 299.04814pt.
+ [13] [14 <C:/Users/seeli1p/Box Sync/Publications/_submitted/Johnson_HTTPARCHIV
+E_COMMAG/Submission/figures/loadtimes.pdf, page is rotated 90 degrees>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 346.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 346.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+ [15]
+("C:\Users\seeli1p\Box Sync\Publications\_submitted\Johnson_HTTPARCHIVE_COMMAG\
+Submission\main_v1_large_images.aux") ) 
+Here is how much of TeX's memory you used:
+ 3168 strings out of 493921
+ 52210 string characters out of 3154494
+ 109824 words of memory out of 3000000
+ 6414 multiletter control sequences out of 15000+200000
+ 38337 words of font info for 75 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,10n,46p,635b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/miktex/fonts/enc/dvips/fontname/8r.e
+nc}<C:/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/miktex/fonts/type1/
+public/amsfonts/cm/cmsy9.pfb><C:/miktex/fonts/type1/urw/courier/ucrr8a.pfb><C:/
+miktex/fonts/type1/urw/times/utmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a
+.pfb><C:/miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main_v1_large_images.pdf (15 pages, 249892 bytes).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

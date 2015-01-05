@@ -1,0 +1,15 @@
+\changetocdepth {2}
+\contentsline {chapter}{LIST OF FIGURES}{v}{section*.1}
+\noindent CHAPTER \par 
+\contentsline {chapter}{\chapternumberline {I}INTRODUCTION}{1}{chapter.1}
+\contentsline {subsection}{HTTP Archive}{1}{section*.2}
+\contentsline {chapter}{\chapternumberline {II}An Inexpensive Testbed for Mobile Device Power Measurement}{2}{chapter.2}
+\contentsline {section}{Introduction}{2}{section*.3}
+\contentsline {section}{Hardware Configuration}{2}{section*.3}
+\contentsline {section}{Software Configuration}{3}{section*.4}
+\contentsline {section}{Demonstration Description}{3}{figure.caption.6}
+\contentsline {chapter}{\chapternumberline {III}Power Consumption Overhead for Proxy Services on Mobile Device Platforms}{5}{chapter.3}
+\contentsline {section}{Introduction}{5}{section*.9}
+\contentsline {chapter}{\chapternumberline {IV}CONCLUSION}{6}{chapter.4}
+\contentsline {subsection}{Future Work}{6}{section*.11}
+\contentsline {chapter}{REFERENCES}{7}{chapter*.12}

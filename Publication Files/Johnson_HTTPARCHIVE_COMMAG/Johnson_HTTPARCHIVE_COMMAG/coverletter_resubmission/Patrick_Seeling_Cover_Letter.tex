@@ -1,0 +1,127 @@
+%% start of file `letter.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+\documentclass[11pt]{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.8]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Patrick}
+\def\familyname{Seeling}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\usepackage{url}
+\usepackage{enumerate}
+\renewcommand{\ttdefault}{pcr}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://patrick.seeling.org,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX,
+hidelinks}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\renewcommand{\familydefault}{\sfdefault}% for use with a résumé using sans serif fonts;
+%\renewcommand{\familydefault}{\rmdefault}% for use with a résumé using sans serif fonts;
+
+% page numbers in footer if more than 1 page
+\usepackage{color}
+\definecolor{Mygrey}{gray}{0.5}
+%{\color{declared-color} text}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+%\addressfont\itshape\strut\thepage/\pageref{lastpage}
+\fancyfoot{}
+%\fancyfoot[RO]{\color{Mygrey} \footnotesize (continued)}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+\begin{document}
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+\raggedleft%
+{\bfseries Patrick Seeling}\\[.35ex]
+\small\itshape%
+Pearce Hall 406\\
+Central Michigan University\\
+Mount Pleasant, MI 48859\\[.35ex]
+\Telefon~989 774 6526\\
+\Letter~\href{mailto:pseeling@ieee.org}{pseeling@ieee.org}
+\end{minipage}\\[1em]
+%
+\begin{minipage}[t]{.4\textwidth}
+\raggedright%
+{\bfseries Dr. Loreto}\\[.35ex]
+\small\itshape%
+Guest Editor \\
+IEEE Communications Magazine
+\end{minipage}
+\hfill % US style
+%\\[1em] % UK style
+\begin{minipage}[t]{.4\textwidth}
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[3em]
+\raggedright
+Dear Dr. Loreto, Dear Anonymous Reviewers,\\[2em]
+
+Please find enclosed our revised manuscript entitled
+\textit{``Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications,''} with the original manuscript number COMMAG-13-00421.
+We are grateful for the timely review conducted by the reviewers and the detailed feedback that was provided to us. 
+
+We have spent significant time over the holiday break to address the concerns of the reviewers and to refresh the data up to the end of 2013.
+We believe that the inclusion of the requested changes resulted in an enhanced version of the originally submitted manuscript that will be of interest to the readers of the IEEE Communications Magazine. 
+
+As part of the resubmission, we prepared three documents, namely 
+\begin{enumerate}[(i)]
+	\item A document in response to the reviewer comments,
+	\item The revised manuscript with highlighted changes, and
+	\item The revised manuscript without additional highlighting.
+\end{enumerate}
+
+We thank you for your efforts and consideration of our revised manuscript for inclusion into the IEEE Communications Magazine.
+
+\vspace{2em}
+\includegraphics[scale=0.75]{signature}\\
+{
+Patrick Seeling\\
+Assistant Professor\\
+Department of Computer Science\\
+Central Michigan University}
+  
+%\vfill%
+\vspace{2em}
+{\slshape Enclosures}
+
+\end{document}

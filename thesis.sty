@@ -1,0 +1,283 @@
+%%%% file thesis.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{thesis}[2010/11/05 v0.1 CMU Thesis]
+%
+%%%Only works with the memoir class.
+\@ifclassloaded{memoir}{\let\endthesis\relax}{\let\endthesis\endinput\PackageError{thesis}{The thesis package only works with the memoir class}%
+	{\@ehd}}
+\endthesis
+
+\usepackage{url}
+\urlstyle{same}
+
+
+%%Set the font to a Times Roman font.
+%\renewcommand{\rmdefault}{ptm}
+\rmfamily
+
+\setverbatimfont{\normalfont\rmfamily} %Used to make verbatim sections use the normal font.
+\renewcommand*{\foottextfont}{\normalfont\normalsize}
+%
+
+%%Set the chapter numbering to Roman Numerals
+\def\thechapter{\Roman{chapter}}
+
+
+%%Set the format of the bibliography label in the bibliography.
+%%Uncomment the \setbiblabel{} command if you wish to suppress the
+%%numbers in the bibliography.
+%\setbiblabel{}
+
+%%Setup the captioning delimeter for figures.
+\captiondelim{.}
+
+%%Indent paragraphs after chapters.
+%\indentafterchapter
+
+%%Enable spacing to be set by the user as needed
+\newcommand*{\setcmuspacing}[1]{%
+	\let\CMUSpacing#1
+	\CMUSpacing}
+\setcmuspacing{\SingleSpacing} %\DoubleSpacing}
+
+
+%%This is the margin settings for the general text sections.
+%%Assuming Top, Bottom, and Right margins of 1.0 in and a left margin of 1.5 inches if paper to be bound
+\setlrmarginsandblock{0.875in}{0.875in}{*}
+\setulmarginsandblock{0.75in}{0.75in}{*} %{1.4in}{*}
+%\setlrmarginsandblock{0.90625in}{0.90625in}{*}
+%\setulmarginsandblock{0.78125in}{1.015in}{*}
+%\setlrmargins{0.90625in}{0.90625in}{*}
+%\setulmargins{0.90625in}{0.90625in}{*}
+\newlength{\linespace}
+\setlength{\linespace}{\baselineskip} % current equivalent of \onelineskip
+
+%%Upper Margin definitions.
+%\setlength{\headheight}{\onelineskip}
+%\setlength{\headsep}{\linespace}
+%$\addtolength{\headsep}{-\topskip}
+%\setlength{\uppermargin}{0.8125in}
+%\addtolength{\uppermargin}{\headheight}
+%\addtolength{\uppermargin}{\headsep}
+
+%%Bottom Margin definitions.
+%\setlength{\lowermargin}{0.5in}
+%\setlength{\textheight}{\paperheight}
+%\addtolength{\textheight}{-\uppermargin}
+%\addtolength{\textheight}{-\lowermargin}
+
+%%Footnote Settings
+%\setlength{\parindent}{.5in}
+%\setlength{\footnotesep}{\onelineskip}
+%\addtolength{\textheight}{-\footnotesep}
+
+%%Miscellaneous Commands for Extraneous Pages
+\newlength{\toptafiddle} \setlength{\toptafiddle}{2\linespace}
+\newlength{\bottafiddle} \setlength{\bottafiddle}{1in}
+\newlength{\topfiddle} \setlength{\topfiddle}{\toptafiddle}
+\newlength{\botfiddle} \setlength{\botfiddle}{\onelineskip}
+
+\setlength{\parindent}{.5in}
+\checkandfixthelayout[nearest]
+
+%%Use this to change the text height for preliminary pages.
+%%Usage: \addtotextheight{1in} - adds 1in to text height
+\newcommand*{\addtotextheight}[1]{
+\twocolumn
+\addtolength{\textheight}{#1}
+\onecolumn}
+
+\newcommand*{\toctextheight}[1]{
+\twocolumn
+\setlength{\textheight}{#1}
+\onecolumn}
+
+\newcommand*{\regulartextheight}{
+\twocolumn
+\addtolength{\textheight}{-.0625in}
+\onecolumn}
+
+%%%%% pagestyles
+%%% the main text
+\makepagestyle{cmu}
+\makeevenfoot{cmu}{}{\thepage}{}
+\makeoddfoot{cmu}{}{\thepage}{}
+
+%%% for continuation pages of the ToC, LoF, LoT
+\makepagestyle{toc}
+\makeevenfoot{toc}{}{\thepage}{}
+\makeoddfoot{toc}{}{\thepage}{}
+\makeevenhead{toc}{}{}{}
+\makeoddhead{toc}{}{}{}
+\makepagestyle{lof}
+\makeevenfoot{lof}{}{\thepage}{}
+\makeoddfoot{lof}{}{\thepage}{}
+\makeevenhead{lof}{FIGURE}{}{PAGE}
+%\makeoddhead{lof}{FIGURE}{}{PAGE}
+\makepagestyle{lot}
+\makeevenfoot{lot}{}{\thepage}{}
+\makeoddfoot{lot}{}{\thepage}{}
+\makeevenhead{lot}{TABLE}{}{PAGE}
+\makeoddhead{lot}{TABLE}{}{PAGE}
+
+%%%%% The LoF
+\renewcommand{\listfigurename}{%\vspace*{1in}
+	LIST OF FIGURES}
+\addtodef{\listoffigures}{\clearpage\pagestyle{lof}}{}
+
+%\renewcommand*{\lofheadstart}{\vspace*{-\topfiddle}}
+\renewcommand*{\afterloftitle}{\thispagestyle{plain}%
+\par\nobreak {\normalfont FIGURE \hfill PAGE}\par\nobreak}
+\renewcommand*{\cftfigureaftersnum}{.}
+
+%%%% The LoT
+\renewcommand{\listtablename}{LIST OF TABLES}
+\addtodef{\listoftables}{\clearpage\pagestyle{lot}}{}
+%\setlength{\topmargin}{.75in}
+\renewcommand*{\lotheadstart}{\vspace*{-\topfiddle}}
+\renewcommand*{\afterlottitle}{\thispagestyle{plain}%
+\par\nobreak {\normalfont Table \hfill Page}\par\nobreak}
+
+%%%%% Do the ToC%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\settocdepth{subsection}
+\renewcommand{\contentsname}{%\vspace*{1in}
+	TABLE OF CONTENTS}
+\addtodef{\tableofcontents}{\clearpage\pagestyle{toc}}{}
+\renewcommand*{\aftertoctitle}{\thispagestyle{plain}
+\par\nobreak 
+%{\normalfont \hfill } 
+\par\nobreak}
+%}
+
+\renewcommand*{\cftchapteraftersnum}{.}
+\renewcommand*{\cftdotsep}{1}
+\renewcommand*{\cftchapterfont}{\normalfont}
+\renewcommand*{\cftchapterpagefont}{\normalfont}
+\renewcommand*{\cftchapterleader}{
+	\cftchapterfont\cftdotfill{\cftchapterdotsep}}
+\renewcommand*{\cftchapterdotsep}{\cftdotsep}
+
+%Sets the length of the indents for each relevant section
+%in the TOC
+\cftsetindents{chapter}{0in}{.5in}
+\cftsetindents{section}{1in}{0in}
+\cftsetindents{subsection}{1.5in}{0in}
+
+%Sets the spacing for each level of the Table of Contents
+\setlength{\cftbeforechapterskip}{.25in}
+\setlength{\cftbeforesectionskip}{-.23in}
+\setlength{\cftbeforesubsectionskip}{-.23in}
+
+%Set the font of the subsections to italicized.
+\renewcommand*{\cftsubsectionfont}{\itshape}
+\renewcommand*{\cftsubsectionleader}{\itshape\cftdotfill{\cftsubsectiondotsep}}
+
+
+
+
+
+%%%% no extra space before the entry, or in the LoF/LoT
+\setlength{\cftbeforechapterskip}{0pt plus 0pt}
+\renewcommand*{\insertchapterspace}{}
+
+%%% chapter style
+\makechapterstyle{cmu}{%
+\setlength{\beforechapskip}{-\topfiddle}
+%\addtolength{\beforechapskip}{.3125in}
+\setlength{\midchapskip}{0in} %.0625in}%1.0\onelineskip}
+\setlength{\afterchapskip}{0in}%.0625in}%1.0\onelineskip}
+\renewcommand*{\chapnamefont}{\normalfont\MakeUppercase}
+\renewcommand*{\chapnumfont}{\chapnamefont}
+\renewcommand*{\printchapternum}{\centering\chapnumfont \thechapter}
+\renewcommand*{\chaptitlefont}{\normalfont\centering}
+\renewcommand*{\printchapternonum}{}}
+\aliaspagestyle{chapter}{plain}
+
+%%% chapter style for appendices, text comes on following page
+\makechapterstyle{cmuappendix}{%
+\setlength{\beforechapskip}{-\topfiddle}
+\setlength{\midchapskip}{1.0\onelineskip}
+\setlength{\afterchapskip}{1.0\onelineskip}
+\renewcommand*{\chapnamefont}{\normalfont}
+\renewcommand*{\chapnumfont}{\chapnamefont}
+\renewcommand*{\printchaptername}{%
+\chapnamefont\MakeUppercase{\@chapapp}}
+\renewcommand*{\printchapternum}{\centering\chapnumfont \thechapter}
+\renewcommand*{\chaptitlefont}{\normalfont\centering}
+\renewcommand*{\printchapternonum}{}
+\renewcommand*{\afterchaptertitle}{\clearpage}}
+
+%%% different chapter style for appendices, (and double spaced)
+\addtodef{\appendix}{}{\chapterstyle{cmuappendix}\AsuSpacing}
+
+%%% (subsub)section styles
+\setsecheadstyle{\normalfont}
+\setbeforesecskip{1.0\onelineskip}
+\setaftersecskip{.15\onelineskip}
+\setsubsecheadstyle{\centering\itshape}
+\setbeforesubsecskip{1.0\onelineskip}
+\setaftersubsecskip{.15\onelineskip}
+\setsubsubsecheadstyle{\centering\itshape}
+\setbeforesubsubsecskip{1.0\onelineskip}
+\setaftersubsubsecskip{.15\onelineskip}
+
+%% Captions
+\captiontitlefont{\normalfont}% title font
+\precaption{\raggedright}% for Caption N
+%\captiondelim{\newline}% newline
+\captionstyle{\raggedright}% for title
+\setlength{\belowcaptionskip}{-\onelineskip}
+%\setlength{\abovecaptionskip}{-\onelineskip}
+
+%% for REFERENCE section
+\renewcommand*{\bibname}{REFERENCES}
+\setlength{\bibitemsep}{\onelineskip}
+
+\renewcommand*{\biblistextra}{%
+\setlength{\itemsep}{\bibitemsep}
+\setlength{\labelwidth}{0pt}
+\setlength{\leftmargin}{3em}% hanging indent
+\setlength{\itemindent}{-\leftmargin}}
+
+\renewcommand*{\bibsection}{%
+\CMUSpacing
+\chapter*{\bibname}\addcontentsline{toc}{chapter}{\bibname}
+\SingleSpacing}
+
+%% endnotes
+\renewcommand*{\notesname}{NOTES}
+\renewcommand*{\notedivision}{%
+\CMUSpacing
+\chapter*{\notesname}
+\addcontentsline{toc}{chapter}{\notesname}
+\SingleSpacing}
+
+\continuousnotenums
+\renewcommand*{\notenuminnotes}[1]{\textsuperscript{#1}\space}
+\renewcommand{\noteinnotes}[1]{#1\\}
+\renewcommand*{\pagenotesubhead}[3]{}% no subheads
+
+%%% general macro for Abstract, etc., headings
+\newcommand*{\pretoctitle}[1]{{\clearpage\centering
+\vspace*{-\topfiddle}#1\par}}
+%%% Start the ACKNOWLEDGEMENTS
+
+\newcommand{\cmuacknowledgements}{\pretoctitle{ACKNOWLEDGEMENTS}}
+
+%%% make it easy to center any dedication
+%\newcommand{\asudedication}[1]{%
+%{\clearpage\mbox{}\vfill\centering #1 \par\vfill\clearpage}}
+%
+%% for any headings after the tocloft and before the main body
+\newcommand{\prelimtitle}[1]{%
+\pretoctitle{#1}\addcontentsline{toc}{chapter}{#1}}
+
+%%Make sure that the requisite initial page style and appropriate chapter style is used.
+%% use the cmu chapterstyle and plain pagestyle
+\chapterstyle{cmu}
+\pagestyle{plain}
+
+%%%%%%%%%%%%%% end of *.sty file
+\endinput
+%%%%%%%%%%%%%%
+

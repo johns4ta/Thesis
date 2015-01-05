@@ -1,0 +1,426 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/MacPorts 2013_5) (format=pdflatex 2014.1.8)  11 MAR 2014 06:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main_20140305.tex
+(./main_20140305.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 2 languages loaded.
+(/opt/local/share/texmf-texlive/tex/latex/IEEEtran/IEEEtran.cls
+Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 368.
+
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@IEEEsubequation=\count85
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count86
+\c@table=\count87
+\@IEEEeqnnumcols=\count88
+\@IEEEeqncolcnt=\count89
+\@IEEEsubeqnnumrollback=\count90
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count91
+\@IEEEtranrubishbin=\box26
+) (/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/opt/local/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen119
+))
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/opt/local/share/texmf-texlive/tex/latex/dblfloatfix/dblfloatfix.sty
+Package: dblfloatfix 2012/12/31 v1.0a (JAW)
+
+(/opt/local/share/texmf-texlive/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+\@dblbotnum=\count105
+\c@dblbotnumber=\count106
+)
+(/opt/local/share/texmf-texlive/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./main_20140305.aux)
+\openout1 = `main_20140305.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+(/opt/local/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen128
+\scratchbox=\box29
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen129
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks22
+)
+** WARNING: \thanks is locked out when in conference mode (line 50).
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 56.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 56.
+
+LaTeX Warning: Citation `ciscovni' on page 1 undefined on input line 65.
+
+
+LaTeX Warning: Citation `.' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Reference `s:conc' on page 1 undefined on input line 73.
+
+<./figures/Drawing1.pdf, id=1, 292.99242pt x 275.74518pt>
+File: ./figures/Drawing1.pdf Graphic file (type pdf)
+
+<use ./figures/Drawing1.pdf>
+Package pdftex.def Info: ./figures/Drawing1.pdf used on input line 80.
+(pdftex.def)             Requested size: 226.79846pt x 213.45204pt.
+
+<./figures/1screen.jpg, id=2, 379.4175pt x 262.73157pt>
+File: ./figures/1screen.jpg Graphic file (type jpg)
+
+<use ./figures/1screen.jpg>
+Package pdftex.def Info: ./figures/1screen.jpg used on input line 93.
+(pdftex.def)             Requested size: 226.79846pt x 157.05083pt.
+ [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures/Drawing1.pdf>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 112.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 112.
+
+<./figures/energy_ios_time.pdf, id=21, 794.97pt x 614.295pt>
+File: ./figures/energy_ios_time.pdf Graphic file (type pdf)
+
+<use ./figures/energy_ios_time.pdf>
+Package pdftex.def Info: ./figures/energy_ios_time.pdf used on input line 146.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+
+<./figures/rel_ios_time.pdf, id=22, 794.97pt x 614.295pt>
+File: ./figures/rel_ios_time.pdf Graphic file (type pdf)
+
+<use ./figures/rel_ios_time.pdf>
+Package pdftex.def Info: ./figures/rel_ios_time.pdf used on input line 156.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+ [2 <./figures/1screen.jpg>]
+<./figures/comp_cpd.pdf, id=29, 794.97pt x 614.295pt>
+File: ./figures/comp_cpd.pdf Graphic file (type pdf)
+
+<use ./figures/comp_cpd.pdf>
+Package pdftex.def Info: ./figures/comp_cpd.pdf used on input line 201.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+ [3 <./figures/energy_ios_time.pdf, page is rotated 90 degrees> <./figures/rel_
+ios_time.pdf, page is rotated 90 degrees> <./figures/comp_cpd.pdf, page is rota
+ted 90 degrees>]
+<./figures/Sum_of_requests_over_time.pdf, id=48, 794.97pt x 614.295pt>
+File: ./figures/Sum_of_requests_over_time.pdf Graphic file (type pdf)
+
+<use ./figures/Sum_of_requests_over_time.pdf>
+Package pdftex.def Info: ./figures/Sum_of_requests_over_time.pdf used on input 
+line 285.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+
+<./figures/Sum_of_bytes_over_time.pdf, id=49, 794.97pt x 614.295pt>
+File: ./figures/Sum_of_bytes_over_time.pdf Graphic file (type pdf)
+
+<use ./figures/Sum_of_bytes_over_time.pdf>
+Package pdftex.def Info: ./figures/Sum_of_bytes_over_time.pdf used on input lin
+e 292.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+
+<./figures/savings_Sum_of_requests_over_time.pdf, id=50, 794.97pt x 614.295pt>
+File: ./figures/savings_Sum_of_requests_over_time.pdf Graphic file (type pdf)
+
+<use ./figures/savings_Sum_of_requests_over_time.pdf>
+Package pdftex.def Info: ./figures/savings_Sum_of_requests_over_time.pdf used o
+n input line 301.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+
+<./figures/savings_Sum_of_bytes_over_time.pdf, id=51, 794.97pt x 614.295pt>
+File: ./figures/savings_Sum_of_bytes_over_time.pdf Graphic file (type pdf)
+
+<use ./figures/savings_Sum_of_bytes_over_time.pdf>
+Package pdftex.def Info: ./figures/savings_Sum_of_bytes_over_time.pdf used on i
+nput line 308.
+(pdftex.def)             Requested size: 239.39923pt x 184.99292pt.
+ (./main_20140305.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/Sum_of_requests_over_time.pdf> <./figures/Sum_of_bytes_over_time
+.pdf, page is rotated 90 degrees>])
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[5
+
+ <./figures/savings_Sum_of_requests_over_time.pdf> <./figures/savings_Sum_of_by
+tes_over_time.pdf>] (./main_20140305.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2985 strings out of 495035
+ 45605 string characters out of 6181626
+ 114237 words of memory out of 5000000
+ 6148 multiletter control sequences out of 15000+600000
+ 38797 words of font info for 72 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,10n,23p,851b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</opt/local/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/local/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/local/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/local/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></opt/local/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></opt/local/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></o
+pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/loc
+al/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/local/sha
+re/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></opt/local/share/texmf-texli
+ve/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/texmf-texlive/fonts/type
+1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on main_20140305.pdf (5 pages, 385328 bytes).
+PDF statistics:
+ 168 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
