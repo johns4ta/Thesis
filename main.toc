@@ -10,6 +10,7 @@
 \contentsline {section}{Demonstration Description}{3}{figure.caption.6}
 \contentsline {chapter}{\chapternumberline {III}Power Consumption Overhead for Proxy Services on Mobile Device Platforms}{5}{chapter.3}
 \contentsline {section}{Introduction}{5}{section*.9}
+\contentsline {section}{Measurement Setup}{5}{section*.10}
 \contentsline {chapter}{\chapternumberline {IV}CONCLUSION}{6}{chapter.4}
-\contentsline {subsection}{Future Work}{6}{section*.11}
-\contentsline {chapter}{REFERENCES}{7}{chapter*.12}
+\contentsline {subsection}{Future Work}{6}{section*.12}
+\contentsline {chapter}{REFERENCES}{7}{chapter*.13}
