@@ -31,7 +31,7 @@ intervals to the control device. A BK Precision
 1696 switchable power supply is utilized, as it offers fine granularity in power, current, and time intervals. While other equipment, such as Arduino with custom circuits, were used in other measurement approaches, these power supplies are common lab equipment and offer overall robust features.
 
 \addcontentsline{toc}{section}{Software Configuration}
-\section*{Software Configuration}
+{Software Configuration}
 The software components are comprised of several Python scripts that execute the Android Debugging Bridge (ADB) and capture the output either to a local file or allow sending the output to a remote receiver, as illustrated in  Figure \ref{fig:testbed_setup}. The scripts allow for easy customization on the locally connected control device or at a remote location, e.g., filtering by specific events in the log. Similarly, a locally executing script captures the output from the power supply and is enabled to forward the data to a remote location as well.
 
 \begin{figure}

@@ -1,11 +1,18 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of measurement testbed.\relax }}{3}{figure.caption.6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Workflow of mobile application tested on testbed.\relax }}{4}{figure.caption.8}
-\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the measurement setup\relax }}{8}{figure.caption.15}
-\contentsline {figure}{\numberline {4}{\ignorespaces Energy consumption while performing 100 web requests directly or through a mobile SOCKSv5 service, smoothed over time.\relax }}{10}{figure.caption.18}
-\contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{10}{figure.caption.19}
-\contentsline {figure}{\numberline {6}{\ignorespaces Average energy consumption and standard deviation for requesting different amounts of data from a local server using a direct or mobile SOCKSv5 proxy server.\relax }}{12}{figure.caption.24}
-\contentsline {figure}{\numberline {7}{\ignorespaces Average energy consumption overhead for requesting different amounts of data from a local server\relax }}{12}{figure.caption.25}
-\contentsline {figure}{\numberline {8}{\ignorespaces Average time difference and standard deviation between the direct and the proxy approach for requesting different amounts of data from a local server.\relax }}{15}{figure.caption.27}
-\contentsline {figure}{\numberline {9}{\ignorespaces Energy consumption while performing the video streaming of the Tears of Steel open-source video sequence directly and through a mobile SOCKSv5 proxy server, smoothed over time.\relax }}{16}{figure.caption.29}
-\contentsline {figure}{\numberline {10}{\ignorespaces Summary values for HTML5 video streaming of the open-source Tears of Steel movie (video-only) over an ethernet and a wireless network.\relax }}{17}{figure.caption.31}
-\contentsline {figure}{\numberline {11}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{20}{figure.caption.36}
+\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of measurement testbed.\relax }}{3}{figure.caption.5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Workflow of mobile application tested on testbed.\relax }}{4}{figure.caption.7}
+\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the measurement setup\relax }}{8}{figure.caption.14}
+\contentsline {figure}{\numberline {4}{\ignorespaces Energy consumption while performing 100 web requests directly or through a mobile SOCKSv5 service, smoothed over time.\relax }}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{10}{figure.caption.18}
+\contentsline {figure}{\numberline {6}{\ignorespaces Average energy consumption and standard deviation for requesting different amounts of data from a local server using a direct or mobile SOCKSv5 proxy server.\relax }}{12}{figure.caption.23}
+\contentsline {figure}{\numberline {7}{\ignorespaces Average energy consumption overhead for requesting different amounts of data from a local server\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {8}{\ignorespaces Average time difference and standard deviation between the direct and the proxy approach for requesting different amounts of data from a local server.\relax }}{15}{figure.caption.26}
+\contentsline {figure}{\numberline {9}{\ignorespaces Energy consumption while performing the video streaming of the Tears of Steel open-source video sequence directly and through a mobile SOCKSv5 proxy server, smoothed over time.\relax }}{16}{figure.caption.28}
+\contentsline {figure}{\numberline {10}{\ignorespaces Summary values for HTML5 video streaming of the open-source Tears of Steel movie (video-only) over an ethernet and a wireless network.\relax }}{17}{figure.caption.30}
+\contentsline {figure}{\numberline {11}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{20}{figure.caption.35}
+\contentsline {figure}{\numberline {12}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{22}{figure.caption.37}
+\contentsline {figure}{\numberline {13}{\ignorespaces Energy required to download web page data via cellular connection or through combination with partial local exchange with Bluetooth/WLAN.\relax }}{25}{figure.caption.41}
+\contentsline {figure}{\numberline {14}{\ignorespaces Relative number of items and data amounts in cache and savings resulting from local data exchange with a desktop client.\relax }}{26}{figure.caption.42}
+\contentsline {figure}{\numberline {15}{\ignorespaces Cumulative probability of expiration times for desktop and mobile responses.\relax }}{28}{figure.caption.46}
+\contentsline {figure}{\numberline {16}{\ignorespaces Simulation results for the number of responses and bytes that are in the transfered mobile device cache as averages in 1-hour bins.\relax }}{31}{figure.caption.49}
+\contentsline {figure}{\numberline {17}{\ignorespaces Simulation results for the attained savings for the number of responses and bytes by transferring to the mobile device cache in 1-hour bins.\relax }}{32}{figure.caption.50}
+\contentsline {figure}{\numberline {18}{\ignorespaces Average proportions of data in mobile cache for different Zipf distribution parameters $\alpha $.\relax }}{32}{figure.caption.51}

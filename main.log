@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 14:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 15:13
 entering extended mode
 **main.tex
 (C:\Users\johns4ta\Desktop\Thesis\main.tex
@@ -794,15 +794,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-) [4
+ [4
 
 
 
-]
-(C:\Users\johns4ta\Desktop\Thesis\main.lof) [5
+]) [5]
+(C:\Users\johns4ta\Desktop\Thesis\main.lof [6
 
 
-]
+]) [7]
 
 ******************************************************
 Stock height and width: 794.96999pt by 614.295pt
@@ -835,14 +835,14 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 ] [2
 
 ]
-<./images/testbed_setup.png, id=212, 395.91391pt x 320.96382pt>
+<./images/testbed_setup.png, id=291, 395.91391pt x 320.96382pt>
 File: ./images/testbed_setup.png Graphic file (type png)
 
 <use ./images/testbed_setup.png>
 Package pdftex.def Info: ./images/testbed_setup.png used on input line 39.
 (pdftex.def)             Requested size: 395.91295pt x 320.96303pt.
  [3 <C:/Users/johns4ta/Desktop/Thesis/images/testbed_setup.png>]
-<./images/testapp_workflow.png, id=221, 657.2053pt x 133.24782pt>
+<./images/testapp_workflow.png, id=300, 657.2053pt x 133.24782pt>
 File: ./images/testapp_workflow.png Graphic file (type png)
 
 <use ./images/testapp_workflow.png>
@@ -867,14 +867,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--93
 
  []
 
-<./images/proxy_setup.png, id=249, 304.88907pt x 188.20313pt>
+<./images/proxy_setup.png, id=328, 304.88907pt x 188.20313pt>
 File: ./images/proxy_setup.png Graphic file (type png)
 
 <use ./images/proxy_setup.png>
 Package pdftex.def Info: ./images/proxy_setup.png used on input line 96.
 (pdftex.def)             Requested size: 304.88832pt x 188.20265pt.
  [7] [8 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_setup.png>]
-<./images/proxy_energy_cons_socks.png, id=265, 430.60875pt x 313.17pt>
+<./images/proxy_energy_cons_socks.png, id=343, 430.60875pt x 313.17pt>
 File: ./images/proxy_energy_cons_socks.png Graphic file (type png)
 
 <use ./images/proxy_energy_cons_socks.png>
@@ -882,7 +882,7 @@ Package pdftex.def Info: ./images/proxy_energy_cons_socks.png used on input lin
 e 157.
 (pdftex.def)             Requested size: 430.60768pt x 313.16922pt.
 
-<./images/proxy_comp_energy_cons.png, id=266, 338.76563pt x 246.9225pt>
+<./images/proxy_comp_energy_cons.png, id=344, 338.76563pt x 246.9225pt>
 File: ./images/proxy_comp_energy_cons.png Graphic file (type png)
 
 <use ./images/proxy_comp_energy_cons.png>
@@ -891,7 +891,7 @@ Package pdftex.def Info: ./images/proxy_comp_energy_cons.png used on input line
 (pdftex.def)             Requested size: 338.76479pt x 246.92188pt.
  [9] [10 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_energy_cons_socks.png> 
 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_comp_energy_cons.png>]
-<./images/energy_cons_direct_vs_socks.png, id=280, 426.84468pt x 307.1475pt>
+<./images/energy_cons_direct_vs_socks.png, id=358, 426.84468pt x 307.1475pt>
 File: ./images/energy_cons_direct_vs_socks.png Graphic file (type png)
 
 <use ./images/energy_cons_direct_vs_socks.png>
@@ -899,7 +899,7 @@ Package pdftex.def Info: ./images/energy_cons_direct_vs_socks.png used on input
  line 214.
 (pdftex.def)             Requested size: 426.84364pt x 307.14674pt.
 
-<./images/energy_cons_overhead.png, id=281, 338.01282pt x 244.66406pt>
+<./images/energy_cons_overhead.png, id=359, 338.01282pt x 244.66406pt>
 File: ./images/energy_cons_overhead.png Graphic file (type png)
 
 <use ./images/energy_cons_overhead.png>
@@ -908,7 +908,7 @@ Package pdftex.def Info: ./images/energy_cons_overhead.png used on input line 2
 (pdftex.def)             Requested size: 338.01198pt x 244.66345pt.
  [11] [12 <C:/Users/johns4ta/Desktop/Thesis/images/energy_cons_direct_vs_socks.
 png> <C:/Users/johns4ta/Desktop/Thesis/images/energy_cons_overhead.png>] [13]
-<./images/time_difference_requests.png, id=298, 350.05782pt x 250.68657pt>
+<./images/time_difference_requests.png, id=377, 350.05782pt x 250.68657pt>
 File: ./images/time_difference_requests.png Graphic file (type png)
 
 <use ./images/time_difference_requests.png>
@@ -916,7 +916,7 @@ Package pdftex.def Info: ./images/time_difference_requests.png used on input li
 ne 294.
 (pdftex.def)             Requested size: 350.05695pt x 250.68594pt.
  [14]
-<./images/video_streaming_cons_socks.png, id=306, 354.57469pt x 249.18094pt>
+<./images/video_streaming_cons_socks.png, id=384, 354.57469pt x 249.18094pt>
 File: ./images/video_streaming_cons_socks.png Graphic file (type png)
 
 <use ./images/video_streaming_cons_socks.png>
@@ -924,7 +924,7 @@ Package pdftex.def Info: ./images/video_streaming_cons_socks.png used on input
 line 316.
 (pdftex.def)             Requested size: 354.57382pt x 249.18031pt.
  [15 <C:/Users/johns4ta/Desktop/Thesis/images/time_difference_requests.png>]
-<./images/agg_perf_results.png, id=317, 350.05782pt x 198.7425pt>
+<./images/agg_perf_results.png, id=395, 350.05782pt x 198.7425pt>
 File: ./images/agg_perf_results.png Graphic file (type png)
 
 <use ./images/agg_perf_results.png>
@@ -940,7 +940,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [19
 
-] <./images/cache_forwarding_setup.pdf, id=356, 264.62553pt x 257.96375pt>
+] <./images/cache_forwarding_setup.pdf, id=435, 264.62553pt x 257.96375pt>
 File: ./images/cache_forwarding_setup.pdf Graphic file (type pdf)
 
 <use ./images/cache_forwarding_setup.pdf>
@@ -953,49 +953,170 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 LaTeX Warning: Citation `Me13' on page 20 undefined on input line 34.
 
-[20 <C:/Users/johns4ta/Desktop/Thesis/images/cache_forwarding_setup.pdf>])
-(C:\Users\johns4ta\Desktop\Thesis\content/conclusion.tex [21]
+[20 <C:/Users/johns4ta/Desktop/Thesis/images/cache_forwarding_setup.pdf>]
+<./images/1screen.jpg, id=456, 379.4175pt x 262.73157pt>
+File: ./images/1screen.jpg Graphic file (type jpg)
+
+<use ./images/1screen.jpg>
+Package pdftex.def Info: ./images/1screen.jpg used on input line 45.
+(pdftex.def)             Requested size: 379.41656pt x 262.73091pt.
+ [21] [22 <C:/Users/johns4ta/Desktop/Thesis/images/1screen.jpg>] [23]
+
+LaTeX Warning: Citation `PeFiWi11' on page 24 undefined on input line 105.
+
+<./images/energy_ios_time.pdf, id=478, 722.7pt x 505.89pt>
+File: ./images/energy_ios_time.pdf Graphic file (type pdf)
+
+<use ./images/energy_ios_time.pdf>
+Package pdftex.def Info: ./images/energy_ios_time.pdf used on input line 109.
+(pdftex.def)             Requested size: 722.69823pt x 505.88875pt.
+ [24]
+<./images/rel_ios_time.pdf, id=485, 687.03024pt x 491.36322pt>
+File: ./images/rel_ios_time.pdf Graphic file (type pdf)
+
+<use ./images/rel_ios_time.pdf>
+Package pdftex.def Info: ./images/rel_ios_time.pdf used on input line 120.
+(pdftex.def)             Requested size: 687.02856pt x 491.36201pt.
+
+
+LaTeX Warning: Citation `Se13' on page 25 undefined on input line 127.
+
+[25 <C:/Users/johns4ta/Desktop/Thesis/images/energy_ios_time.pdf, page is rotat
+ed 90 degrees>] [26 <C:/Users/johns4ta/Desktop/Thesis/images/rel_ios_time.pdf, 
+page is rotated 90 degrees>]
+Overfull \hbox (74.73949pt too wide) in paragraph at lines 147--160
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `JoSe14Commag' on page 27 undefined on input line 165.
+
+<./images/comp_cpd.pdf, id=506, 673.95416pt x 490.05113pt>
+File: ./images/comp_cpd.pdf Graphic file (type pdf)
+
+<use ./images/comp_cpd.pdf>
+Package pdftex.def Info: ./images/comp_cpd.pdf used on input line 170.
+(pdftex.def)             Requested size: 673.95251pt x 490.04993pt.
+ [27] [28 <C:/Users/johns4ta/Desktop/Thesis/images/comp_cpd.pdf, page is rotate
+d 90 degrees>]
+
+LaTeX Warning: Citation `KrTeSh06' on page 29 undefined on input line 188.
+
+[29]
+
+LaTeX Warning: Citation `AnCoGrPa03' on page 30 undefined on input line 216.
+
+<./images/Fig6-a.pdf, id=536, 750.29019pt x 510.20523pt>
+File: ./images/Fig6-a.pdf Graphic file (type pdf)
+
+<use ./images/Fig6-a.pdf>
+Package pdftex.def Info: ./images/Fig6-a.pdf used on input line 236.
+(pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
+
+<./images/Fig6-b.pdf, id=537, 750.29019pt x 510.20523pt>
+File: ./images/Fig6-b.pdf Graphic file (type pdf)
+
+<use ./images/Fig6-b.pdf>
+Package pdftex.def Info: ./images/Fig6-b.pdf used on input line 239.
+(pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `JoSe14Commag' on page 30 undefined on input line 245.
+
+[30]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 252.
+
+<./images/Fig7-a.pdf, id=546, 750.29019pt x 510.20523pt>
+File: ./images/Fig7-a.pdf Graphic file (type pdf)
+
+<use ./images/Fig7-a.pdf>
+Package pdftex.def Info: ./images/Fig7-a.pdf used on input line 254.
+(pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
+
+<./images/Fig7-b.pdf, id=547, 750.29019pt x 510.20523pt>
+File: ./images/Fig7-b.pdf Graphic file (type pdf)
+
+<use ./images/Fig7-b.pdf>
+Package pdftex.def Info: ./images/Fig7-b.pdf used on input line 257.
+(pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
+ [31 <C:/Users/johns4ta/Desktop/Thesis/images/Fig6-a.pdf> <C:/Users/johns4ta/De
+sktop/Thesis/images/Fig6-b.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 269.
+
+<./images/Fig8.pdf, id=580, 750.29019pt x 510.20523pt>
+File: ./images/Fig8.pdf Graphic file (type pdf)
+ <use ./images/Fig8.pdf>
+Package pdftex.def Info: ./images/Fig8.pdf used on input line 271.
+(pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
+
+[32 <C:/Users/johns4ta/Desktop/Thesis/images/Fig7-a.pdf> <C:/Users/johns4ta/Des
+ktop/Thesis/images/Fig7-b.pdf> <C:/Users/johns4ta/Desktop/Thesis/images/Fig8.pd
+f>])
+(C:\Users\johns4ta\Desktop\Thesis\content/Chapter5-CharacteristicsMobileDesktop
+.tex [33]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
+
+) (C:\Users\johns4ta\Desktop\Thesis\content/conclusion.tex [34
+
+]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-) (C:\Users\johns4ta\Desktop\Thesis\main.bbl [22
+) (C:\Users\johns4ta\Desktop\Thesis\main.bbl [35
 
 ]
 bibitemlist
-[23
+[36
 
-]) [24]
+]) [37]
 \tf@toc=\write5
 \tf@lof=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (C:\Users\johns4ta\Desktop\Thesis\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 482B9838702558C96989C3C019D51CF4;2050.
+(rerunfilecheck)             Checksum: 64D76ECFDC94345D047C5C3BD8C5EA81;2873.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 11585 strings out of 493921
- 171861 string characters out of 3147274
- 327061 words of memory out of 3000000
- 14667 multiletter control sequences out of 15000+200000
+ 11706 strings out of 493921
+ 174033 string characters out of 3147274
+ 329061 words of memory out of 3000000
+ 14737 multiletter control sequences out of 15000+200000
  15813 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,10n,40p,1852b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,40p,1852b,522s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on main.pdf (29 pages, 842391 bytes).
+Output written on main.pdf (44 pages, 1114163 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -393,34 +393,8 @@ Next, we present how these findings translate into attainable savings with respe
 We initially note a declining trend similar to the one observed for the cached items in Figure~\ref{fig:sim1}, but with more distinct ``jumps'' observable at half-day and day times of the simulation.
 Overall, we note that almost 15 \% savings for objects and bytes decline to around 10 \% after the boundaries of a day (whereby objects exhibit lower levels and bytes exhibit higher levels).
 
-
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.95\linewidth]{savings_Sum_of_requests_over_time}
-%	\caption{multiplied}
-%	\label{fig:sim_saver}
-%\end{figure}
-%
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.95\linewidth]{savings_Sum_of_bytes_over_time}
-%	\caption{multiplied}
-%	\label{fig:sim_saveb}
-%\end{figure}
-
-%We additionally evaluate the impact of the Zipf distribution's $\alpha$ parameter. 
-%While we omit detailed results due to space constraints, we find that all levels of $0.65 \le \alpha \le 1.05$ exhibit the same underlying trends, with slight and non-linear differences between levels.
 To evaluate the impact of different web page popularity distributions, we present an evaluation of different $\alpha$ for the Zipf distribution in Figure~\ref{fig:sim3}, each with 500 simulation repetitions for $0.65 \le \alpha \le 1.05$.
-%\begin{figure*}[]
-%	\centering
-%	\subfloat[Requests]{\includegraphics[width=.4\linewidth]{Sum_of_requests_over_time_overview}
-%	\label{fig:simr_zipf_reqs}}
-%	\hfil
-%	\subfloat[Bytes]{\includegraphics[width=.4\linewidth]{Sum_of_bytes_over_time_overview}
-%	\label{fig:simr_zipf_byte}}
-%	\caption{Simulation results for the attained savings for the number of responses and bytes for different levels of $\alpha$ for the underlying Zipf distribution.}
-%	\label{fig:sim3}
-%\end{figure*}
+
 We limit our comparison to bytes due to space constraints, noting that results obtained for objects are similar.
 \begin{figure}[]
 	\centering
@@ -430,12 +404,7 @@ We limit our comparison to bytes due to space constraints, noting that results o
 \end{figure}
 We observe that all levels of $\alpha$ exhibit the same underlying trends, with slight and non-linear differences between levels.
 We conclude that the distribution of web page popularity and the composition thereof has an overall impact on the long-term level of savings that can be attained.
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=.95\linewidth]{Sum_of_requests_over_time_overview}
-%	\caption{multiplied}
-%	\label{fig:sim_saveb}
-%\end{figure}
+
 Overall, we find a significant reduction in the required downloads for mobile clients that can be directly attributed to lower energy consumption levels and potential download latencies (and even costs for the mobile user through saved data transmissions).
 Furthermore, this approach does not require sophisticated live evaluations, but only relies on cache forwarding to the mobile device.
 
