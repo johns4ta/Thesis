@@ -34,18 +34,18 @@
 \BOOKMARK [1][-]{section*.52}{Conclusions}{chapter.4}% 34
 \BOOKMARK [0][-]{chapter.5}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{}% 35
 \BOOKMARK [1][-]{section*.53}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{Data Set and Pre-Processing}{chapter.5}% 38
-\BOOKMARK [2][-]{section*.55}{General Notes}{section.5.2}% 39
-\BOOKMARK [2][-]{section*.56}{Web Page Selection and Processing}{section.5.2}% 40
-\BOOKMARK [2][-]{section*.57}{Time Variability of the Dataset}{section.5.2}% 41
-\BOOKMARK [1][-]{section.5.3}{Comparison of Desktop and Mobile Web Page Characteristics}{chapter.5}% 42
-\BOOKMARK [2][-]{section*.59}{Average Number of Web Site Objects}{section.5.3}% 43
-\BOOKMARK [2][-]{section*.61}{Average Web Page Sizes}{section.5.3}% 44
-\BOOKMARK [2][-]{section*.63}{Data per Web Page Object}{section.5.3}% 45
-\BOOKMARK [2][-]{section*.65}{Caching of Web Page Objects}{section.5.3}% 46
-\BOOKMARK [1][-]{section.5.4}{Implications}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 48
+\BOOKMARK [1][-]{section*.54}{Introduction}{chapter.5}% 37
+\BOOKMARK [1][-]{section*.55}{Data Set and Pre-Processing}{chapter.5}% 38
+\BOOKMARK [2][-]{section*.57}{General Notes}{section*.55}% 39
+\BOOKMARK [2][-]{section*.58}{Web Page Selection and Processing}{section*.55}% 40
+\BOOKMARK [2][-]{section*.59}{Time Variability of the Dataset}{section*.55}% 41
+\BOOKMARK [1][-]{section*.61}{Comparison of Desktop and Mobile Web Page Characteristics}{chapter.5}% 42
+\BOOKMARK [2][-]{section*.62}{Average Number of Web Site Objects}{section*.61}% 43
+\BOOKMARK [2][-]{section*.64}{Average Web Page Sizes}{section*.61}% 44
+\BOOKMARK [2][-]{section*.66}{Data per Web Page Object}{section*.61}% 45
+\BOOKMARK [2][-]{section*.68}{Caching of Web Page Objects}{section*.61}% 46
+\BOOKMARK [1][-]{section*.70}{Implications}{chapter.5}% 47
+\BOOKMARK [1][-]{section*.71}{Conclusion}{chapter.5}% 48
 \BOOKMARK [0][-]{chapter.6}{CONCLUSION}{}% 49
-\BOOKMARK [1][-]{section*.67}{Future Work}{chapter.6}% 50
-\BOOKMARK [0][-]{chapter*.68}{REFERENCES}{}% 51
+\BOOKMARK [1][-]{section*.72}{Future Work}{chapter.6}% 50
+\BOOKMARK [0][-]{chapter*.73}{REFERENCES}{}% 51

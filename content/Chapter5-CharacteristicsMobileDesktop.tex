@@ -1,6 +1,7 @@
 \chapter{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}
 \addcontentsline{toc}{section}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}
-\section{Introduction} 
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
 \label{s:intro}
 
 The broad proliferation of web-based services and the trend to outsource formerly server-based and/or locally maintained services into ``the cloud'' have significantly altered the manner of web page designs and compositions.
@@ -33,7 +34,8 @@ We discuss the results and implications in Section~\ref{s:discuss} before we con
 
 
 
-\section{Data Set and Pre-Processing}
+\section*{Data Set and Pre-Processing}
+\addcontentsline{toc}{section}{Data Set and Pre-Processing}
 \label{s:dataset}
 In this paper, we utilize the \url{httparchive.org}~\cite{ht13} publicly available dataset of captured web performance metrics. 
 As an industry-supported project, its goal is to provide ``a permanent repository of web performance information such as size of pages, failed requests, and technologies utilized.''
@@ -49,12 +51,14 @@ As with any project that has to evolve over time to account for changes in techn
 In the remainder of this section, we describe the initial gathering and processing of this dataset in greater detail.
 
 
-\subsection{General Notes}
+\subsection*{General Notes}
+\addcontentsline{toc}{subsection}{General Notes}
 As we utilize the measurements over a significant amount of time from June 1, 2011 to December 15, 2013, we initially note that some of the underlying measurement configurations have changed over time, which includes multiple facets, such as Unique Resource Locators (URLs), browser versions, connection speeds, or incorporation of `lazy loading' of resources.
 We reason that overall, however, the changes made were reflecting industry trends as well as personal connectivity trends (such as modified access network speeds) and can be seen as representative of the typical connection scenarios for the World Wide Web.
 We refer the interested reader to the online documentation of the \url{httparchive.org} project for more details pertaining to the measurement setup used and detailed information about changes.
 
-\subsection{Web Page Selection and Processing}
+\subsection*{Web Page Selection and Processing}
+\addcontentsline{toc}{subsection}{Web Page Selection and Processing}
 We select the available page statistics for both desktop (fixed) and mobile web pages over the range of more than two years; the available points in time are at the beginning and the middle of each month.
 This results in a total of 62 datasets each for fixed and mobile web clients, respectively.
 The evaluation by the httparchive.org project used the Apple iPhone's built-in browser client for mobile requests and the Microsoft Internet Explorer browser client for desktop requests (represented by different user agent strings in the HTTP requests sent).
@@ -64,7 +68,8 @@ For each of the measurement times, we subsequently aggregate the measured web pa
 In addition to the time-varying selection of web pages, we compare the web pages that are found for desktop and mobile clients throughout the longitudinal evaluation time period, which results in a smaller subset of 46 web pages.
 
 
-\subsection{Time Variability of the Dataset}
+\subsection*{Time Variability of the Dataset}
+\addcontentsline{toc}{subsection}{Time Variability of the Dataset}
 The underlying dataset that we utilize has undergone changes over time. 
 Specifically, the base URLs that comprise the original dataset from httparchive.org (i.e., before we match fixed and mobile pages at each measurement point) were changed, namely ($i$) by switching to the Alexa top 1000000 web sites in November 2011 and ($ii$) by increasing the number of URLs evaluated in September 2012, see~\cite{ht13}. Other changes that were performed are more network-level oriented and should have a lesser impact on the static results we report here.
 To evaluate how these changes impact the diversity of values encountered in the dataset over time, we employ the entropy of the Theil population, which is itself based on the Theil index~\cite{Th72}.
@@ -86,11 +91,13 @@ Overall, we note that the Theil entropy levels for the desktop client values are
 This closeness in the calculated Theil entropy additionally motivates us to focus on the overall averages of the values we compare in the remainder of this paper.
 
 
-\section{Comparison of Desktop and Mobile Web Page Characteristics}
+\section*{Comparison of Desktop and Mobile Web Page Characteristics}
+\addcontentsline{toc}{section}{Comparison of Desktop and Mobile Web Page Characteristics}
 \label{s:compare}
 In this section, we compare the average values we obtained from the joint httparchive.org datasets for the desktop and mobile web client versions of the same set of web pages requested, as given by their URLs.
 
-\subsection{Average Number of Web Site Objects}
+\subsection*{Average Number of Web Site Objects}
+\addcontentsline{toc}{subsection}{Average Number of Web Site Objects}
 \label{ss:objects}
 Initially, we investigate the average number of objects requested when accessing a web page for the first time and illustrate the results in Figure~\ref{fig:requests} for both client types and all web pages compared to the subset present throughout all measurement points.
 \begin{figure}
@@ -121,7 +128,8 @@ We note that an evaluation of the categorized average number of requests per web
 
 We conclude from these numbers that for both scenarios, the main culprit for web requests is provided by the images contained in web sites, and to a lesser extent the oft-mentioned Java Script, found in modern AJAX and HTML5 based pages in fixed as well as mobile environments.
 
-\subsection{Average Web Page Sizes}
+\subsection*{Average Web Page Sizes}
+\addcontentsline{toc}{subsection}{Average Web Page Sizes}
 \label{ss:bytes}
 We now shift our view to the average sizes of desktop and mobile client requested web pages over time as well as their most contributing factors.
 We initially illustrate the total number of bytes that were required on average to download a web page to a fixed and a mobile client in Figure~\ref{fig:sizes}.
@@ -160,7 +168,8 @@ Unlike the average number of requests, however, the average number of bytes clea
 We exclude the detailed evaluation of the subset's characteristics here, as the results resemble earlier observations and their conclusions.
 
 
-\subsection{Data per Web Page Object}
+\subsection*{Data per Web Page Object}
+\addcontentsline{toc}{subsection}{Data per Web Page Object}
 Combining the two former evaluations, we now evaluate the average web page object request size.
 We illustrate the overall and categorized views in Figure~\ref{fig:relative}.
 \begin{figure}[]
@@ -192,7 +201,8 @@ The reason behind this behavior could be the increased level of rich media inclu
 Furthermore, we note that the average amount of bytes per image is fairly close (even a bit higher for mobile), which could be due to increased utilization of content management systems.
 These commonly utilized frameworks typically adjust web page layouts and theming elements based on the requesting client, e.g., format for mobile display sizes and utilize smaller sized theming elements. The actual main content elements, however, typically remain unchanged (which, in turn, results in identical downloads of the larger sized content images).
 
-\subsection{Caching of Web Page Objects}
+\subsection*{Caching of Web Page Objects}
+\addcontentsline{toc}{subsection}{Caching of Web Page Objects}
 One of the main assumptions for the prior evaluation was that the data represents ``first views,'' i.e., the dataset's underlying measurements do not consider the caching of web pages after initial visits. 
 The individual entries in the datasets obtained from httparchive.org, however, additionally contain the max-age header (amongst other, such as expiration) directives for evaluation of the maximum lifetime of objects on the requesting device. The locally cached data can have a positive impact on the required network access, especially for mobile devices.
 We illustrate the different max-age values obtained from the data in Figure~\ref{fig:maxage}~(a) for desktop client requests.
@@ -210,7 +220,8 @@ Objects that require regular, but less frequent downloads as well as more invari
 Overall, the implication for mobile clients is that the fraction of requests with a shorter cache lifetime constitutes the majority of requests and in turn will require frequent downloads if web pages are visited infrequently.
 
 
-\section{Implications}
+\section*{Implications}
+\addcontentsline{toc}{section}{Implications}
 \label{s:discuss}
 One initial limitation of our dataset is the evaluation of landing pages only, which, however, could be seen as an actual upper limit, according to \cite{BuMaSe13}. 
 Overall, we find significantly growing trends for the average web page number of objects and their sizes.
@@ -219,9 +230,6 @@ We find significant similarities between the desktop and the mobile versions of 
 Mobile counterparts of desktop page versions typically feature less objects and smaller sizes; both characteristics typically also exhibit a significantly slower growth.
 As briefly outlined by the authors of \cite{BuMaSe13}, the reduced number of servers and number of objects involved likely can be seen as an indicator of the correlation between the two different versions of popular web pages.
 
-%
-% Type / size
-%
 As previously outlined in~\cite{ThAgNiBoSi12}, Java Script objects in mobile web pages are a main contributor to the rendering power consumption, and we find significant amounts of Java Scripts to be contained in average web pages.
 More importantly, we conceive that there is a significant amount of data and requests in average mobile pages that is dedicated to image and other objects, which will contribute significantly to the combined transmission and rendering energy costs, as outlined in \cite{ThAgNiBoSi12} as well.
 Optimization efforts that target mobile clients specifically should in turn focus on these categories of data, specifically while taking more advantage of caching possibilities, as the transmission energy contributes a significant amount to the total energy required.
@@ -245,9 +253,8 @@ Similarly, \cite{IhPa11} reports 27-37.1 \% of objects to fall into this categor
 In turn,  the cache-based object retrieval can reduce the waiting times to amounts that fall within positive user experience time frames, see, e.g., \cite{NiUeNa10}.
 In conclusion, our study finds a continuation of prior longitudinal studies when overall trends are regarded, but differences in the lower-level shifts of requests and data by categories and requesting device.
 
-
-
-\section{Conclusion}
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
 \label{s:conc}
 This overview represents the first longitudinal and comparative study of the current state and changes of the World Wide Web, as seen by current fixed and mobile clients when requesting web pages.
 We utilized the publicly available data from httparchive.org, an industry-supported web page statistics archival project, to outline major trends and resulting implications.

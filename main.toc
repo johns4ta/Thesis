@@ -36,18 +36,18 @@
 \contentsline {section}{Conclusions}{33}{section*.52}
 \contentsline {chapter}{\chapternumberline {V}Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{34}{chapter.5}
 \contentsline {section}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{34}{section*.53}
-\contentsline {section}{\numberline {V.1}Introduction}{34}{section.5.1}
-\contentsline {section}{\numberline {V.2}Data Set and Pre-Processing}{36}{section.5.2}
-\contentsline {subsection}{General Notes}{36}{section*.55}
-\contentsline {subsection}{Web Page Selection and Processing}{37}{section*.56}
-\contentsline {subsection}{Time Variability of the Dataset}{38}{section*.57}
-\contentsline {section}{\numberline {V.3}Comparison of Desktop and Mobile Web Page Characteristics}{39}{section.5.3}
-\contentsline {subsection}{Average Number of Web Site Objects}{40}{section*.59}
-\contentsline {subsection}{Average Web Page Sizes}{42}{section*.61}
-\contentsline {subsection}{Data per Web Page Object}{45}{section*.63}
-\contentsline {subsection}{Caching of Web Page Objects}{48}{section*.65}
-\contentsline {section}{\numberline {V.4}Implications}{49}{section.5.4}
-\contentsline {section}{\numberline {V.5}Conclusion}{51}{section.5.5}
+\contentsline {section}{Introduction}{34}{section*.54}
+\contentsline {section}{Data Set and Pre-Processing}{36}{section*.55}
+\contentsline {subsection}{General Notes}{36}{section*.57}
+\contentsline {subsection}{Web Page Selection and Processing}{37}{section*.58}
+\contentsline {subsection}{Time Variability of the Dataset}{38}{section*.59}
+\contentsline {section}{Comparison of Desktop and Mobile Web Page Characteristics}{39}{section*.61}
+\contentsline {subsection}{Average Number of Web Site Objects}{40}{section*.62}
+\contentsline {subsection}{Average Web Page Sizes}{42}{section*.64}
+\contentsline {subsection}{Data per Web Page Object}{45}{section*.66}
+\contentsline {subsection}{Caching of Web Page Objects}{48}{section*.68}
+\contentsline {section}{Implications}{49}{section*.70}
+\contentsline {section}{Conclusion}{51}{section*.71}
 \contentsline {chapter}{\chapternumberline {VI}CONCLUSION}{53}{chapter.6}
-\contentsline {subsection}{Future Work}{53}{section*.67}
-\contentsline {chapter}{REFERENCES}{54}{chapter*.68}
+\contentsline {subsection}{Future Work}{53}{section*.72}
+\contentsline {chapter}{REFERENCES}{54}{chapter*.73}

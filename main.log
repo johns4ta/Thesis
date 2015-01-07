@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 15:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 16:11
 entering extended mode
 **main.tex
 (C:\Users\johns4ta\Desktop\Thesis\main.tex
@@ -797,36 +797,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-
-Overfull \hbox (16.11604pt too wide) detected at line 39
-\T1/ptm/m/n/12 V.1 
- []
-
-[4
+ [4
 
 
 
-]
-Overfull \hbox (16.11604pt too wide) detected at line 40
-\T1/ptm/m/n/12 V.2 
- []
-
-
-Overfull \hbox (16.11604pt too wide) detected at line 44
-\T1/ptm/m/n/12 V.3 
- []
-
-
-Overfull \hbox (16.11604pt too wide) detected at line 49
-\T1/ptm/m/n/12 V.4 
- []
-
-
-Overfull \hbox (16.11604pt too wide) detected at line 50
-\T1/ptm/m/n/12 V.5 
- []
-
-) [5] (C:\Users\johns4ta\Desktop\Thesis\main.lof [6
+]) [5]
+(C:\Users\johns4ta\Desktop\Thesis\main.lof [6
 
 
 ] [7]) [8]
@@ -1077,28 +1053,29 @@ ed
 File: ./images/setup.pdf Graphic file (type pdf)
 
 <use ./images/setup.pdf>
-Package pdftex.def Info: ./images/setup.pdf used on input line 44.
+Package pdftex.def Info: ./images/setup.pdf used on input line 46.
 (pdftex.def)             Requested size: 219.14851pt x 61.28874pt.
  [35] [36 <C:/Users/johns4ta/Desktop/Thesis/images/setup.pdf>] [37] <./images/t
 heil_reqs.pdf, id=787, 716.34337pt x 510.20523pt>
 File: ./images/theil_reqs.pdf Graphic file (type pdf)
 
 <use ./images/theil_reqs.pdf>
-Package pdftex.def Info: ./images/theil_reqs.pdf used on input line 76.
+Package pdftex.def Info: ./images/theil_reqs.pdf used on input line 81.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
 <./images/theil_bytes.pdf, id=788, 714.03476pt x 510.20523pt>
 File: ./images/theil_bytes.pdf Graphic file (type pdf)
 
 <use ./images/theil_bytes.pdf>
-Package pdftex.def Info: ./images/theil_bytes.pdf used on input line 77.
+Package pdftex.def Info: ./images/theil_bytes.pdf used on input line 82.
 (pdftex.def)             Requested size: 219.14851pt x 156.58939pt.
  [38]
 <./images/totalRequests_all.pdf, id=796, 716.34337pt x 491.83661pt>
 File: ./images/totalRequests_all.pdf Graphic file (type pdf)
 
 <use ./images/totalRequests_all.pdf>
-Package pdftex.def Info: ./images/totalRequests_all.pdf used on input line 98.
+Package pdftex.def Info: ./images/totalRequests_all.pdf used on input line 105.
+
 (pdftex.def)             Requested size: 219.14851pt x 150.46399pt.
 
 <./images/req_by_type_fixed_all.pdf, id=797, 715.2392pt x 510.20523pt>
@@ -1106,7 +1083,7 @@ File: ./images/req_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/req_by_type_fixed_all.pdf used on input line 
-99.
+106.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
 <./images/req_by_type_mobile_all.pdf, id=798, 715.2392pt x 510.20523pt>
@@ -1114,7 +1091,7 @@ File: ./images/req_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/req_by_type_mobile_all.pdf used on input line
- 100.
+ 107.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
  [39 <C:/Users/johns4ta/Desktop/Thesis/images/theil_reqs.pdf, page is rotated 9
 0 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/theil_bytes.pdf, page is ro
@@ -1126,7 +1103,7 @@ q_by_type_fixed_all.pdf, page is rotated 90 degrees> <C:/Users/johns4ta/Desktop
 File: ./images/bytes_total_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_total_all.pdf>
-Package pdftex.def Info: ./images/bytes_total_all.pdf used on input line 130.
+Package pdftex.def Info: ./images/bytes_total_all.pdf used on input line 138.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
 <./images/bytes_by_type_fixed_all.pdf, id=852, 717.54788pt x 510.20523pt>
@@ -1134,15 +1111,15 @@ File: ./images/bytes_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/bytes_by_type_fixed_all.pdf used on input lin
-e 131.
+e 139.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
 <./images/bytes_by_type_fixed.pdf, id=853, 716.34337pt x 510.20523pt>
 File: ./images/bytes_by_type_fixed.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed.pdf>
-Package pdftex.def Info: ./images/bytes_by_type_fixed.pdf used on input line 13
-2.
+Package pdftex.def Info: ./images/bytes_by_type_fixed.pdf used on input line 14
+0.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
 <./images/bytes_by_type_mobile_all.pdf, id=854, 716.34337pt x 510.20523pt>
@@ -1150,11 +1127,11 @@ File: ./images/bytes_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/bytes_by_type_mobile_all.pdf used on input li
-ne 133.
+ne 141.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
 
-LaTeX Warning: Float too large for page by 13.2812pt on input line 135.
+LaTeX Warning: Float too large for page by 13.2812pt on input line 143.
 
 [42] [43 <C:/Users/johns4ta/Desktop/Thesis/images/bytes_total_all.pdf, page is 
 rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bytes_by_type_fixe
@@ -1164,13 +1141,13 @@ p/Thesis/images/bytes_by_type_mobile_all.pdf, page is rotated 90 degrees>]
 [44]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 166.
+               Default added (so using `tbp') on input line 175.
 
 <./images/bpr_all.pdf, id=899, 715.2392pt x 510.20523pt>
 File: ./images/bpr_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_all.pdf>
-Package pdftex.def Info: ./images/bpr_all.pdf used on input line 168.
+Package pdftex.def Info: ./images/bpr_all.pdf used on input line 177.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
 <./images/bpr_by_type_fixed_all.pdf, id=900, 715.2392pt x 510.20523pt>
@@ -1178,7 +1155,7 @@ File: ./images/bpr_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/bpr_by_type_fixed_all.pdf used on input line 
-169.
+178.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
 <./images/bpr_by_type_mobile_all.pdf, id=901, 715.2392pt x 510.20523pt>
@@ -1186,7 +1163,7 @@ File: ./images/bpr_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/bpr_by_type_mobile_all.pdf used on input line
- 170.
+ 179.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
  [45] [46 <C:/Users/johns4ta/Desktop/Thesis/images/bpr_all.pdf, page is rotated
  90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bpr_by_type_fixed_all.pdf
@@ -1196,14 +1173,14 @@ df, id=940, 715.2392pt x 510.20523pt>
 File: ./images/cache_fix_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_fix_all.pdf>
-Package pdftex.def Info: ./images/cache_fix_all.pdf used on input line 201.
+Package pdftex.def Info: ./images/cache_fix_all.pdf used on input line 211.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
 <./images/cache_mob_all.pdf, id=941, 715.2392pt x 491.83661pt>
 File: ./images/cache_mob_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_mob_all.pdf>
-Package pdftex.def Info: ./images/cache_mob_all.pdf used on input line 202.
+Package pdftex.def Info: ./images/cache_mob_all.pdf used on input line 212.
 (pdftex.def)             Requested size: 219.14851pt x 150.69662pt.
  [48 <C:/Users/johns4ta/Desktop/Thesis/images/cache_fix_all.pdf, page is rotate
 d 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/cache_mob_all.pdf, page 
@@ -1228,7 +1205,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F61FC9BB0F36D75677B59571673018F9;3765.
+(rerunfilecheck)             Checksum: 3314CC6AEBFEA831480AE5CDBF1B12E5;3765.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1254,7 +1231,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (64 pages, 1759171 bytes).
+Output written on main.pdf (64 pages, 1759060 bytes).
 PDF statistics:
  1089 PDF objects out of 1200 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
