@@ -47,4 +47,14 @@ Patrick Seeling.
 \newblock In {\em Vehicular Technology Conference (VTC Spring), 2013 IEEE
   77th}, pages 1--5, June 2013.
 
+\bibitem{rfc1928}
+"M. Leech, M.~Ganis, Y.~Lee, R.~Kuris, D.~Koblas, and L.~Jones".
+\newblock {Socks protocol version 5}.
+\newblock {RFC 1928 (Proposed Standard)}, Mar 1996.
+
+\bibitem{kouzoubov2011}
+K.~Kouzoubov.
+\newblock Java socks proxy.
+\newblock Available: http://sourceforge.net/projects/jsocks/, 2011.
+
 \end{thebibliography}

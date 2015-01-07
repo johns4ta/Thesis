@@ -10,12 +10,13 @@ Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: main.bib
 Warning--empty institution in VNI14
+Warning--empty institution in rfc1928
 
 Here's how much of BibTeX's memory you used:
- Cites:                 7 out of 750
- Fields:              150 out of 5000
- Hash table:         4866 out of 5000
- Strings:             499 out of 4000
- Free string pool:   5188 out of 65000
+ Cites:                 9 out of 750
+ Fields:              206 out of 5000
+ Hash table:         4862 out of 5000
+ Strings:             511 out of 4000
+ Free string pool:   5487 out of 65000
  Wizard functions:   1791 out of 3000
-(There was 1 warning)
+(There were 2 warnings)

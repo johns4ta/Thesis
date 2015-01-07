@@ -1,2 +1,5 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Illustration of measurement testbed.\relax }}{3}{figure.caption.6}
 \contentsline {figure}{\numberline {2}{\ignorespaces Workflow of mobile application tested on testbed.\relax }}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the measurement setup\relax }}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {4}{\ignorespaces Energy consumption while performing 100 web requests directly or through a mobile SOCKSv5 service, smoothed over time.\relax }}{10}{figure.caption.18}
+\contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{10}{figure.caption.19}
