@@ -16,14 +16,29 @@ I was expecting a `,' or a `}'---line 145 of file main.bib
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring ShKuDaWa05's extra "month" field
 --line 202 of file main.bib
+Warning--I'm ignoring Me13's extra "month" field
+--line 296 of file main.bib
+Repeated entry---line 373 of file main.bib
+ : @article{BuMaSe13
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 442 of file main.bib
+ : @inproceedings{IhPa11
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 504 of file main.bib
+ : @inproceedings{ThAgNiBoSi12
+ :                            ,
+I'm skipping whatever remains of this entry
 Warning--empty institution in VNI14
 Warning--empty institution in rfc1928
+Warning--empty institution in Ci13
 
 Here's how much of BibTeX's memory you used:
- Cites:                17 out of 750
- Fields:              380 out of 5000
- Hash table:         4852 out of 5000
- Strings:             567 out of 4000
- Free string pool:   7062 out of 65000
+ Cites:                32 out of 750
+ Fields:              725 out of 5000
+ Hash table:         4828 out of 5000
+ Strings:             670 out of 4000
+ Free string pool:   9531 out of 65000
  Wizard functions:   1791 out of 3000
-(There was 1 error message)
+(There were 4 error messages)

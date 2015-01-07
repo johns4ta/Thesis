@@ -109,4 +109,94 @@ B.N. Thyamagondlu, V.W. Chu, and R.K. Wong.
 \newblock In {\em Proc. of the IEEE International Congress on Big Data
   {(BigData Congress)}}, pages 78--85, Santa Clara, CA, USA, June 2013.
 
+\bibitem{Me13}
+Patrick Meenan.
+\newblock How fast is your web site?
+\newblock {\em ACM Queue}, 11(2):60--70, March 2013.
+
+\bibitem{PeFiWi11}
+G.~P. Perrucci, F.~H~P Fitzek, and J.~Widmer.
+\newblock Survey on energy consumption entities on the smartphone platform.
+\newblock In {\em Proc. of the IEEE Vehicular Technology Conference (VTC
+  Spring)}, pages 1--6, Budapest, Hungary, May 2011.
+
+\bibitem{Se13}
+Patrick Seeling.
+\newblock Caching proxying for mobile users.
+\newblock In {\em Proc. of IEEE Vehicular Technology Conference (VTC)}, pages
+  1--5, Dresden, Germany, June 2013.
+
+\bibitem{JoSe14Commag}
+Troy~A. Johnson and Patrick Seeling.
+\newblock Desktop and mobile web page comparison: Characteristics, trends, and
+  implications.
+\newblock {\em IEEE Communications Magazine}, 52(9):144--151, September 2014.
+
+\bibitem{KrTeSh06}
+Serge~A. Krashakov, Anton~B. Teslyuk, and Lev~N. Shchur.
+\newblock On the universality of rank distributions of website popularity.
+\newblock {\em Computer Networks}, 50(11):1769--1780, August 2006.
+
+\bibitem{AnCoGrPa03}
+Giuseppe Anastasi, Marco Conti, Enrico Gregori, and Andrea Passarella.
+\newblock Performance comparison of power--saving strategies for mobile web
+  access.
+\newblock {\em Performance Evaluation}, 53(3--4):273--294, August 2003.
+
+\bibitem{BaCr98}
+Paul Barford and Mark Crovella.
+\newblock Generating representative web workloads for network and server
+  performance evaluation.
+\newblock {\em SIGMETRICS Perform. Eval. Rev.}, 26(1):151--160, June 1998.
+
+\bibitem{LiZhZhChGr10}
+Zhichun Li, Ming Zhang, Zhaosheng Zhu, Yan Chen, Albert Greenberg, and Yi-Min
+  Wang.
+\newblock Webprophet: automating performance prediction for web services.
+\newblock In {\em Proceedings of the 7th USENIX conference on Networked systems
+  design and implementation}, NSDI'10, pages 10--10, Berkeley, CA, USA, 2010.
+  USENIX Association.
+
+\bibitem{Ci13}
+Inc. Cisco.
+\newblock Cisco visual networking index: Forecast and methodology, 2012–2017.
+\newblock Technical report, may 2013.
+
+\bibitem{CaAlPa10}
+Tom Callahan, Mark Allman, and Vern Paxson.
+\newblock A longitudinal view of http traffic.
+\newblock In Arvind Krishnamurthy and Bernhard Plattner, editors, {\em Passive
+  and Active Measurement}, volume 6032 of {\em Lecture Notes in Computer
+  Science}, pages 222--231. Springer Berlin Heidelberg, 2010.
+
+\bibitem{BuMaSe11}
+Michael Butkiewicz, Harsha~V. Madhyastha, and Vyas Sekar.
+\newblock Understanding website complexity: measurements, metrics, and
+  implications.
+\newblock In {\em Proceedings of the 2011 ACM SIGCOMM conference on Internet
+  measurement conference}, IMC '11, pages 313--328, New York, NY, USA, 2011.
+  ACM.
+
+\bibitem{ThAgNiBoSi12}
+Narendran Thiagarajan, Gaurav Aggarwal, Angela Nicoara, Dan Boneh, and
+  Jatinder~Pal Singh.
+\newblock Who killed my battery?: analyzing mobile browser energy consumption.
+\newblock In {\em Proc. of the International Conference on World Wide Web
+  {(WWW)}}, pages 41--50, Lyon, France, 2012.
+
+\bibitem{ht13}
+httparchive.org.
+\newblock Http archive (beta), July 2013.
+
+\bibitem{Th72}
+Henri Theil.
+\newblock {\em Statistical decomposition analysis. With applications in the
+  social and administrative sciences}.
+\newblock North-Holland Pub. Co, Amsterdam, 1972.
+
+\bibitem{NiUeNa10}
+S.~Niida, S.~Uemura, and H.~Nakamura.
+\newblock Mobile services.
+\newblock {\em Vehicular Technology Magazine, IEEE}, 5(3):61--67, 2010.
+
 \end{thebibliography}
