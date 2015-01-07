@@ -12,18 +12,19 @@
 \citation{ThChWo13}
 \citation{Me13}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overall setup of world wide web based content access by a user over time using primary and secondary devices to display the same content. If the devices are able to synchronize their caches through short-range communications, energy savings become possible.}}{2}}
-\newlabel{fig:setup}{{1}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {II}Individual Example}{2}}
-\newlabel{s:example}{{II}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overall setup of world wide web based content access by a user over time using primary and secondary devices to display the same content. If the devices are able to synchronize their caches through short-range communications, energy savings become possible.}}{1}}
+\newlabel{fig:cache_forwarding_setup}{{1}{1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.}}{2}}
 \newlabel{fig:screens}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Individual Example}{2}}
+\newlabel{s:example}{{II}{2}}
 \@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces High-level overview of different client web page statistics for http://www.spiegel.de}}{2}}
 \newlabel{tab:spiegel}{{I}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Data Description}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Evaluation of Local Cache Forwarding}{2}}
 \citation{PeFiWi11}
 \citation{Se13}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Evaluation of Local Cache Forwarding}{3}}
+\citation{JoSe14Commag}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Energy required to download web page data via cellular connection or through combination with partial local exchange with Bluetooth/WLAN.}}{3}}
 \newlabel{fig:ios_time_energy}{{3}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Relative number of items and data amounts in cache and savings resulting from local data exchange with a desktop client.}}{3}}
@@ -31,15 +32,14 @@
 \@writefile{toc}{\contentsline {section}{\numberline {III}Large Dataset Performance Evaluation}{3}}
 \newlabel{s:large}{{III}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Dataset Description}{3}}
-\citation{JoSe14Commag}
 \citation{KrTeSh06}
 \citation{AnCoGrPa03}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Overview of the large dataset characteristics for all pages and response objects with a focus on the cache lifetime.}}{4}}
+\newlabel{tab:dataset}{{II}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Cumulative probability of expiration times for desktop and mobile responses.}}{4}}
 \newlabel{fig:comp_cpd}{{5}{4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Simulation Model Description}{4}}
 \citation{JoSe14Commag}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Overview of the large dataset characteristics for all pages and response objects with a focus on the cache lifetime.}}{5}}
-\newlabel{tab:dataset}{{II}{5}}
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Performance Evaluation Results}{5}}
 \newlabel{s:results}{{IV}{5}}
 \newlabel{fig:simr_abs_reqs}{{6a}{5}}
@@ -50,6 +50,14 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Objects}}}{5}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Bytes}}}{5}}
 \newlabel{fig:sim1}{{6}{5}}
+\newlabel{fig:simr_sav_reqs}{{7a}{5}}
+\newlabel{sub@fig:simr_sav_reqs}{{(a)}{a}}
+\newlabel{fig:simr_sav_byte}{{7b}{5}}
+\newlabel{sub@fig:simr_sav_byte}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Simulation results for the attained savings for the number of responses and bytes by transferring to the mobile device cache in 1-hour bins.}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Objects}}}{5}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Bytes}}}{5}}
+\newlabel{fig:sim2}{{7}{5}}
 \bibcite{VNI14}{1}
 \bibcite{IhPa11}{2}
 \bibcite{BuMaSe13}{3}
@@ -65,14 +73,6 @@
 \bibcite{JoSe14Commag}{13}
 \bibcite{KrTeSh06}{14}
 \bibcite{AnCoGrPa03}{15}
-\newlabel{fig:simr_sav_reqs}{{7a}{6}}
-\newlabel{sub@fig:simr_sav_reqs}{{(a)}{a}}
-\newlabel{fig:simr_sav_byte}{{7b}{6}}
-\newlabel{sub@fig:simr_sav_byte}{{(b)}{b}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Simulation results for the attained savings for the number of responses and bytes by transferring to the mobile device cache in 1-hour bins.}}{6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Objects}}}{6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Bytes}}}{6}}
-\newlabel{fig:sim2}{{7}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Average proportions of data in mobile cache for different Zipf distribution parameters $\alpha $.}}{6}}
 \newlabel{fig:sim3}{{8}{6}}
 \@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{6}}

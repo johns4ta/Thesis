@@ -1,150 +1,180 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_1) (preloaded format=pdflatex 2014.7.7)  17 JUL 2014 13:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 14:04
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **JoSe_BBN_20140702.tex
-(./JoSe_BBN_20140702.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/opt/local/share/texmf-texlive/tex/latex/IEEEtran/IEEEtran.cls
-Document Class: IEEEtran 2012/12/27 V1.8 by Michael Shell
+
+("C:\Users\johns4ta\Desktop\Thesis\Publication Files\CapacitySharing_GreenComOn
+line\CapacitySharing_GreenComOnline\JoSe_BBN_20140702.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeetran\IEEEtran.cls
+Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
 \@IEEEtrantmpcountA=\count79
 \@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
 \@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 368.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 458.
 
-(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen104
+\@IEEEnormalsizeunitybaselineskip=\dimen105
 -- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen105
-\CLASSINFOnormalsizeunitybaselineskip=\dimen106
-\IEEEnormaljot=\dimen107
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 726.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 726.
-\IEEEilabelindentA=\dimen108
-\IEEEilabelindentB=\dimen109
-\IEEEilabelindent=\dimen110
-\IEEEelabelindent=\dimen111
-\IEEEdlabelindent=\dimen112
-\IEEElabelindent=\dimen113
-\IEEEiednormlabelsep=\dimen114
-\IEEEiedmathlabelsep=\dimen115
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
 \IEEEiedtopsep=\skip41
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@IEEEsubequation=\count85
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-\c@figure=\count86
-\c@table=\count87
-\@IEEEeqnnumcols=\count88
-\@IEEEeqncolcnt=\count89
-\@IEEEsubeqnnumrollback=\count90
-\@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
-\@IEEEtranrubishbin=\box26
-) (/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/opt/local/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count92
+\Gread@gobject=\count94
 ))
-\Gin@req@height=\dimen117
-\Gin@req@width=\dimen118
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
 )
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -153,11 +183,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -170,92 +200,88 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/opt/local/share/texmf-texlive/tex/latex/subfig/subfig.sty
+))
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(/opt/local/share/texmf-texlive/tex/latex/caption/caption3.sty
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen119
-\captionmargin@=\dimen120
-\captionwidth=\dimen121
-\caption@tempdima=\dimen122
-\caption@indent=\dimen123
-\caption@parindent=\dimen124
-\caption@hangindent=\dimen125
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
-\c@KVtest=\count93
+\c@KVtest=\count95
 \sf@farskip=\skip44
-\sf@captopadj=\dimen126
+\sf@captopadj=\dimen134
 \sf@capskip=\skip45
 \sf@nearskip=\skip46
-\c@subfigure=\count94
-\c@subfigure@save=\count95
-\c@lofdepth=\count96
-\c@subtable=\count97
-\c@subtable@save=\count98
-\c@lotdepth=\count99
+\c@subfigure=\count96
+\c@subfigure@save=\count97
+\c@lofdepth=\count98
+\c@subtable=\count99
+\c@subtable@save=\count100
+\c@lotdepth=\count101
 \sf@top=\skip47
 \sf@bottom=\skip48
 )
-(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
-\ex@=\dimen127
+\ex@=\dimen135
 ))
-(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen128
+\pmbraise@=\dimen136
 )
-(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count100
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count101
-\leftroot@=\count102
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count103
-\DOTSCASE@=\count104
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen129
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen137
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count105
-\c@MaxMatrixCols=\count106
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
-\c@parentequation=\count107
-\dspbrk@lvl=\count108
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
 \tag@help=\toks17
-\row@=\count109
-\column@=\count110
-\maxfields@=\count111
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
 \andhelp@=\toks18
-\eqnshift@=\dimen130
-\alignsep@=\dimen131
-\tagshift@=\dimen132
-\tagwidth@=\dimen133
-\totwidth@=\dimen134
-\lineht@=\dimen135
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
 \@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -263,24 +289,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/opt/local/share/texmf-texlive/tex/latex/dblfloatfix/dblfloatfix.sty
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\latex\dblfloatfix\dblfloatfix
+.sty
 Package: dblfloatfix 2012/12/31 v1.0a (JAW)
-
-(/opt/local/share/texmf-texlive/tex/latex/base/fixltx2e.sty
-Package: fixltx2e 2014/05/13 v1.1q fixes to LaTeX
-LaTeX Info: Redefining \em on input line 429.
-LaTeX Info: The control sequence `\[' is already robust on input line 480.
-LaTeX Info: The control sequence `\]' is already robust on input line 481.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
-\@dblbotnum=\count112
-\c@dblbotnumber=\count113
+\@dblbotnum=\count114
+\c@dblbotnumber=\count115
 )
-(/opt/local/share/texmf-texlive/tex/latex/url/url.sty
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./JoSe_BBN_20140702.aux)
-\openout1 = `JoSe_BBN_20140702.aux'.
-
+)
+("C:\Users\johns4ta\Desktop\Thesis\Publication Files\CapacitySharing_GreenComOn
+line\CapacitySharing_GreenComOnline\JoSe_BBN_20140702.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
@@ -293,18 +319,20 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
- (/opt/local/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+-- Lines per column: 55 (approximate, difference = 5.60718pt).
+(C:\Users\johns4ta\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen136
-\scratchbox=\box29
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\scratchcounter=\count116
+\scratchdimen=\dimen144
+\scratchbox=\box30
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen137
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen145
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks22
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -316,94 +344,112 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 73.
-<./figures/Drawing1.pdf, id=1, 264.62553pt x 257.96375pt>
-File: ./figures/Drawing1.pdf Graphic file (type pdf)
 
-<use ./figures/Drawing1.pdf>
-Package pdftex.def Info: ./figures/Drawing1.pdf used on input line 101.
-(pdftex.def)             Requested size: 226.79846pt x 221.10054pt.
- [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
+! LaTeX Error: File `cache_forwarding_setup' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...dth=.9\linewidth]{cache_forwarding_setup}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.jpeg,.jpg,.png,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[1{C:/Users/johns4ta/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] <./figures/1screen.jpg, id=10, 379.4175pt x 262.73157pt>
+]
+<./figures/1screen.jpg, id=8, 379.4175pt x 262.73157pt>
 File: ./figures/1screen.jpg Graphic file (type jpg)
 
 <use ./figures/1screen.jpg>
-Package pdftex.def Info: ./figures/1screen.jpg used on input line 134.
+Package pdftex.def Info: ./figures/1screen.jpg used on input line 137.
 (pdftex.def)             Requested size: 226.79846pt x 157.05083pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 157.
+(Font)              <8> on input line 160.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 157.
- [2 <./figures/Drawing1.pdf> <./figures/1screen.jpg>] <./figures/energy_ios_tim
-e.pdf, id=29, 722.7pt x 505.89pt>
+(Font)              <6> on input line 160.
+ [2 <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_GreenCo
+mOnline/CapacitySharing_GreenComOnline/figures/1screen.jpg>] <./figures/energy_
+ios_time.pdf, id=19, 722.7pt x 505.89pt>
 File: ./figures/energy_ios_time.pdf Graphic file (type pdf)
 
 <use ./figures/energy_ios_time.pdf>
-Package pdftex.def Info: ./figures/energy_ios_time.pdf used on input line 197.
+Package pdftex.def Info: ./figures/energy_ios_time.pdf used on input line 200.
 (pdftex.def)             Requested size: 233.10077pt x 163.1695pt.
 
-<./figures/rel_ios_time.pdf, id=30, 687.03024pt x 491.36322pt>
+<./figures/rel_ios_time.pdf, id=20, 687.03024pt x 491.36322pt>
 File: ./figures/rel_ios_time.pdf Graphic file (type pdf)
 
 <use ./figures/rel_ios_time.pdf>
-Package pdftex.def Info: ./figures/rel_ios_time.pdf used on input line 207.
+Package pdftex.def Info: ./figures/rel_ios_time.pdf used on input line 210.
 (pdftex.def)             Requested size: 233.10077pt x 166.71638pt.
- [3 <./figures/energy_ios_time.pdf, page is rotated 90 degrees> <./figures/rel_
-ios_time.pdf, page is rotated 90 degrees>]
-<./figures/comp_cpd.pdf, id=44, 673.95416pt x 490.05113pt>
+ [3 <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_GreenCo
+mOnline/CapacitySharing_GreenComOnline/figures/energy_ios_time.pdf, page is rot
+ated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySh
+aring_GreenComOnline/CapacitySharing_GreenComOnline/figures/rel_ios_time.pdf, p
+age is rotated 90 degrees>]
+<./figures/comp_cpd.pdf, id=34, 673.95416pt x 490.05113pt>
 File: ./figures/comp_cpd.pdf Graphic file (type pdf)
 
 <use ./figures/comp_cpd.pdf>
-Package pdftex.def Info: ./figures/comp_cpd.pdf used on input line 256.
+Package pdftex.def Info: ./figures/comp_cpd.pdf used on input line 259.
 (pdftex.def)             Requested size: 233.10077pt x 169.49403pt.
-
-<./figures/Fig6-a.pdf, id=45, 750.29019pt x 510.20523pt>
+ [4 <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_GreenCo
+mOnline/CapacitySharing_GreenComOnline/figures/comp_cpd.pdf, page is rotated 90
+ degrees>]
+<./figures/Fig6-a.pdf, id=50, 750.29019pt x 510.20523pt>
 File: ./figures/Fig6-a.pdf Graphic file (type pdf)
 
 <use ./figures/Fig6-a.pdf>
-Package pdftex.def Info: ./figures/Fig6-a.pdf used on input line 354.
+Package pdftex.def Info: ./figures/Fig6-a.pdf used on input line 357.
 (pdftex.def)             Requested size: 232.19843pt x 157.8973pt.
 
-<./figures/Fig6-b.pdf, id=46, 750.29019pt x 510.20523pt>
+<./figures/Fig6-b.pdf, id=51, 750.29019pt x 510.20523pt>
 File: ./figures/Fig6-b.pdf Graphic file (type pdf)
 
 <use ./figures/Fig6-b.pdf>
-Package pdftex.def Info: ./figures/Fig6-b.pdf used on input line 357.
+Package pdftex.def Info: ./figures/Fig6-b.pdf used on input line 360.
 (pdftex.def)             Requested size: 232.19843pt x 157.8973pt.
- [4 <./figures/comp_cpd.pdf, page is rotated 90 degrees>]
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 382.
+               Default added (so using `tbp') on input line 385.
 
-<./figures/Fig7-a.pdf, id=61, 750.29019pt x 510.20523pt>
+<./figures/Fig7-a.pdf, id=52, 750.29019pt x 510.20523pt>
 File: ./figures/Fig7-a.pdf Graphic file (type pdf)
 
 <use ./figures/Fig7-a.pdf>
-Package pdftex.def Info: ./figures/Fig7-a.pdf used on input line 385.
+Package pdftex.def Info: ./figures/Fig7-a.pdf used on input line 388.
 (pdftex.def)             Requested size: 232.19843pt x 157.8973pt.
 
-<./figures/Fig7-b.pdf, id=62, 750.29019pt x 510.20523pt>
+<./figures/Fig7-b.pdf, id=53, 750.29019pt x 510.20523pt>
 File: ./figures/Fig7-b.pdf Graphic file (type pdf)
 
 <use ./figures/Fig7-b.pdf>
-Package pdftex.def Info: ./figures/Fig7-b.pdf used on input line 388.
+Package pdftex.def Info: ./figures/Fig7-b.pdf used on input line 391.
 (pdftex.def)             Requested size: 232.19843pt x 157.8973pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 425.
+               Default added (so using `tbp') on input line 428.
 
-<./figures/Fig8.pdf, id=63, 750.29019pt x 510.20523pt>
+<./figures/Fig8.pdf, id=54, 750.29019pt x 510.20523pt>
 File: ./figures/Fig8.pdf Graphic file (type pdf)
 
 <use ./figures/Fig8.pdf>
-Package pdftex.def Info: ./figures/Fig8.pdf used on input line 427.
+Package pdftex.def Info: ./figures/Fig8.pdf used on input line 430.
 (pdftex.def)             Requested size: 232.19843pt x 157.8973pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./figures/Fig6-a.pdf> <./figures/Fig6-b.pdf>]
+ [5 <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_GreenCo
+mOnline/CapacitySharing_GreenComOnline/figures/Fig6-a.pdf> <C:/Users/johns4ta/D
+esktop/Thesis/Publication Files/CapacitySharing_GreenComOnline/CapacitySharing_
+GreenComOnline/figures/Fig6-b.pdf> <C:/Users/johns4ta/Desktop/Thesis/Publicatio
+n Files/CapacitySharing_GreenComOnline/CapacitySharing_GreenComOnline/figures/F
+ig7-a.pdf> <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_
+GreenComOnline/CapacitySharing_GreenComOnline/figures/Fig7-b.pdf>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -415,37 +461,41 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6 <./figures/Fig7-a.pdf> <./figures/Fig7-b.pdf> <./figures/Fig8.pdf>]
-(./JoSe_BBN_20140702.aux) ) 
+[6 <C:/Users/johns4ta/Desktop/Thesis/Publication Files/CapacitySharing_GreenCom
+Online/CapacitySharing_GreenComOnline/figures/Fig8.pdf>]
+("C:\Users\johns4ta\Desktop\Thesis\Publication Files\CapacitySharing_GreenComOn
+line\CapacitySharing_GreenComOnline\JoSe_BBN_20140702.aux")
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3726 strings out of 493117
- 58696 string characters out of 6137200
- 135745 words of memory out of 5000000
- 7140 multiletter control sequences out of 15000+600000
- 37690 words of font info for 71 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,10n,47p,395b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/local/share/texmf-texlive/fonts/enc/dvips/base
-/8r.enc}</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/lo
-cal/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/local/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/local/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/local/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/local/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmsy5.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></op
-t/local/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share
-/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texlive
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JoSe_BBN_20140702.pdf (6 pages, 435020 bytes).
+ 3823 strings out of 493921
+ 61761 string characters out of 3147274
+ 131678 words of memory out of 3000000
+ 7067 multiletter control sequences out of 15000+200000
+ 37690 words of font info for 71 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,10n,47p,395b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on JoSe_BBN_20140702.pdf (6 pages, 356641 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

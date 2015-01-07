@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{VNI14}
 {Cisco, Inc.}
@@ -56,5 +56,57 @@ Patrick Seeling.
 K.~Kouzoubov.
 \newblock Java socks proxy.
 \newblock Available: http://sourceforge.net/projects/jsocks/, 2011.
+
+\bibitem{IhPa11}
+Sunghwan Ihm and Vivek~S. Pai.
+\newblock Towards understanding modern web traffic.
+\newblock In {\em Proc. of the ACM SIGCOMM Internet Measurement Conference
+  {(IMC)}}, pages 295--312, Berlin, Germany, November 2011.
+
+\bibitem{BuMaSe13}
+M.~Butkiewicz, H.V. Madhyastha, and V.~Sekar.
+\newblock Characterizing web page complexity and its impact.
+\newblock {\em Networking, IEEE/ACM Transactions on}, 22(3):943--956, June
+  2013.
+
+\bibitem{BaBaVe09}
+Niranjan Balasubramanian, Aruna Balasubramanian, and Arun Venkataramani.
+\newblock Energy consumption in mobile phones: A measurement study and
+  implications for network applications.
+\newblock In {\em Proc. of the ACM SIGCOMM Internet Measurement Conference
+  {(IMC)}}, pages 280--293, Chicago, IL, USA, November 2009.
+
+\bibitem{QiWaGaHuGe12}
+Feng Qian, Zhaoguang Wang, Yudong Gao, Junxian Huang, Alexandre Gerber,
+  Zhuoqing Mao, Subhabrata Sen, and Oliver Spatscheck.
+\newblock Periodic transfers in mobile applications: Network-wide origin,
+  impact, and optimization.
+\newblock In {\em Proc. of the International Conference on World Wide Web
+  {(WWW)}}, pages 51--60, Lyon, France, April 2012.
+
+\bibitem{XiHuSaYl11}
+Yu~Xiao, Pan Hui, Petri Savolainen, and Antti Yl\"{a}-J\"{a}\"{a}ski.
+\newblock Cascap: Cloud-assisted context-aware power management for mobile
+  devices.
+\newblock In {\em Proc. of the International Workshop on Mobile Cloud Computing
+  and Services {(MCS)}}, pages 13--18, Bethesda, MD, USA, June 2011.
+
+\bibitem{SaIs02}
+F.~Sailhan and V.~Issarny.
+\newblock Energy--aware web caching for mobile terminals.
+\newblock In {\em Proc. of the International Conference on Distributed
+  Computing Systems {(ICDCSW)}}, pages 820--825, Vienna, Austria, July 2002.
+
+\bibitem{ShKuDaWa05}
+Huaping Shen, Mohan Kumar, Sajal~K. Das, and Zhijun Wang.
+\newblock Energy--efficient data caching and prefetching for mobile devices
+  based on utility.
+\newblock {\em Mobile Networks and Applications}, 10(4):475--486, August 2005.
+
+\bibitem{ThChWo13}
+B.N. Thyamagondlu, V.W. Chu, and R.K. Wong.
+\newblock A bandwidth--conscious caching scheme for mobile devices.
+\newblock In {\em Proc. of the IEEE International Congress on Big Data
+  {(BigData Congress)}}, pages 78--85, Santa Clara, CA, USA, June 2013.
 
 \end{thebibliography}

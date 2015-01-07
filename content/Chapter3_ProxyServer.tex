@@ -209,4 +209,201 @@ bytes, additionally eliminating potential caching impacts. 100 repeated measurem
 \addcontentsline{toc}{subsection}{Power Consumption}
 \subsection*{Power Consumption}
 
-LEFT OFF FROM PAGE 44 IN PROXY PAPER
+\begin{figure}
+\centering
+\includegraphics[scale=1,keepaspectratio]{energy_cons_direct_vs_socks}
+\caption{Average energy consumption and standard deviation for requesting different amounts of data from a local server using a direct or mobile SOCKSv5 proxy server.}
+\label{fig:energy_cons_direct_vs_socks}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=1,keepaspectratio]{energy_cons_overhead}
+\caption{Average energy consumption overhead for requesting different
+amounts of data from a local server}
+\label{fig:energy_cons_overhead}
+\end{figure}
+
+The average energy used per different request size is illustrated in in Figure \ref*{fig:energy_cons_direct_vs_socks}. It's observed that the mobile SOCKSv5 proxy approach always incurs a penalty
+over the direct connection, which is readily explained by the
+additional local processing overhead on the device. Furthermore,
+it can be noted that both depicted connection methods follow
+a “slump”-like behavior. Taking the overall variability of
+measurements into account, until the amount of requested data
+approaches the single packet payload region, the lowest energy
+usage is recorded. This initial behavior can be explained
+by the overhead to establish the initial server connection,
+which is dominant for the small request size regions. With
+a further increase of the payload to very large sizes, the
+number of required transmissions drastically increases, which
+now accounts for the majority of the energy consumption
+(rather than the initial connection setup). This increase in the
+number of packets is now causing longer periods of energy expensive
+network activities, causing the rise in energy consumption
+illustrated. The overall absolute difference between
+the employment of a mobile proxy and direct connection,
+however, remains fairly constant, which indicates that the
+processing overhead for local packet processing prior delivery
+to an application is rather negligible.
+Next, the overhead incurred by the mobile
+proxy server (as in Equation 1) in Figure \ref{fig:energy_cons_overhead}.Initially,
+an overall “hump”-like behavior is observable which decreases as
+the request sizes increase. Part of this behavior is explained
+by the rather large variability (which isn't illustrated
+here for clarity) in the regions of smaller request sizes. The overall diminishing overhead is explainable by the increase in the web request sizes with the actual overhead in the
+processing and local loop-back data connections for the proxy
+service. As the proxy service requires an initial connection
+setup before performing the pass-through connection from the
+remote server, additional time and processing resources are
+required before the connection can be fully passed through
+the proxy. Both resources incur processing and delay penalties
+which in turn have negative power consumption impacts.
+Larger request sizes result in increased numbers of packets
+to transmit, which “smoothes” the fixed setup overhead over
+more packets, which results in the decreasing overhead. At
+250 kB of requested data, an observable reduction occurs to just below
+six percent. Overall, that based on these measurements, it's observed that the implementation of a mobile proxy server directly on a
+mobile device does not result in considerable additional power
+demands for larger-sized web requests, which are common
+today.
+
+\addcontentsline{toc}{section}{Delay Difference}
+\subsection*{Delay Difference}
+With most interactive settings, the overhead in terms of
+additional delays can have a negative impact on user utility
+or perceived quality of service. In networked mobile settings,
+increased delays additionally have a negative battery impact
+through the direct correlation between the two.
+The average delay differences between the proxy and the direct
+connections for different request sizes is illustrated in Figure \ref{fig:time_difference_requests}. Initially,
+there is a fairly steady level of added average delays to the
+mobile proxy service in the region of 25 ms with higher levels of standard deviation occurring where the larger amounts
+of data requested; an overall maximum of about 37 ms can
+be noted for requesting 250 kB of data. The variability for
+the delays is a combination of the script producing the larger
+chunks of data with now slightly increased variability, as well
+as the increased number of packets sent for each approach
+incurring an additional network delay variation.
+Overall, it can be concluded that the observed low level of additional
+delay represents the fairly constant overhead of setting
+up the proxy service on the mobile device and processing the
+initial connection requests.
+
+\begin{figure}
+\centering
+\includegraphics[scale=1,keepaspectratio]{time_difference_requests}
+\caption{Average time difference and standard deviation between the direct and the proxy approach for requesting different amounts of data from a local server.}
+\label{fig:time_difference_requests}
+\end{figure}
+
+\addcontentsline{toc}{section}{Media Streaming}
+\subsection*{Media Streaming}
+The next step is to evaluate the impact of a long duration
+connection through the mobile SOCKSv5 server, in contrast
+to the previous evaluation of frequent connection requests.
+Here, a continuous data stream needs to be forwarded to a
+local application, with the initial setup overhead becoming
+negligible. The playback of the web video on the Pandaboard
+is performed using the Firefox for Android web browser. For
+measurements of the incurred proxy overhead, the browser
+is reconfigured to utilize the local SOCKSv5 proxy service,
+similar to the previous web request scenarios. The HTML5
+video is in turn displayed on the browser for the entire
+duration.
+
+\begin{figure}
+\centering
+\includegraphics[scale=1,keepaspectratio]{video_streaming_cons_socks}
+\caption{Energy consumption while performing the video streaming of the
+Tears of Steel open-source video sequence directly and through a mobile
+SOCKSv5 proxy server, smoothed over time.}
+\label{fig:video_streaming_cons_socks}
+\end{figure}
+
+\addcontentsline{toc}{section}{Fixed Network}
+\subsection*{Fixed Network}
+The sampled power consumption for video
+streaming over a wired Ethernet network is illustrated in Figure \ref{fig:video_streaming_cons_socks}. Observing the graph, we can
+see that most of the measured power consumption values
+fall into a range between 3.25 W and 3.75 W for both
+approaches. Both approaches additionally exhibit overall periods
+of heightened power consumption, e.g., from about
+250s to about 290s. This time frame coincides with a fast
+camera movement following an actor (very high level of
+background content change, motion) and represents a more
+challenging video decoding task, in turn leading to higher
+power consumption. Comparatively, however, it's also observable that no
+significant differences exist between the two approaches. The aggregated
+energy consumption resulting from media streaming
+results in a linear behavior, which additionally is almost
+indistinguishable between the two approaches as observed
+for the prior web requests scenario. As indicated by the
+comparable energy consumption over time in Figure \ref{fig:video_streaming_cons_socks}, the
+additional video decoding power requirements let the overall
+power consumption differences remain minor. We in turn omit
+a visual representation that closely resembles Figure \ref{fig:proxy_comp_energy_cons} due
+to space constraints. The aggregated performance
+values for this scenario in Table \ref{tab:agg_perf_results}. NEED TO CHANGE THIS TO TABLE FORMAT IN LATEX INSTEAD OF PICTURE) Looking at the table, I note that the average
+energy used is very similar for either approach, with slightly
+elevated values for the direct approach. Taking the standard
+deviation and the very narrow 99\% confidence intervals into
+account, we note that the proxy-based streaming incurs no
+significant penalties. Comparing this streaming example to the
+individual web requests, I note that overall, the proxy-based
+approach now is at the same overall level that I observed
+for the direct case.
+
+\begin{figure}
+\centering
+\includegraphics[scale=1,keepaspectratio]{agg_perf_results}
+\caption{Summary values for HTML5 video streaming of the open-source Tears of Steel movie (video-only) over an ethernet and a wireless network.}
+\label{tab:agg_perf_results}
+\end{figure}
+
+\addcontentsline{toc}{section}{Wireless Network}
+\subsection*{Wireless Network}
+As in the previous web request scenario, I additionally
+investigate the alternative approach whereby the video streaming
+is now utilizing a local wireless network.  The
+measurement results in Table \ref{tab:agg_perf_results} for equal numbers of measurement
+points. (Also note that for means of better comparison,
+the number of measurement points are limited to be equal.) I
+note that the overall averages are fairly close and furthermore
+characterized by relatively narrow confidence intervals. The
+resulting overhead, when comparing the averages of the direct
+and proxy-based video streaming is 0.0081, or less than one
+percent. Comparing the overall WLAN levels to the wired
+measurements, I note a decrease in the overall power consumption.
+This behavior is explained with the full availability of
+all network interfaces, whereby the employed operating system
+seems unable to properly put all different interfaces into a nopower
+state.
+Overall, I conclude that the introduction of the mobile
+proxy server has only limited negative impacts on the power
+consumption of about one percent when streaming multimedia
+due to the significantly higher impact of the decoding processes
+on the energy consumption and the negligible packet
+processing overheads.
+
+
+
+\addcontentsline{toc}{section}{Conclusions and Future Work}
+\subsection*{Conclusions and Future Work}
+I approximated the energy consumption overhead of
+mobile optimization frameworks through a mobile SOCKSv5
+proxy server as a low-end baseline. The selected implementation
+is based on JAVA and performs all network traffic
+forwarding on the application layer within the Dalvik VM for
+Android devices. I found that the overall usage of a proxy
+service on the mobile device in a web request scenario does
+not incur any significant power consumption penalties. For
+HTML5 video streaming (continuous packet processing), I
+note an overhead of about one percent. I determined that any
+existing overhead is relatively constant and explained through
+the initial communication setup overheads, rather than ondevice
+processing overheads, which were found to be approximately one
+percent. A basic optimization framework would in turn only
+need to overcome this very low overhead to enable energy
+savings potentials.In future research avenues, I plan to investigate further energy savings potentials based on mobile device proxying,
+in combination with caching and application layer content
+awareness in tandem with a remote server.

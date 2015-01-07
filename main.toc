@@ -19,6 +19,13 @@
 \contentsline {subsection}{Wireless Network}{9}{table.caption.20}
 \contentsline {section}{Impact of Web Request Variations}{11}{section*.21}
 \contentsline {subsection}{Power Consumption}{11}{section*.22}
-\contentsline {chapter}{\chapternumberline {IV}CONCLUSION}{12}{chapter.4}
-\contentsline {subsection}{Future Work}{12}{section*.24}
-\contentsline {chapter}{REFERENCES}{13}{chapter*.25}
+\contentsline {section}{Delay Difference}{14}{figure.caption.25}
+\contentsline {section}{Media Streaming}{14}{figure.caption.27}
+\contentsline {section}{Fixed Network}{15}{figure.caption.29}
+\contentsline {section}{Wireless Network}{16}{figure.caption.31}
+\contentsline {section}{Conclusions and Future Work}{17}{section*.32}
+\contentsline {chapter}{\chapternumberline {IV}Web Cache Object Forwarding From Desktop to Mobile for Energy Consumption Optimizations}{19}{chapter.4}
+\contentsline {section}{Introduction}{19}{section*.34}
+\contentsline {chapter}{\chapternumberline {V}CONCLUSION}{22}{chapter.5}
+\contentsline {subsection}{Future Work}{22}{section*.37}
+\contentsline {chapter}{REFERENCES}{23}{chapter*.38}

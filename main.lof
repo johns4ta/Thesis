@@ -3,3 +3,9 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Overview of the measurement setup\relax }}{8}{figure.caption.15}
 \contentsline {figure}{\numberline {4}{\ignorespaces Energy consumption while performing 100 web requests directly or through a mobile SOCKSv5 service, smoothed over time.\relax }}{10}{figure.caption.18}
 \contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{10}{figure.caption.19}
+\contentsline {figure}{\numberline {6}{\ignorespaces Average energy consumption and standard deviation for requesting different amounts of data from a local server using a direct or mobile SOCKSv5 proxy server.\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {7}{\ignorespaces Average energy consumption overhead for requesting different amounts of data from a local server\relax }}{12}{figure.caption.25}
+\contentsline {figure}{\numberline {8}{\ignorespaces Average time difference and standard deviation between the direct and the proxy approach for requesting different amounts of data from a local server.\relax }}{15}{figure.caption.27}
+\contentsline {figure}{\numberline {9}{\ignorespaces Energy consumption while performing the video streaming of the Tears of Steel open-source video sequence directly and through a mobile SOCKSv5 proxy server, smoothed over time.\relax }}{16}{figure.caption.29}
+\contentsline {figure}{\numberline {10}{\ignorespaces Summary values for HTML5 video streaming of the open-source Tears of Steel movie (video-only) over an ethernet and a wireless network.\relax }}{17}{figure.caption.31}
+\contentsline {figure}{\numberline {11}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{20}{figure.caption.36}

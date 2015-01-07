@@ -95,12 +95,13 @@ One particular area for optimization is the pre--fetching of web page objects co
 More recently, these approaches were combined with user connectivity predictions, see, e.g., \cite{ThChWo13}.
 
 We propose to utilize a basic cache forwarding method that can be utilized by users to synchronize from, e.g., a desktop computer, to their mobile device, e.g., a smartphone.
-We illustrate this approach in Figure~\ref{fig:setup}, which contains the desktop and a mobile device. 
+We illustrate this approach in Figure~\ref{fig:setup}, which contains the desktop and a mobile device.
+
 \begin{figure}
 	\centering
-	\includegraphics[width=.9\linewidth]{Drawing1}
+	\includegraphics[width=.9\linewidth]{cache_forwarding_setup}
 	\caption{Overall setup of world wide web based content access by a user over time using primary and secondary devices to display the same content. If the devices are able to synchronize their caches through short-range communications, energy savings become possible.}
-	\label{fig:setup}
+	\label{fig:cache_forwarding_setup}
 \end{figure}
 
 As most devices are charged over night, or are at least stationary within local area network ranges, we propose to utilize this general idle period to allow direct forwarding of cached objects.
@@ -113,6 +114,8 @@ To support our approach, we gather data through the publicly accessible \url{Web
 The remainder of this paper is structured as follows.
 In the following section, %we describe our overall scenario before 
 we provide an example based on a particular news web page.
+\newline
+NEED TO EDIT THE SECTION SO THEY MATCH UP!
 In the subsequent Section~\ref{s:large}, we discuss the overall properties of a large web page dataset archive and provide a description for the simulation-driven evaluation of our approach. 
 We discuss the obtained results in Section~\ref{s:results} before concluding in Section~\ref{s:conc}.
 

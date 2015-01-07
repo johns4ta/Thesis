@@ -9,14 +9,21 @@ Reallocated glb_str_ptr (elt_size=4) to 10 items from 0.
 Reallocated global_strs (elt_size=1001) to 10 items from 0.
 Reallocated glb_str_end (elt_size=4) to 10 items from 0.
 Database file #1: main.bib
+I was expecting a `,' or a `}'---line 145 of file main.bib
+ :  
+ :  year = {2014}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring ShKuDaWa05's extra "month" field
+--line 202 of file main.bib
 Warning--empty institution in VNI14
 Warning--empty institution in rfc1928
 
 Here's how much of BibTeX's memory you used:
- Cites:                 9 out of 750
- Fields:              206 out of 5000
- Hash table:         4862 out of 5000
- Strings:             511 out of 4000
- Free string pool:   5487 out of 65000
+ Cites:                17 out of 750
+ Fields:              380 out of 5000
+ Hash table:         4852 out of 5000
+ Strings:             567 out of 4000
+ Free string pool:   7062 out of 65000
  Wizard functions:   1791 out of 3000
-(There were 2 warnings)
+(There was 1 error message)
