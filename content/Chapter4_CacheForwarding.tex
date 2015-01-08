@@ -1,6 +1,8 @@
 \chapter{Web Cache Object Forwarding From Desktop to Mobile for Energy Consumption Optimizations}
-\addcontentsline{toc}{section}{Introduction}
+
 \section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}
+
 With the beginning of the 21st century, networking support for wirelessly connected mobile user devices has fueled a continuous increase in the demand for mobile data.
 Web requests now originate in a majority from wirelessly connected user devices -- a trend that Cisco, Inc. predicts to continue in the foreseeable future~\cite{VNI14}.
 Simultaneously, the overall user behavior and demand for more rich media inclusion into web pages has increased the overall amount of data that is required to be transmitted per page, see, e.g., \cite{IhPa11,BuMaSe13}.
@@ -134,7 +136,7 @@ We note that significant savings above 20 \% are attainable with our approach, e
 We now evaluate our proposed approach through simulations based on a large dataset of landing web pages of popular websites.
 For this purpose, we retrieved the publicly available web page response details from \emph{httparchive.org} and created a subsequent dataset for October 1st, 2013.
 
-\subsection*{Dataset Description}
+\subsection{Dataset Description}
 \addcontentsline{toc}{subsection}{Dataset Description}
 The dataset we utilize for the performance evaluation contains the individual web responses for the most popular websites of fixed (Internet Explorer for the desktop) and mobile (iOS for iPhone 4) websites, ranked through the Alexa popularity index.
 Furthermore, the dataset contains the individual response details, including cache expiration times and sizes. 
@@ -176,7 +178,7 @@ We observe that a significant portion ($>40$ \%) of responses from web servers e
 The cumulative expiration probability is higher for responses to desktop clients, which can be attributed to the typically more abundant bandwidth (and less optimization requirements) in contrast to a mobile setting (where web content developers might be more considerate of limitations).
 In addition, we perform matching of request to mirror the individual example with a direction from desktop to mobile client. 
 
-\subsection*{Simulation Model Description}
+\subsection{Simulation Model Description}
 \addcontentsline{toc}{subsection}{Simulation Model Description}
 We evaluate the effectiveness of our approach through simulation, which we perform as follows.
 For the time period of one week, we randomly select a web page from the mobile dataset and separate the data that is required to be downloaded and the data that is still available in cache due to the maximum expiration age of the individual objects. 
@@ -278,8 +280,8 @@ We conclude that the distribution of web page popularity and the composition the
 Overall, we find a significant reduction in the required downloads for mobile clients that can be directly attributed to lower energy consumption levels and potential download latencies (and even costs for the mobile user through saved data transmissions).
 Furthermore, this approach does not require sophisticated live evaluations, but only relies on cache forwarding to the mobile device.
 
-\section*{Conclusions}
-\addcontentsline{toc}{section}{Conclusions}
+\section*{Conclusion}
+Performance Evaluation Results
 \label{s:conc}
 We exemplarily evaluated the content of modern web pages and the identical objects that can be found when requesting the same web page from different devices with different display modalities, such as desktop and smartphone.
 Assuming mobile users visit the same pages on their mobile device that they visit on their desktop computer as well, we simulated the access of landing web pages and evaluated the potential for cache forwarding.

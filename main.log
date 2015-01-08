@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 16:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  8 JAN 2015 14:56
 entering extended mode
 **main.tex
 (C:\Users\johns4ta\Desktop\Thesis\main.tex
@@ -826,55 +826,47 @@ Sidefoothsep and sidefootwidth: 7pt and 50pt
 Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 ******************************************************
 
-(C:\Users\johns4ta\Desktop\Thesis\content/Chapter1_Intro.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3.
-
-) (C:\Users\johns4ta\Desktop\Thesis\content/Chapter2_Testbed.tex [1
+(C:\Users\johns4ta\Desktop\Thesis\content/Chapter1_Intro.tex)
+(C:\Users\johns4ta\Desktop\Thesis\content/Chapter2_Testbed.tex [1
 
 
 
 ] [2
 
 ]
-<./images/testbed_setup.png, id=376, 395.91391pt x 320.96382pt>
+<./images/testbed_setup.png, id=368, 395.91391pt x 320.96382pt>
 File: ./images/testbed_setup.png Graphic file (type png)
 
 <use ./images/testbed_setup.png>
-Package pdftex.def Info: ./images/testbed_setup.png used on input line 39.
+Package pdftex.def Info: ./images/testbed_setup.png used on input line 38.
 (pdftex.def)             Requested size: 395.91295pt x 320.96303pt.
- [3 <C:/Users/johns4ta/Desktop/Thesis/images/testbed_setup.png>]
-<./images/testapp_workflow.png, id=385, 657.2053pt x 133.24782pt>
+
+<./images/testapp_workflow.png, id=371, 657.2053pt x 133.24782pt>
 File: ./images/testapp_workflow.png Graphic file (type png)
 
 <use ./images/testapp_workflow.png>
-Package pdftex.def Info: ./images/testapp_workflow.png used on input line 50.
+Package pdftex.def Info: ./images/testapp_workflow.png used on input line 49.
 (pdftex.def)             Requested size: 657.20369pt x 133.24748pt.
 )
-(C:\Users\johns4ta\Desktop\Thesis\content/Chapter3_ProxyServer.tex [4 <C:/Users
-/johns4ta/Desktop/Thesis/images/testapp_workflow.png>]
+(C:\Users\johns4ta\Desktop\Thesis\content/Chapter3_ProxyServer.tex [3] [4 <C:/U
+sers/johns4ta/Desktop/Thesis/images/testbed_setup.png> <C:/Users/johns4ta/Deskt
+op/Thesis/images/testapp_workflow.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 3.
+(hyperref)                be the same. Added a new anchor on input line 6.
 
 [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 75--93
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--93
-
- []
-
-<./images/proxy_setup.png, id=413, 304.88907pt x 188.20313pt>
+<./images/proxy_setup.png, id=407, 304.88907pt x 188.20313pt>
 File: ./images/proxy_setup.png Graphic file (type png)
 
 <use ./images/proxy_setup.png>
-Package pdftex.def Info: ./images/proxy_setup.png used on input line 96.
+Package pdftex.def Info: ./images/proxy_setup.png used on input line 83.
 (pdftex.def)             Requested size: 304.88832pt x 188.20265pt.
  [7] [8 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_setup.png>]
 <./images/proxy_energy_cons_socks.png, id=428, 430.60875pt x 313.17pt>
@@ -882,7 +874,7 @@ File: ./images/proxy_energy_cons_socks.png Graphic file (type png)
 
 <use ./images/proxy_energy_cons_socks.png>
 Package pdftex.def Info: ./images/proxy_energy_cons_socks.png used on input lin
-e 157.
+e 144.
 (pdftex.def)             Requested size: 430.60768pt x 313.16922pt.
 
 <./images/proxy_comp_energy_cons.png, id=429, 338.76563pt x 246.9225pt>
@@ -890,7 +882,7 @@ File: ./images/proxy_comp_energy_cons.png Graphic file (type png)
 
 <use ./images/proxy_comp_energy_cons.png>
 Package pdftex.def Info: ./images/proxy_comp_energy_cons.png used on input line
- 164.
+ 151.
 (pdftex.def)             Requested size: 338.76479pt x 246.92188pt.
  [9] [10 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_energy_cons_socks.png> 
 <C:/Users/johns4ta/Desktop/Thesis/images/proxy_comp_energy_cons.png>]
@@ -899,7 +891,7 @@ File: ./images/energy_cons_direct_vs_socks.png Graphic file (type png)
 
 <use ./images/energy_cons_direct_vs_socks.png>
 Package pdftex.def Info: ./images/energy_cons_direct_vs_socks.png used on input
- line 214.
+ line 201.
 (pdftex.def)             Requested size: 426.84364pt x 307.14674pt.
 
 <./images/energy_cons_overhead.png, id=444, 338.01282pt x 244.66406pt>
@@ -907,7 +899,7 @@ File: ./images/energy_cons_overhead.png Graphic file (type png)
 
 <use ./images/energy_cons_overhead.png>
 Package pdftex.def Info: ./images/energy_cons_overhead.png used on input line 2
-21.
+08.
 (pdftex.def)             Requested size: 338.01198pt x 244.66345pt.
  [11] [12 <C:/Users/johns4ta/Desktop/Thesis/images/energy_cons_direct_vs_socks.
 png> <C:/Users/johns4ta/Desktop/Thesis/images/energy_cons_overhead.png>] [13]
@@ -916,7 +908,7 @@ File: ./images/time_difference_requests.png Graphic file (type png)
 
 <use ./images/time_difference_requests.png>
 Package pdftex.def Info: ./images/time_difference_requests.png used on input li
-ne 294.
+ne 281.
 (pdftex.def)             Requested size: 350.05695pt x 250.68594pt.
  [14]
 <./images/video_streaming_cons_socks.png, id=469, 354.57469pt x 249.18094pt>
@@ -924,80 +916,76 @@ File: ./images/video_streaming_cons_socks.png Graphic file (type png)
 
 <use ./images/video_streaming_cons_socks.png>
 Package pdftex.def Info: ./images/video_streaming_cons_socks.png used on input 
-line 316.
+line 303.
 (pdftex.def)             Requested size: 354.57382pt x 249.18031pt.
  [15 <C:/Users/johns4ta/Desktop/Thesis/images/time_difference_requests.png>]
 <./images/agg_perf_results.png, id=480, 350.05782pt x 198.7425pt>
 File: ./images/agg_perf_results.png Graphic file (type png)
 
 <use ./images/agg_perf_results.png>
-Package pdftex.def Info: ./images/agg_perf_results.png used on input line 358.
+Package pdftex.def Info: ./images/agg_perf_results.png used on input line 345.
 (pdftex.def)             Requested size: 350.05695pt x 198.742pt.
  [16 <C:/Users/johns4ta/Desktop/Thesis/images/video_streaming_cons_socks.png>])
 
 (C:\Users\johns4ta\Desktop\Thesis\content/Chapter4_CacheForwarding.tex [17 <C:/
-Users/johns4ta/Desktop/Thesis/images/agg_perf_results.png>] [18]
+Users/johns4ta/Desktop/Thesis/images/agg_perf_results.png>] [18] [19
 
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
-
-[19
-
-] <./images/cache_forwarding_setup.pdf, id=520, 264.62553pt x 257.96375pt>
+]
+<./images/cache_forwarding_setup.pdf, id=519, 264.62553pt x 257.96375pt>
 File: ./images/cache_forwarding_setup.pdf Graphic file (type pdf)
 
 <use ./images/cache_forwarding_setup.pdf>
 Package pdftex.def Info: ./images/cache_forwarding_setup.pdf used on input line
- 22.
+ 24.
 (pdftex.def)             Requested size: 264.62488pt x 257.9631pt.
  [20 <C:/Users/johns4ta/Desktop/Thesis/images/cache_forwarding_setup.pdf>]
-<./images/1screen.jpg, id=542, 379.4175pt x 262.73157pt>
+<./images/1screen.jpg, id=541, 379.4175pt x 262.73157pt>
 File: ./images/1screen.jpg Graphic file (type jpg)
 
 <use ./images/1screen.jpg>
-Package pdftex.def Info: ./images/1screen.jpg used on input line 45.
+Package pdftex.def Info: ./images/1screen.jpg used on input line 47.
 (pdftex.def)             Requested size: 379.41656pt x 262.73091pt.
  [21] [22 <C:/Users/johns4ta/Desktop/Thesis/images/1screen.jpg>] [23] <./images
-/energy_ios_time.pdf, id=566, 722.7pt x 505.89pt>
+/energy_ios_time.pdf, id=563, 722.7pt x 505.89pt>
 File: ./images/energy_ios_time.pdf Graphic file (type pdf)
 
 <use ./images/energy_ios_time.pdf>
-Package pdftex.def Info: ./images/energy_ios_time.pdf used on input line 109.
+Package pdftex.def Info: ./images/energy_ios_time.pdf used on input line 111.
 (pdftex.def)             Requested size: 722.69823pt x 505.88875pt.
  [24]
-<./images/rel_ios_time.pdf, id=573, 687.03024pt x 491.36322pt>
+<./images/rel_ios_time.pdf, id=570, 687.03024pt x 491.36322pt>
 File: ./images/rel_ios_time.pdf Graphic file (type pdf)
 
 <use ./images/rel_ios_time.pdf>
-Package pdftex.def Info: ./images/rel_ios_time.pdf used on input line 120.
+Package pdftex.def Info: ./images/rel_ios_time.pdf used on input line 122.
 (pdftex.def)             Requested size: 687.02856pt x 491.36201pt.
  [25 <C:/Users/johns4ta/Desktop/Thesis/images/energy_ios_time.pdf, page is rota
 ted 90 degrees>] [26 <C:/Users/johns4ta/Desktop/Thesis/images/rel_ios_time.pdf,
  page is rotated 90 degrees>]
-Overfull \hbox (74.73949pt too wide) in paragraph at lines 147--160
+Overfull \hbox (74.73949pt too wide) in paragraph at lines 149--162
  [][] 
  []
 
-<./images/comp_cpd.pdf, id=597, 673.95416pt x 490.05113pt>
+<./images/comp_cpd.pdf, id=594, 673.95416pt x 490.05113pt>
 File: ./images/comp_cpd.pdf Graphic file (type pdf)
 
 <use ./images/comp_cpd.pdf>
-Package pdftex.def Info: ./images/comp_cpd.pdf used on input line 170.
+Package pdftex.def Info: ./images/comp_cpd.pdf used on input line 172.
 (pdftex.def)             Requested size: 673.95251pt x 490.04993pt.
  [27] [28 <C:/Users/johns4ta/Desktop/Thesis/images/comp_cpd.pdf, page is rotate
 d 90 degrees>] [29]
-<./images/Fig6-a.pdf, id=632, 750.29019pt x 510.20523pt>
+<./images/Fig6-a.pdf, id=626, 750.29019pt x 510.20523pt>
 File: ./images/Fig6-a.pdf Graphic file (type pdf)
 
 <use ./images/Fig6-a.pdf>
-Package pdftex.def Info: ./images/Fig6-a.pdf used on input line 236.
+Package pdftex.def Info: ./images/Fig6-a.pdf used on input line 238.
 (pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
 
-<./images/Fig6-b.pdf, id=633, 750.29019pt x 510.20523pt>
+<./images/Fig6-b.pdf, id=627, 750.29019pt x 510.20523pt>
 File: ./images/Fig6-b.pdf Graphic file (type pdf)
 
 <use ./images/Fig6-b.pdf>
-Package pdftex.def Info: ./images/Fig6-b.pdf used on input line 239.
+Package pdftex.def Info: ./images/Fig6-b.pdf used on input line 241.
 (pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
 
 
@@ -1006,92 +994,87 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [30]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 252.
+               Default added (so using `tbp') on input line 254.
 
-<./images/Fig7-a.pdf, id=643, 750.29019pt x 510.20523pt>
+<./images/Fig7-a.pdf, id=637, 750.29019pt x 510.20523pt>
 File: ./images/Fig7-a.pdf Graphic file (type pdf)
 
 <use ./images/Fig7-a.pdf>
-Package pdftex.def Info: ./images/Fig7-a.pdf used on input line 254.
+Package pdftex.def Info: ./images/Fig7-a.pdf used on input line 256.
 (pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
 
-<./images/Fig7-b.pdf, id=644, 750.29019pt x 510.20523pt>
+<./images/Fig7-b.pdf, id=638, 750.29019pt x 510.20523pt>
 File: ./images/Fig7-b.pdf Graphic file (type pdf)
 
 <use ./images/Fig7-b.pdf>
-Package pdftex.def Info: ./images/Fig7-b.pdf used on input line 257.
+Package pdftex.def Info: ./images/Fig7-b.pdf used on input line 259.
 (pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
  [31 <C:/Users/johns4ta/Desktop/Thesis/images/Fig6-a.pdf> <C:/Users/johns4ta/De
 sktop/Thesis/images/Fig6-b.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 269.
+               Default added (so using `tbp') on input line 271.
 
-<./images/Fig8.pdf, id=677, 750.29019pt x 510.20523pt>
+<./images/Fig8.pdf, id=671, 750.29019pt x 510.20523pt>
 File: ./images/Fig8.pdf Graphic file (type pdf)
  <use ./images/Fig8.pdf>
-Package pdftex.def Info: ./images/Fig8.pdf used on input line 271.
+Package pdftex.def Info: ./images/Fig8.pdf used on input line 273.
 (pdftex.def)             Requested size: 219.14851pt x 149.02228pt.
 
 [32 <C:/Users/johns4ta/Desktop/Thesis/images/Fig7-a.pdf> <C:/Users/johns4ta/Des
 ktop/Thesis/images/Fig7-b.pdf> <C:/Users/johns4ta/Desktop/Thesis/images/Fig8.pd
 f>])
-(C:\Users\johns4ta\Desktop\Thesis\content/Chapter5-CharacteristicsMobileDesktop
-.tex [33]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 2.
-
-[34
+(C:\Users\johns4ta\Desktop\Thesis\content/Chapter5_CharacteristicsMobileDesktop
+.tex [33] [34
 
 ]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/johns4ta/Desktop/Thesis/images/setu
 p.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<./images/setup.pdf, id=749, 365.19937pt x 102.13156pt>
+<./images/setup.pdf, id=744, 365.19937pt x 102.13156pt>
 File: ./images/setup.pdf Graphic file (type pdf)
 
 <use ./images/setup.pdf>
-Package pdftex.def Info: ./images/setup.pdf used on input line 46.
+Package pdftex.def Info: ./images/setup.pdf used on input line 45.
 (pdftex.def)             Requested size: 219.14851pt x 61.28874pt.
  [35] [36 <C:/Users/johns4ta/Desktop/Thesis/images/setup.pdf>] [37] <./images/t
-heil_reqs.pdf, id=787, 716.34337pt x 510.20523pt>
+heil_reqs.pdf, id=782, 716.34337pt x 510.20523pt>
 File: ./images/theil_reqs.pdf Graphic file (type pdf)
 
 <use ./images/theil_reqs.pdf>
-Package pdftex.def Info: ./images/theil_reqs.pdf used on input line 81.
+Package pdftex.def Info: ./images/theil_reqs.pdf used on input line 80.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
-<./images/theil_bytes.pdf, id=788, 714.03476pt x 510.20523pt>
+<./images/theil_bytes.pdf, id=783, 714.03476pt x 510.20523pt>
 File: ./images/theil_bytes.pdf Graphic file (type pdf)
 
 <use ./images/theil_bytes.pdf>
-Package pdftex.def Info: ./images/theil_bytes.pdf used on input line 82.
+Package pdftex.def Info: ./images/theil_bytes.pdf used on input line 81.
 (pdftex.def)             Requested size: 219.14851pt x 156.58939pt.
  [38]
-<./images/totalRequests_all.pdf, id=796, 716.34337pt x 491.83661pt>
+<./images/totalRequests_all.pdf, id=791, 716.34337pt x 491.83661pt>
 File: ./images/totalRequests_all.pdf Graphic file (type pdf)
 
 <use ./images/totalRequests_all.pdf>
-Package pdftex.def Info: ./images/totalRequests_all.pdf used on input line 105.
+Package pdftex.def Info: ./images/totalRequests_all.pdf used on input line 104.
 
 (pdftex.def)             Requested size: 219.14851pt x 150.46399pt.
 
-<./images/req_by_type_fixed_all.pdf, id=797, 715.2392pt x 510.20523pt>
+<./images/req_by_type_fixed_all.pdf, id=792, 715.2392pt x 510.20523pt>
 File: ./images/req_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/req_by_type_fixed_all.pdf used on input line 
-106.
+105.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/req_by_type_mobile_all.pdf, id=798, 715.2392pt x 510.20523pt>
+<./images/req_by_type_mobile_all.pdf, id=793, 715.2392pt x 510.20523pt>
 File: ./images/req_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/req_by_type_mobile_all.pdf used on input line
- 107.
+ 106.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
  [39 <C:/Users/johns4ta/Desktop/Thesis/images/theil_reqs.pdf, page is rotated 9
 0 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/theil_bytes.pdf, page is ro
@@ -1099,39 +1082,39 @@ tated 90 degrees>] [40 <C:/Users/johns4ta/Desktop/Thesis/images/totalRequests_a
 ll.pdf, page is rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/re
 q_by_type_fixed_all.pdf, page is rotated 90 degrees> <C:/Users/johns4ta/Desktop
 /Thesis/images/req_by_type_mobile_all.pdf, page is rotated 90 degrees>] [41]
-<./images/bytes_total_all.pdf, id=851, 717.54788pt x 510.20523pt>
+<./images/bytes_total_all.pdf, id=846, 717.54788pt x 510.20523pt>
 File: ./images/bytes_total_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_total_all.pdf>
-Package pdftex.def Info: ./images/bytes_total_all.pdf used on input line 138.
+Package pdftex.def Info: ./images/bytes_total_all.pdf used on input line 137.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
-<./images/bytes_by_type_fixed_all.pdf, id=852, 717.54788pt x 510.20523pt>
+<./images/bytes_by_type_fixed_all.pdf, id=847, 717.54788pt x 510.20523pt>
 File: ./images/bytes_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/bytes_by_type_fixed_all.pdf used on input lin
-e 139.
+e 138.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
-<./images/bytes_by_type_fixed.pdf, id=853, 716.34337pt x 510.20523pt>
+<./images/bytes_by_type_fixed.pdf, id=848, 716.34337pt x 510.20523pt>
 File: ./images/bytes_by_type_fixed.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed.pdf>
-Package pdftex.def Info: ./images/bytes_by_type_fixed.pdf used on input line 14
-0.
+Package pdftex.def Info: ./images/bytes_by_type_fixed.pdf used on input line 13
+9.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
-<./images/bytes_by_type_mobile_all.pdf, id=854, 716.34337pt x 510.20523pt>
+<./images/bytes_by_type_mobile_all.pdf, id=849, 716.34337pt x 510.20523pt>
 File: ./images/bytes_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/bytes_by_type_mobile_all.pdf used on input li
-ne 141.
+ne 140.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
 
-LaTeX Warning: Float too large for page by 13.2812pt on input line 143.
+LaTeX Warning: Float too large for page by 13.2812pt on input line 142.
 
 [42] [43 <C:/Users/johns4ta/Desktop/Thesis/images/bytes_total_all.pdf, page is 
 rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bytes_by_type_fixe
@@ -1141,46 +1124,46 @@ p/Thesis/images/bytes_by_type_mobile_all.pdf, page is rotated 90 degrees>]
 [44]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 175.
+               Default added (so using `tbp') on input line 174.
 
-<./images/bpr_all.pdf, id=899, 715.2392pt x 510.20523pt>
+<./images/bpr_all.pdf, id=894, 715.2392pt x 510.20523pt>
 File: ./images/bpr_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_all.pdf>
-Package pdftex.def Info: ./images/bpr_all.pdf used on input line 177.
+Package pdftex.def Info: ./images/bpr_all.pdf used on input line 176.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/bpr_by_type_fixed_all.pdf, id=900, 715.2392pt x 510.20523pt>
+<./images/bpr_by_type_fixed_all.pdf, id=895, 715.2392pt x 510.20523pt>
 File: ./images/bpr_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_fixed_all.pdf>
 Package pdftex.def Info: ./images/bpr_by_type_fixed_all.pdf used on input line 
-178.
+177.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/bpr_by_type_mobile_all.pdf, id=901, 715.2392pt x 510.20523pt>
+<./images/bpr_by_type_mobile_all.pdf, id=896, 715.2392pt x 510.20523pt>
 File: ./images/bpr_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_mobile_all.pdf>
 Package pdftex.def Info: ./images/bpr_by_type_mobile_all.pdf used on input line
- 179.
+ 178.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
  [45] [46 <C:/Users/johns4ta/Desktop/Thesis/images/bpr_all.pdf, page is rotated
  90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bpr_by_type_fixed_all.pdf
 , page is rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bpr_by_t
 ype_mobile_all.pdf, page is rotated 90 degrees>] [47] <./images/cache_fix_all.p
-df, id=940, 715.2392pt x 510.20523pt>
+df, id=935, 715.2392pt x 510.20523pt>
 File: ./images/cache_fix_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_fix_all.pdf>
-Package pdftex.def Info: ./images/cache_fix_all.pdf used on input line 211.
+Package pdftex.def Info: ./images/cache_fix_all.pdf used on input line 210.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/cache_mob_all.pdf, id=941, 715.2392pt x 491.83661pt>
+<./images/cache_mob_all.pdf, id=936, 715.2392pt x 491.83661pt>
 File: ./images/cache_mob_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_mob_all.pdf>
-Package pdftex.def Info: ./images/cache_mob_all.pdf used on input line 212.
+Package pdftex.def Info: ./images/cache_mob_all.pdf used on input line 211.
 (pdftex.def)             Requested size: 219.14851pt x 150.69662pt.
  [48 <C:/Users/johns4ta/Desktop/Thesis/images/cache_fix_all.pdf, page is rotate
 d 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/cache_mob_all.pdf, page 
@@ -1199,27 +1182,27 @@ bibitemlist
 ] [55]) [56]
 \tf@toc=\write5
 \tf@lof=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (C:\Users\johns4ta\Desktop\Thesis\main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3314CC6AEBFEA831480AE5CDBF1B12E5;3765.
+(rerunfilecheck)             Checksum: C31CE6B1635772E3436CB8D2D6202F3D;3662.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 11862 strings out of 493921
- 177269 string characters out of 3147274
+ 11858 strings out of 493921
+ 177231 string characters out of 3147274
  330061 words of memory out of 3000000
- 14828 multiletter control sequences out of 15000+200000
+ 14825 multiletter control sequences out of 15000+200000
  13010 words of font info for 29 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,11n,40p,1852b,524s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,40p,1938b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1231,9 +1214,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (64 pages, 1759060 bytes).
+Output written on main.pdf (64 pages, 1776417 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 584 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1082 PDF objects out of 1200 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
+ 576 words of extra memory for PDF output out of 10000 (max. 10000000)
 
