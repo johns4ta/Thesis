@@ -6,6 +6,10 @@
   update, 2013--2018.
 \newblock Technical report, February 2014.
 
+\bibitem{ht13}
+httparchive.org.
+\newblock Http archive (beta), July 2013.
+
 \bibitem{Qian:2012:PTM:2187836.2187844}
 Feng Qian, Zhaoguang Wang, Yudong Gao, Junxian Huang, Alexandre Gerber,
   Zhuoqing Mao, Subhabrata Sen, and Oliver Spatscheck.
@@ -184,10 +188,6 @@ Narendran Thiagarajan, Gaurav Aggarwal, Angela Nicoara, Dan Boneh, and
 \newblock In {\em Proc. of the International Conference on World Wide Web
   {(WWW)}}, pages 41--50, Lyon, France, 2012.
 
-\bibitem{ht13}
-httparchive.org.
-\newblock Http archive (beta), July 2013.
-
 \bibitem{Th72}
 Henri Theil.
 \newblock {\em Statistical decomposition analysis. With applications in the
@@ -198,5 +198,33 @@ Henri Theil.
 S.~Niida, S.~Uemura, and H.~Nakamura.
 \newblock Mobile services.
 \newblock {\em Vehicular Technology Magazine, IEEE}, 5(3):61--67, 2010.
+
+\bibitem{Wang:2012ks}
+Zhen Wang, Felix~Xiaozhu Lin, Lin Zhong, and Mansoor Chishtie.
+\newblock {How far can client-only solutions go for mobile browser speed?}
+\newblock In {\em Proc. of the ACM International Conference on World Wide Web
+  {(WWW)}}, pages 31--40, Lyon, France, April 2012.
+
+\bibitem{Marquez:2008wf}
+J~Marquez, J~Domenech, J~Gil, and A~Pont.
+\newblock {Exploring the benefits of caching and prefetching in the mobile
+  web}.
+\newblock In {\em Prof. of the IFIP International Symposium on Wireless
+  Communications and Information Technology in Developing Countries {(WCITD)}},
+  pages 1--8, Pretoria, South Africa, October 2008.
+
+\bibitem{Qian:2014dw}
+F.~Qian, S.~Sen, and O.~Spatscheck.
+\newblock Characterizing resource usage for mobile web browsing.
+\newblock In {\em Proc. of the ACM International Conference on Mobile Systems,
+  Applications, and Services {(MobiSys)}}, pages 218--231, Bretton Woods, NH,
+  USA, June.
+
+\bibitem{JoSe14GreenComm}
+Troy~A. Johnson and Patrick Seeling.
+\newblock Web cache object forwarding from desktop to mobile for energy
+  consumption optimizations.
+\newblock In {\em Proc. of the IEEE Online Conference on Green Communications
+  (OnlineGreenComm)}, pages 1--6, Online, November 2014.
 
 \end{thebibliography}

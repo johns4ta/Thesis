@@ -42,3 +42,13 @@
 \contentsline {figure}{\numberline {30}{\ignorespaces Maximum age of web page objects for desktop and mobile web clients.\relax }}{56}{figure.caption.77}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desktop clients}}}{56}{subfigure.30.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mobile clients}}}{56}{subfigure.30.2}
+\contentsline {figure}{\numberline {31}{\ignorespaces Individual sizes and cache expirations for 197634 web objects as well as their averages when considering page--level relationships for 4776 mobile web landing pages.\relax }}{65}{figure.caption.85}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Individual mobile web page objects }}}{65}{subfigure.31.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mobile Web Pages }}}{65}{subfigure.31.2}
+\contentsline {figure}{\numberline {32}{\ignorespaces Real data set and synthetically generated web page object sizes across the entire data set.\relax }}{68}{figure.caption.88}
+\contentsline {figure}{\numberline {33}{\ignorespaces Real data set and synthetically generated web page object expiration ages across the entire data set.\relax }}{69}{figure.caption.89}
+\contentsline {figure}{\numberline {34}{\ignorespaces Page--level simulation of mobile web landing pages for the October 15, 2013 data set.\relax }}{70}{figure.caption.90}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Average number of objects per mobile web page }}}{70}{subfigure.34.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mobile web page sizes}}}{70}{subfigure.34.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Average mobile web page object expiration}}}{70}{subfigure.34.3}
+\contentsline {figure}{\numberline {35}{\ignorespaces Results from evaluations 1000 cache simulations employing the model for Oct. 15, 2013. Our model captures the trends for the overall amounts in the cache over time.\relax }}{74}{figure.caption.98}

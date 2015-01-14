@@ -1,0 +1,1895 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     74958,       1886]
+NotebookOptionsPosition[     71418,       1794]
+NotebookOutlinePosition[     71774,       1810]
+CellTagsIndexPosition[     71731,       1807]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]", ",", "mstr"}], 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/jan_15_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-01-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/sep_15_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-09-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/oct_1_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-10-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/oct_15_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-10-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/nov_1_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-11-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/nov_15_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-11-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/dec_15_2013_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2013-12-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/jan_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-01-01, \>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/jan_15_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-01-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/feb_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-02-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/feb_15_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-02-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/mar_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-03-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/apr_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-04-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", "\"\<, \>\"", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", "\"\<, \>\"", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/apr_15_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-04-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", "\"\<, \>\"", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", "\"\<, \>\"", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/may_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-05-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/jul_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-07-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/jul_15_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-07-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/aug_1_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-08-01\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"d", ",", "\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<~/Dropbox/Troy/Mobile Data \
+Modeling/20140930/aug_15_2014_respSizes.txt\>\"", ",", "\"\<List\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"pars", "=", 
+   RowBox[{"FindDistributionParameters", "[", 
+    RowBox[{"d", ",", 
+     RowBox[{"FrechetDistribution", "[", 
+      RowBox[{"\[Alpha]", ",", "\[Beta]", ",", "\[Mu]"}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"date", " ", "=", " ", "\"\<2014-08-15\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mstr", " ", "=", " ", 
+   RowBox[{"\"\<\>\"", "<>", "date", "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"2", ",", "2"}], "]"}], "]"}], "<>", 
+    RowBox[{"pars", "[", 
+     RowBox[{"[", 
+      RowBox[{"3", ",", "2"}], "]"}], "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"PutAppend", "[", 
+    RowBox[{"mstr", ",", "\"\<~/Desktop/values.txt\>\""}], "]"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.621167714828917*^9, 3.621167739164956*^9}, {
+  3.621167777801063*^9, 3.621168020515541*^9}, {3.621168080327845*^9, 
+  3.6211681123462667`*^9}, {3.6211681827519283`*^9, 3.6211682331204443`*^9}, {
+  3.621168398524218*^9, 3.621168486059935*^9}, {3.621168619981575*^9, 
+  3.621168683292169*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-01-15, \\\" <> 0.6869161165811191` <> \
+1617.729910010467` <> \\(\\((\\(-212.29478949353413`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211685511513777`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(3\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-01-15, \\\" <> 0.6869161165811191` <> \
+1617.729910010467` <> \\(\\((\\(-212.29478949353413`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168551192192*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-01-15, \\\" <> 0.6869161165811191` <> \
+1617.729910010467` <> \\(\\((\\(-212.29478949353413`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168551240634*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211685512415943`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-09-15, \\\" <> 0.6758729210155119` <> \\\", \\\" \
+<> 1864.4640718507835` <> \\\", \\\" <> \\(\\((\\(-236.78968656912556`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168690114419*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-09-15, \\\" <> 0.6758729210155119` <> \\\", \\\" \
+<> 1864.4640718507835` <> \\\", \\\" <> \\(\\((\\(-236.78968656912556`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168690152709*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-09-15, \\\" <> 0.6758729210155119` <> \\\", \\\" \
+<> 1864.4640718507835` <> \\\", \\\" <> \\(\\((\\(-236.78968656912556`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168690190794*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168690215391*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-01, \\\" <> 0.6740006936798396` <> \\\", \\\" \
+<> 1866.6348463451432` <> \\\", \\\" <> \\(\\((\\(-236.35159157537294`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168830484507*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-01, \\\" <> 0.6740006936798396` <> \\\", \\\" \
+<> 1866.6348463451432` <> \\\", \\\" <> \\(\\((\\(-236.35159157537294`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211688305231953`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-01, \\\" <> 0.6740006936798396` <> \\\", \\\" \
+<> 1866.6348463451432` <> \\\", \\\" <> \\(\\((\\(-236.35159157537294`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211688305620127`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211688305770893`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-15, \\\" <> 0.6615100923838894` <> \\\", \\\" \
+<> 1803.621788512478` <> \\\", \\\" <> \
+\\(\\((\\(-218.50326290839314`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211689719789867`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-15, \\\" <> 0.6615100923838894` <> \\\", \\\" \
+<> 1803.621788512478` <> \\\", \\\" <> \
+\\(\\((\\(-218.50326290839314`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211689720221987`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-10-15, \\\" <> 0.6615100923838894` <> \\\", \\\" \
+<> 1803.621788512478` <> \\\", \\\" <> \
+\\(\\((\\(-218.50326290839314`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621168972062063*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.62116897207685*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-01, \\\" <> 0.6641186456467988` <> \\\", \\\" \
+<> 1821.7044556729816` <> \\\", \\\" <> \\(\\((\\(-224.08902843126089`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211691123845797`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-01, \\\" <> 0.6641186456467988` <> \\\", \\\" \
+<> 1821.7044556729816` <> \\\", \\\" <> \\(\\((\\(-224.08902843126089`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169112426841*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-01, \\\" <> 0.6641186456467988` <> \\\", \\\" \
+<> 1821.7044556729816` <> \\\", \\\" <> \\(\\((\\(-224.08902843126089`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211691124668207`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169112481915*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-15, \\\" <> 0.663298968332945` <> \\\", \\\" \
+<> 1861.083382946258` <> \\\", \\\" <> \
+\\(\\((\\(-229.00773754964777`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169251411869*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-15, \\\" <> 0.663298968332945` <> \\\", \\\" \
+<> 1861.083382946258` <> \\\", \\\" <> \
+\\(\\((\\(-229.00773754964777`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169251450614*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-11-15, \\\" <> 0.663298968332945` <> \\\", \\\" \
+<> 1861.083382946258` <> \\\", \\\" <> \
+\\(\\((\\(-229.00773754964777`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211692514894037`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169251505518*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-12-15, \\\" <> 0.647553326876367` <> \\\", \\\" \
+<> 1782.8699130923487` <> \\\", \\\" <> \
+\\(\\((\\(-207.5970219754583`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211693873406067`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-12-15, \\\" <> 0.647553326876367` <> \\\", \\\" \
+<> 1782.8699130923487` <> \\\", \\\" <> \
+\\(\\((\\(-207.5970219754583`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211693873782787`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2013-12-15, \\\" <> 0.647553326876367` <> \\\", \\\" \
+<> 1782.8699130923487` <> \\\", \\\" <> \
+\\(\\((\\(-207.5970219754583`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169387415937*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169387432279*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-01, \\\" <> 0.6632178298450171` <> \\\", \\\" \
+<> 1891.896648802797` <> \\\", \\\" <> \\(\\((\\(-233.793881827545`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169526461266*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-01, \\\" <> 0.6632178298450171` <> \\\", \\\" \
+<> 1891.896648802797` <> \\\", \\\" <> \\(\\((\\(-233.793881827545`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211695264985*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-01, \\\" <> 0.6632178298450171` <> \\\", \\\" \
+<> 1891.896648802797` <> \\\", \\\" <> \\(\\((\\(-233.793881827545`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169526535005*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169526548649*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-15, \\\" <> 0.6705234481138528` <> \\\", \\\" \
+<> 1912.9427729711226` <> \\\", \\\" <> \\(\\((\\(-243.65623054871284`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211696715431337`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-15, \\\" <> 0.6705234481138528` <> \\\", \\\" \
+<> 1912.9427729711226` <> \\\", \\\" <> \\(\\((\\(-243.65623054871284`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169671585318*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-01-15, \\\" <> 0.6705234481138528` <> \\\", \\\" \
+<> 1912.9427729711226` <> \\\", \\\" <> \\(\\((\\(-243.65623054871284`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169671626192*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211696716408663`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-01, \\\" <> 0.6571048379694046` <> \\\", \\\" \
+<> 1831.271016502798` <> \\\", \\\" <> \
+\\(\\((\\(-220.45017264974635`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169818565346*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-01, \\\" <> 0.6571048379694046` <> \\\", \\\" \
+<> 1831.271016502798` <> \\\", \\\" <> \
+\\(\\((\\(-220.45017264974635`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169818607215*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-01, \\\" <> 0.6571048379694046` <> \\\", \\\" \
+<> 1831.271016502798` <> \\\", \\\" <> \
+\\(\\((\\(-220.45017264974635`\\))\\)\\)\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169818647695*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621169818662766*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-15, \\\" <> 0.6634602730583458` <> \\\", \\\" \
+<> 1876.6866379826247` <> \\\", \\\" <> \\(\\((\\(-231.87448398605733`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211699548388367`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-15, \\\" <> 0.6634602730583458` <> \\\", \\\" \
+<> 1876.6866379826247` <> \\\", \\\" <> \\(\\((\\(-231.87448398605733`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211699548821707`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-02-15, \\\" <> 0.6634602730583458` <> \\\", \\\" \
+<> 1876.6866379826247` <> \\\", \\\" <> \\(\\((\\(-231.87448398605733`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211699549243107`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211699549383698`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-03-01, \\\" <> 0.6610274123183865` <> \\\", \\\" \
+<> 1866.3498376370765` <> \\\", \\\" <> \\(\\((\\(-229.02808936810825`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170084977244*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-03-01, \\\" <> 0.6610274123183865` <> \\\", \\\" \
+<> 1866.3498376370765` <> \\\", \\\" <> \\(\\((\\(-229.02808936810825`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170085014744*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-03-01, \\\" <> 0.6610274123183865` <> \\\", \\\" \
+<> 1866.3498376370765` <> \\\", \\\" <> \\(\\((\\(-229.02808936810825`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211700850545273`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170085068721*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-01, \\\" <> 0.6429483650106687` <> \\\", \\\" \
+<> 1815.0131314800808` <> \\\", \\\" <> \\(\\((\\(-205.89274097710484`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211702295260963`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-01, \\\" <> 0.6429483650106687` <> \\\", \\\" \
+<> 1815.0131314800808` <> \\\", \\\" <> \\(\\((\\(-205.89274097710484`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170229563501*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-01, \\\" <> 0.6429483650106687` <> \\\", \\\" \
+<> 1815.0131314800808` <> \\\", \\\" <> \\(\\((\\(-205.89274097710484`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170229600753*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170229614401*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-15, \\\" <> 0.6402570934622343` <> \\\", \\\" \
+<> 1797.0923104961157` <> \\\", \\\" <> \\(\\((\\(-201.26386072228138`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211703692566757`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-15, \\\" <> 0.6402570934622343` <> \\\", \\\" \
+<> 1797.0923104961157` <> \\\", \\\" <> \\(\\((\\(-201.26386072228138`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170369294142*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-04-15, \\\" <> 0.6402570934622343` <> \\\", \\\" \
+<> 1797.0923104961157` <> \\\", \\\" <> \\(\\((\\(-201.26386072228138`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.62117036933118*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211703693452597`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-05-01, \\\" <> 0.635665748775347` <> \\\", \\\" \
+<> 1788.2044733310781` <> \\\", \\\" <> \\(\\((\\(-197.75861316477366`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170511377676*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-05-01, \\\" <> 0.635665748775347` <> \\\", \\\" \
+<> 1788.2044733310781` <> \\\", \\\" <> \\(\\((\\(-197.75861316477366`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170511415303*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-05-01, \\\" <> 0.635665748775347` <> \\\", \\\" \
+<> 1788.2044733310781` <> \\\", \\\" <> \\(\\((\\(-197.75861316477366`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211705114528103`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170511467167*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-01, \\\" <> 0.6161980544060375` <> \\\", \\\" \
+<> 1730.1616756343344` <> \\\", \\\" <> \\(\\((\\(-174.48074843892044`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170650373605*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-01, \\\" <> 0.6161980544060375` <> \\\", \\\" \
+<> 1730.1616756343344` <> \\\", \\\" <> \\(\\((\\(-174.48074843892044`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170650411682*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-01, \\\" <> 0.6161980544060375` <> \\\", \\\" \
+<> 1730.1616756343344` <> \\\", \\\" <> \\(\\((\\(-174.48074843892044`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211706504502583`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170650465023*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-15, \\\" <> 0.62110975159617` <> \\\", \\\" <> \
+1786.8983773800962` <> \\\", \\\" <> \\(\\((\\(-184.60905066859004`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170794717607*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-15, \\\" <> 0.62110975159617` <> \\\", \\\" <> \
+1786.8983773800962` <> \\\", \\\" <> \\(\\((\\(-184.60905066859004`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170794754607*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-07-15, \\\" <> 0.62110975159617` <> \\\", \\\" <> \
+1786.8983773800962` <> \\\", \\\" <> \\(\\((\\(-184.60905066859004`\\))\\)\\)\
+\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170794791712*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.62117079480554*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-01, \\\" <> 0.6127337552236218` <> \\\", \\\" \
+<> 1729.9695868201725` <> \\\", \\\" <> \
+\\(\\((\\(-171.3542810185019`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.62117094595464*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-01, \\\" <> 0.6127337552236218` <> \\\", \\\" \
+<> 1729.9695868201725` <> \\\", \\\" <> \
+\\(\\((\\(-171.3542810185019`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170945998002*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-01, \\\" <> 0.6127337552236218` <> \\\", \\\" \
+<> 1729.9695868201725` <> \\\", \\\" <> \
+\\(\\((\\(-171.3542810185019`\\))\\)\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211709460408983`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621170946055279*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(2\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-15, \\\" <> 0.6029168684771296` <> \\\", \\\" \
+<> 1666.5681683823393` <> \\\", \\\" <> \\(\\((\\(-157.26992956731291`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211710933124533`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(4\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-15, \\\" <> 0.6029168684771296` <> \\\", \\\" \
+<> 1666.5681683823393` <> \\\", \\\" <> \\(\\((\\(-157.26992956731291`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621171093356207*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"StringJoin", "::", "string"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"String expected at position \[NoBreak]\\!\\(6\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\\"2014-08-15, \\\" <> 0.6029168684771296` <> \\\", \\\" \
+<> 1666.5681683823393` <> \\\", \\\" <> \\(\\((\\(-157.26992956731291`\\))\\)\
+\\)\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/StringJoin\\\", ButtonNote -> \
+\\\"StringJoin::string\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.621171093398747*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[\\(StringJoin :: string\\), \
+\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
+ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6211710934136744`*^9}]
+}, Open  ]]
+},
+WindowSize->{1280, 1347},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 25402, 727, 2409, "Input"],
+Cell[25984, 751, 587, 11, 24, "Message"],
+Cell[26574, 764, 585, 11, 24, "Message"],
+Cell[27162, 777, 585, 11, 24, "Message"],
+Cell[27750, 790, 537, 11, 24, "Message"],
+Cell[28290, 803, 616, 12, 24, "Message"],
+Cell[28909, 817, 616, 12, 24, "Message"],
+Cell[29528, 831, 616, 12, 24, "Message"],
+Cell[30147, 845, 535, 11, 24, "Message"],
+Cell[30685, 858, 616, 12, 24, "Message"],
+Cell[31304, 872, 618, 12, 24, "Message"],
+Cell[31925, 886, 618, 12, 24, "Message"],
+Cell[32546, 900, 537, 11, 24, "Message"],
+Cell[33086, 913, 617, 12, 24, "Message"],
+Cell[33706, 927, 617, 12, 24, "Message"],
+Cell[34326, 941, 615, 12, 24, "Message"],
+Cell[34944, 955, 534, 11, 24, "Message"],
+Cell[35481, 968, 618, 12, 24, "Message"],
+Cell[36102, 982, 616, 12, 24, "Message"],
+Cell[36721, 996, 618, 12, 24, "Message"],
+Cell[37342, 1010, 535, 11, 24, "Message"],
+Cell[37880, 1023, 614, 12, 24, "Message"],
+Cell[38497, 1037, 614, 12, 24, "Message"],
+Cell[39114, 1051, 616, 12, 24, "Message"],
+Cell[39733, 1065, 535, 11, 24, "Message"],
+Cell[40271, 1078, 616, 12, 24, "Message"],
+Cell[40890, 1092, 616, 12, 24, "Message"],
+Cell[41509, 1106, 614, 12, 24, "Message"],
+Cell[42126, 1120, 535, 11, 24, "Message"],
+Cell[42664, 1133, 613, 12, 24, "Message"],
+Cell[43280, 1147, 611, 12, 24, "Message"],
+Cell[43894, 1161, 613, 12, 24, "Message"],
+Cell[44510, 1175, 535, 11, 24, "Message"],
+Cell[45048, 1188, 618, 12, 24, "Message"],
+Cell[45669, 1202, 616, 12, 24, "Message"],
+Cell[46288, 1216, 616, 12, 24, "Message"],
+Cell[46907, 1230, 537, 11, 24, "Message"],
+Cell[47447, 1243, 615, 12, 24, "Message"],
+Cell[48065, 1257, 615, 12, 24, "Message"],
+Cell[48683, 1271, 615, 12, 24, "Message"],
+Cell[49301, 1285, 535, 11, 24, "Message"],
+Cell[49839, 1298, 618, 12, 24, "Message"],
+Cell[50460, 1312, 618, 12, 24, "Message"],
+Cell[51081, 1326, 618, 12, 24, "Message"],
+Cell[51702, 1340, 537, 11, 24, "Message"],
+Cell[52242, 1353, 616, 12, 24, "Message"],
+Cell[52861, 1367, 616, 12, 24, "Message"],
+Cell[53480, 1381, 618, 12, 24, "Message"],
+Cell[54101, 1395, 535, 11, 24, "Message"],
+Cell[54639, 1408, 618, 12, 24, "Message"],
+Cell[55260, 1422, 616, 12, 24, "Message"],
+Cell[55879, 1436, 616, 12, 24, "Message"],
+Cell[56498, 1450, 535, 11, 24, "Message"],
+Cell[57036, 1463, 618, 12, 24, "Message"],
+Cell[57657, 1477, 616, 12, 24, "Message"],
+Cell[58276, 1491, 615, 12, 24, "Message"],
+Cell[58894, 1505, 537, 11, 24, "Message"],
+Cell[59434, 1518, 615, 12, 24, "Message"],
+Cell[60052, 1532, 615, 12, 24, "Message"],
+Cell[60670, 1546, 617, 12, 24, "Message"],
+Cell[61290, 1560, 535, 11, 24, "Message"],
+Cell[61828, 1573, 616, 12, 24, "Message"],
+Cell[62447, 1587, 616, 12, 24, "Message"],
+Cell[63066, 1601, 618, 12, 24, "Message"],
+Cell[63687, 1615, 535, 11, 24, "Message"],
+Cell[64225, 1628, 614, 12, 24, "Message"],
+Cell[64842, 1642, 614, 12, 24, "Message"],
+Cell[65459, 1656, 614, 12, 24, "Message"],
+Cell[66076, 1670, 534, 11, 24, "Message"],
+Cell[66613, 1683, 614, 12, 24, "Message"],
+Cell[67230, 1697, 615, 12, 24, "Message"],
+Cell[67848, 1711, 617, 12, 24, "Message"],
+Cell[68468, 1725, 535, 11, 24, "Message"],
+Cell[69006, 1738, 618, 12, 24, "Message"],
+Cell[69627, 1752, 616, 12, 24, "Message"],
+Cell[70246, 1766, 616, 12, 24, "Message"],
+Cell[70865, 1780, 537, 11, 24, "Message"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

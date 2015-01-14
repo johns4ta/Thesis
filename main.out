@@ -49,6 +49,29 @@
 \BOOKMARK [2][-]{section*.76}{Caching of Web Page Objects}{section*.69}% 49
 \BOOKMARK [1][-]{section*.78}{Implications}{chapter.5}% 50
 \BOOKMARK [1][-]{section*.79}{Conclusion}{chapter.5}% 51
-\BOOKMARK [0][-]{chapter.6}{CONCLUSION}{}% 52
-\BOOKMARK [1][-]{section*.80}{Future Work}{chapter.6}% 53
-\BOOKMARK [0][-]{chapter*.81}{REFERENCES}{}% 54
+\BOOKMARK [0][-]{chapter.6}{Modeling Landing Page Characteristics for Mobile Web Access Performance Evaluations on Object and Page Levels}{}% 52
+\BOOKMARK [1][-]{section*.80}{Introduction}{chapter.6}% 53
+\BOOKMARK [1][-]{section*.81}{Web Page data sets}{chapter.6}% 54
+\BOOKMARK [1][-]{section*.82}{Summary of Data Set Characteristics}{chapter.6}% 55
+\BOOKMARK [2][-]{section*.84}{Evaluation of Object\205 and Page level Dependencies}{section*.82}% 56
+\BOOKMARK [2][-]{section*.84}{Evaluation of Object\205 and Page level Dependencies}{section*.82}% 57
+\BOOKMARK [1][-]{section.6.1}{Object\205Level Modeling}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.1}{Object\205Level Modeling}{chapter.6}% 59
+\BOOKMARK [2][-]{section*.86}{Object Sizes}{section.6.1}% 60
+\BOOKMARK [2][-]{section*.86}{Object Sizes}{section.6.1}% 61
+\BOOKMARK [2][-]{section*.87}{Object Expiration Ages}{section.6.1}% 62
+\BOOKMARK [2][-]{section*.87}{Object Expiration Ages}{section.6.1}% 63
+\BOOKMARK [1][-]{section.6.2}{Page\205Level Modeling}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.2}{Page\205Level Modeling}{chapter.6}% 65
+\BOOKMARK [2][-]{section*.91}{Number of Objects per Page}{section.6.2}% 66
+\BOOKMARK [2][-]{section*.91}{Number of Objects per Page}{section.6.2}% 67
+\BOOKMARK [2][-]{section*.92}{Average Mobile Web Page Size}{section.6.2}% 68
+\BOOKMARK [2][-]{section*.92}{Average Mobile Web Page Size}{section.6.2}% 69
+\BOOKMARK [2][-]{section*.93}{Average Mobile Web Page Expirations}{section.6.2}% 70
+\BOOKMARK [1][-]{section.6.3}{Evaluation}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.3}{Evaluation}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.4}{Conclusion}{chapter.6}% 74
+\BOOKMARK [0][-]{chapter.7}{CONCLUSION}{}% 75
+\BOOKMARK [1][-]{section*.99}{Future Work}{chapter.7}% 76
+\BOOKMARK [0][-]{chapter*.100}{REFERENCES}{}% 77

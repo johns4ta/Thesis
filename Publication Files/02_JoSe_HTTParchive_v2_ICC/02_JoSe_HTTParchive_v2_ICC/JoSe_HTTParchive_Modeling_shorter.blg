@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_1)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: JoSe_HTTParchive_Modeling_shorter.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: content.bib
+Warning--I'm ignoring ShKuDaWa05's extra "month" field
+--line 104 of file content.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in VNI14
+
+Done.
+You've used 12 entries,
+            4039 wiz_defined-function locations,
+            896 strings with 9811 characters,
+and the built_in function-call counts, 10076 in all, are:
+= -- 786
+> -- 225
+< -- 91
++ -- 122
+- -- 35
+* -- 504
+:= -- 1434
+add.period$ -- 24
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 222
+cite$ -- 13
+duplicate$ -- 721
+empty$ -- 857
+format.name$ -- 46
+if$ -- 2338
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 127
+newline$ -- 59
+num.names$ -- 12
+pop$ -- 302
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 745
+stack$ -- 0
+substring$ -- 530
+swap$ -- 604
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 12
+warning$ -- 1
+while$ -- 56
+width$ -- 14
+write$ -- 135
+(There were 2 warnings)

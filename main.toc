@@ -51,6 +51,38 @@
 \contentsline {subsection}{Caching of Web Page Objects}{56}{section*.76}
 \contentsline {section}{Implications}{57}{section*.78}
 \contentsline {section}{Conclusion}{59}{section*.79}
-\contentsline {chapter}{\chapternumberline {VI}CONCLUSION}{61}{chapter.6}
-\contentsline {subsection}{Future Work}{61}{section*.80}
-\contentsline {chapter}{REFERENCES}{62}{chapter*.81}
+\contentsline {chapter}{\chapternumberline {VI}Modeling Landing Page Characteristics for Mobile Web Access Performance Evaluations on Object and Page Levels}{61}{chapter.6}
+\contentsline {section}{Introduction}{61}{section*.80}
+\contentsline {section}{Web Page data sets}{62}{section*.81}
+\contentsline {section}{Summary of Data Set Characteristics}{63}{section*.82}
+\contentsline {subsection}{Evaluation of Object-- and Page level Dependencies}{64}{section*.84}
+\contentsline {subsection}{Evaluation of Object-- and Page level Dependencies}{64}{section*.84}
+\contentsline {section}{\numberline {VI.1}Object--Level Modeling}{65}{section.6.1}
+\contentsline {section}{Object--Level Modeling}{65}{section.6.1}
+\contentsline {subsection}{Object Sizes}{66}{section*.86}
+\contentsline {subsection}{Object Sizes}{66}{section*.86}
+\contentsline {subsection}{Object Expiration Ages}{66}{section*.87}
+\contentsline {subsection}{Object Expiration Ages}{66}{section*.87}
+\contentsline {section}{\numberline {VI.2}Page--Level Modeling}{68}{section.6.2}
+\contentsline {section}{Page--Level Modeling}{68}{section.6.2}
+\contentsline {subsection}{Number of Objects per Page}{68}{section*.91}
+\contentsline {subsection}{Number of Objects per Page}{68}{section*.91}
+\contentsline {subsection}{Average Mobile Web Page Size}{69}{section*.92}
+\contentsline {subsection}{Average Mobile Web Page Size}{69}{section*.92}
+\contentsline {subsection}{Average Mobile Web Page Expirations}{71}{section*.93}
+\contentsline {subsubsection}{Average Mobile Web Page Expirations}{71}{section*.93}
+\contentsline {subsubsection}{Current Pages}{71}{section*.94}
+\contentsline {subsubsection}{Current Pages}{71}{section*.94}
+\contentsline {subsubsection}{Short--lived Pages}{71}{section*.95}
+\contentsline {subsubsection}{Short--lived Pages}{71}{section*.95}
+\contentsline {subsubsection}{Medium-lived Pages}{72}{section*.96}
+\contentsline {subsubsection}{Medium-lived Pages}{72}{section*.96}
+\contentsline {subsubsection}{Regular Pages}{72}{section*.97}
+\contentsline {subsubsection}{Regular Pages}{72}{section*.97}
+\contentsline {section}{\numberline {VI.3}Evaluation}{74}{section.6.3}
+\contentsline {section}{Evaluation}{74}{section.6.3}
+\contentsline {section}{\numberline {VI.4}Conclusion}{75}{section.6.4}
+\contentsline {section}{Conclusion}{75}{section.6.4}
+\contentsline {chapter}{\chapternumberline {VII}CONCLUSION}{76}{chapter.7}
+\contentsline {subsection}{Future Work}{76}{section*.99}
+\contentsline {chapter}{REFERENCES}{77}{chapter*.100}

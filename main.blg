@@ -30,15 +30,88 @@ Repeated entry---line 504 of file main.bib
  : @inproceedings{ThAgNiBoSi12
  :                            ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 532 of file main.bib
+ : @inproceedings{Wang:2012ks
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 542 of file main.bib
+ : @inproceedings{Marquez:2008wf
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 554 of file main.bib
+ : @inproceedings{Qian:2014dw
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 589 of file main.bib
+ : @inproceedings{Se13
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 600 of file main.bib
+ : @inproceedings{ThChWo13
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 612 of file main.bib
+ : @article{ShKuDaWa05
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 628 of file main.bib
+ : @inproceedings{SaIs02
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 640 of file main.bib
+ : @inproceedings{QiWaGaHuGe12
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 652 of file main.bib
+ : @inproceedings{BaBaVe09
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 664 of file main.bib
+ : @inproceedings{XiHuSaYl11
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 676 of file main.bib
+ : @article{BuMaSe13
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 692 of file main.bib
+ : @inproceedings{IhPa11
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 704 of file main.bib
+ : @inproceedings{ThAgNiBoSi12
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 716 of file main.bib
+ : @article{Me13
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 742 of file main.bib
+ : @inproceedings{PeFiWi11
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 753 of file main.bib
+ : @article{AnCoGrPa03
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 765 of file main.bib
+ : @article{KrTeSh06
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 779 of file main.bib
+ : @article{JoSe14Commag
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--empty institution in VNI14
 Warning--empty institution in rfc1928
 Warning--empty institution in Ci13
+Warning--there's a month but no year in Qian:2014dw
 
 Here's how much of BibTeX's memory you used:
- Cites:                32 out of 750
- Fields:              725 out of 5000
- Hash table:         4828 out of 5000
- Strings:             670 out of 4000
- Free string pool:   9531 out of 65000
+ Cites:                36 out of 750
+ Fields:              817 out of 5000
+ Hash table:         4822 out of 5000
+ Strings:             696 out of 4000
+ Free string pool:  10508 out of 65000
  Wizard functions:   1791 out of 3000
-(There were 4 error messages)
+(There were 22 error messages)

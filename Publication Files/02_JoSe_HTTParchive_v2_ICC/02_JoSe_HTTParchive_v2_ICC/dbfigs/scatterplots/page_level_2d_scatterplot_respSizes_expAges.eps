@@ -1,0 +1,5526 @@
+%!PS-Adobe-2.0
+%%Title: page_level_2d_scatterplot_respSizes_expAges.eps
+%%Creator: gnuplot 4.6 patchlevel 3
+%%CreationDate: Thu Oct 09 09:29:56 2014
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -80 def
+/dl1 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 4.6 (September 2012)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Default Line colors
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default Line Types
+/LTw {PL [] 1 setgray} def
+/LTb {BL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+ 2 lt
+	{/InterpretLevel1 true def}
+	{/InterpretLevel1 Level1 def}
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (page_level_2d_scatterplot_respSizes_expAges.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.6 patchlevel 3)
+  /Author (johns4ta)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Oct 09 09:29:56 2014)
+  /DOCINFO pdfmark
+end
+} ifelse
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 240 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 768 M
+5159 0 V
+stroke
+LTb
+1608 768 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 768 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 0)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 1360 M
+5159 0 V
+stroke
+LTb
+1608 1360 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 1360 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 100000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 1952 M
+5159 0 V
+stroke
+LTb
+1608 1952 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 1952 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 200000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 2544 M
+5159 0 V
+stroke
+LTb
+1608 2544 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 2544 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 300000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 3135 M
+5159 0 V
+stroke
+LTb
+1608 3135 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 3135 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 400000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 3727 M
+5159 0 V
+stroke
+LTb
+1608 3727 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 3727 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 500000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 4319 M
+5159 0 V
+stroke
+LTb
+1608 4319 M
+63 0 V
+5096 0 R
+-63 0 V
+stroke
+1464 4319 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 600000)]
+] -80.0 MRshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+1608 768 M
+0 3551 V
+stroke
+LTb
+1608 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+1608 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 0)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+2468 768 M
+0 3551 V
+stroke
+LTb
+2468 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+2468 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 50)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+3328 768 M
+0 3551 V
+stroke
+LTb
+3328 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+3328 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 100)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+4187 768 M
+0 3551 V
+stroke
+LTb
+4187 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+4187 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 150)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+5047 768 M
+0 3551 V
+stroke
+LTb
+5047 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+5047 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 200)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+5907 768 M
+0 3488 V
+0 63 V
+stroke
+LTb
+5907 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+5907 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 250)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTa
+6767 768 M
+0 3551 V
+stroke
+LTb
+6767 768 M
+0 63 V
+0 3488 R
+0 -63 V
+stroke
+6767 528 M
+[ [(Helvetica) 240.0 0.0 true true 0 ( 300)]
+] -80.0 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTb
+1608 4319 N
+0 -3551 V
+5159 0 V
+0 3551 V
+-5159 0 V
+Z stroke
+LCb setrgbcolor
+192 2543 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 240.0 0.0 true true 0 (Expiration Age [s])]
+] -80.0 MCshow
+grestore
+LTb
+LCb setrgbcolor
+4187 168 M
+[ [(Helvetica) 240.0 0.0 true true 0 (Response Size [kb])]
+] -80.0 MCshow
+LTb
+4187 4679 M
+[ [(Helvetica) 240.0 0.0 true true 0 (RespSize vs ExpAge Scatterplot)]
+] -80.0 MCshow
+1.000 UP
+1.000 UL
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LT0
+2189 768 Pls
+1628 768 Pls
+1849 768 Pls
+1636 768 Pls
+1625 768 Pls
+1731 938 Pls
+1689 768 Pls
+1708 951 Pls
+1694 864 Pls
+1879 931 Pls
+1655 768 Pls
+1642 768 Pls
+1623 768 Pls
+1718 768 Pls
+1626 843 Pls
+1652 1769 Pls
+1762 2558 Pls
+1646 768 Pls
+2194 768 Pls
+1784 1279 Pls
+1773 775 Pls
+1729 819 Pls
+1740 2993 Pls
+2067 773 Pls
+2199 768 Pls
+2197 768 Pls
+1683 768 Pls
+2195 768 Pls
+1658 1000 Pls
+2202 768 Pls
+2196 768 Pls
+2081 776 Pls
+3207 1060 Pls
+1777 918 Pls
+1781 790 Pls
+1643 768 Pls
+1685 832 Pls
+1755 973 Pls
+2194 768 Pls
+1631 870 Pls
+1713 859 Pls
+2198 768 Pls
+2209 768 Pls
+1825 768 Pls
+1752 819 Pls
+1646 879 Pls
+1659 1109 Pls
+1624 768 Pls
+1715 2440 Pls
+1745 806 Pls
+2195 768 Pls
+1743 810 Pls
+1699 821 Pls
+1720 1041 Pls
+1636 768 Pls
+1695 1054 Pls
+1688 1748 Pls
+1672 826 Pls
+1687 768 Pls
+2085 768 Pls
+1672 768 Pls
+1721 768 Pls
+2203 768 Pls
+1743 1250 Pls
+1694 819 Pls
+1666 1407 Pls
+1666 829 Pls
+1699 768 Pls
+1728 846 Pls
+1954 1131 Pls
+1652 992 Pls
+1655 768 Pls
+2194 768 Pls
+2225 768 Pls
+1689 2257 Pls
+1649 768 Pls
+2194 768 Pls
+1666 788 Pls
+2256 771 Pls
+1731 1074 Pls
+1762 949 Pls
+1687 956 Pls
+2311 1056 Pls
+1975 1285 Pls
+1719 1370 Pls
+1732 768 Pls
+1696 1183 Pls
+1838 4027 Pls
+1694 805 Pls
+2140 892 Pls
+1757 965 Pls
+1712 3738 Pls
+1826 811 Pls
+1768 1142 Pls
+1914 1215 Pls
+1673 811 Pls
+1717 862 Pls
+1771 1289 Pls
+1711 843 Pls
+1708 772 Pls
+1660 768 Pls
+1658 1082 Pls
+1705 853 Pls
+2200 768 Pls
+2198 768 Pls
+2295 2686 Pls
+1697 805 Pls
+2195 768 Pls
+1790 899 Pls
+1870 883 Pls
+1909 768 Pls
+1702 1013 Pls
+2195 768 Pls
+2760 884 Pls
+1668 822 Pls
+1851 1473 Pls
+1673 819 Pls
+1770 1148 Pls
+1777 768 Pls
+2332 768 Pls
+1765 824 Pls
+2196 768 Pls
+1676 823 Pls
+1741 800 Pls
+1656 787 Pls
+1798 885 Pls
+1661 870 Pls
+1745 853 Pls
+1696 827 Pls
+1708 1245 Pls
+1696 807 Pls
+1867 850 Pls
+1716 896 Pls
+1656 805 Pls
+1666 800 Pls
+1674 1563 Pls
+1789 925 Pls
+2191 768 Pls
+2197 768 Pls
+1620 938 Pls
+1645 768 Pls
+1694 829 Pls
+2211 768 Pls
+1708 869 Pls
+1739 1078 Pls
+1686 780 Pls
+1707 875 Pls
+1637 768 Pls
+1711 1615 Pls
+1720 819 Pls
+1660 833 Pls
+1666 853 Pls
+1776 2615 Pls
+2202 768 Pls
+1784 1386 Pls
+1718 821 Pls
+1849 796 Pls
+1685 853 Pls
+1750 808 Pls
+1940 777 Pls
+1773 1426 Pls
+1675 768 Pls
+1681 955 Pls
+1668 1037 Pls
+1773 786 Pls
+1689 832 Pls
+1856 796 Pls
+1703 819 Pls
+2201 768 Pls
+1971 1471 Pls
+1917 768 Pls
+1741 796 Pls
+1843 777 Pls
+2225 768 Pls
+1797 1913 Pls
+1894 1499 Pls
+1830 784 Pls
+1995 826 Pls
+2205 768 Pls
+1691 1316 Pls
+1880 768 Pls
+1624 1024 Pls
+1858 997 Pls
+1773 1492 Pls
+2155 1411 Pls
+1790 952 Pls
+2203 768 Pls
+1682 777 Pls
+1741 768 Pls
+1851 1069 Pls
+1671 867 Pls
+1740 778 Pls
+1701 1115 Pls
+1708 863 Pls
+2200 768 Pls
+1682 811 Pls
+1882 916 Pls
+1789 803 Pls
+1659 853 Pls
+2199 768 Pls
+1690 1066 Pls
+2090 838 Pls
+2202 768 Pls
+1698 1535 Pls
+1752 1930 Pls
+1657 768 Pls
+1632 1880 Pls
+1871 828 Pls
+1698 954 Pls
+2390 1791 Pls
+1727 773 Pls
+1880 787 Pls
+1678 1337 Pls
+1669 768 Pls
+2457 1168 Pls
+1784 863 Pls
+1729 771 Pls
+2208 768 Pls
+1697 852 Pls
+1679 811 Pls
+1679 768 Pls
+1812 768 Pls
+1718 800 Pls
+2196 768 Pls
+2199 768 Pls
+1868 781 Pls
+1725 1031 Pls
+1652 887 Pls
+1669 796 Pls
+1786 2012 Pls
+1676 814 Pls
+1645 1279 Pls
+1687 775 Pls
+1801 3575 Pls
+2186 3930 Pls
+1785 802 Pls
+1711 1150 Pls
+1719 3771 Pls
+2201 768 Pls
+1682 2998 Pls
+1690 768 Pls
+2203 768 Pls
+1627 768 Pls
+1756 771 Pls
+1739 1243 Pls
+1662 768 Pls
+1764 780 Pls
+2200 768 Pls
+1676 1366 Pls
+1711 805 Pls
+1894 768 Pls
+2087 774 Pls
+1737 1863 Pls
+2204 768 Pls
+1879 1301 Pls
+1990 1062 Pls
+1683 984 Pls
+1665 1143 Pls
+1729 804 Pls
+1692 1535 Pls
+1743 870 Pls
+1840 2026 Pls
+2210 768 Pls
+1803 800 Pls
+1614 768 Pls
+2198 768 Pls
+1956 819 Pls
+1666 873 Pls
+1761 2070 Pls
+1750 792 Pls
+1805 1390 Pls
+1839 1150 Pls
+1769 3101 Pls
+1856 823 Pls
+1671 1174 Pls
+2009 1187 Pls
+1781 1088 Pls
+2240 963 Pls
+1680 1046 Pls
+1802 784 Pls
+1804 777 Pls
+1725 811 Pls
+2184 784 Pls
+1946 845 Pls
+2199 768 Pls
+1703 812 Pls
+1956 1342 Pls
+1910 785 Pls
+1927 1116 Pls
+1691 768 Pls
+2305 768 Pls
+1693 807 Pls
+1800 784 Pls
+1718 930 Pls
+1783 1875 Pls
+1742 812 Pls
+2162 841 Pls
+1828 768 Pls
+1732 773 Pls
+1735 801 Pls
+2157 781 Pls
+1922 768 Pls
+1843 826 Pls
+1778 768 Pls
+1718 1097 Pls
+1793 808 Pls
+1794 771 Pls
+1777 800 Pls
+1906 768 Pls
+1773 863 Pls
+1613 768 Pls
+1756 811 Pls
+1652 768 Pls
+1729 2228 Pls
+1705 789 Pls
+1806 1147 Pls
+2197 768 Pls
+1709 1052 Pls
+1705 774 Pls
+1953 1382 Pls
+1890 880 Pls
+1958 774 Pls
+1689 2257 Pls
+1655 831 Pls
+1656 805 Pls
+1855 776 Pls
+1813 772 Pls
+1710 1697 Pls
+1812 1764 Pls
+1754 796 Pls
+1755 1097 Pls
+1700 824 Pls
+1730 1586 Pls
+1714 835 Pls
+1699 835 Pls
+1732 1087 Pls
+1813 3006 Pls
+1650 768 Pls
+2193 768 Pls
+1857 1137 Pls
+1928 773 Pls
+1854 801 Pls
+1662 807 Pls
+1833 2590 Pls
+1779 1049 Pls
+1775 773 Pls
+1727 823 Pls
+1648 768 Pls
+2524 770 Pls
+2195 768 Pls
+1904 768 Pls
+1778 791 Pls
+1661 768 Pls
+1688 780 Pls
+1656 768 Pls
+1703 1127 Pls
+1671 853 Pls
+1657 807 Pls
+2195 768 Pls
+1801 1250 Pls
+1618 768 Pls
+1686 1063 Pls
+2022 768 Pls
+1795 935 Pls
+1934 808 Pls
+2181 2790 Pls
+1657 795 Pls
+1641 827 Pls
+1807 856 Pls
+2201 768 Pls
+1851 772 Pls
+2191 768 Pls
+1700 845 Pls
+1683 2512 Pls
+1690 2862 Pls
+2273 824 Pls
+1944 1685 Pls
+1665 902 Pls
+2228 1057 Pls
+1769 769 Pls
+1907 835 Pls
+1700 768 Pls
+1919 1135 Pls
+1825 782 Pls
+1710 870 Pls
+1676 994 Pls
+1808 3900 Pls
+2017 801 Pls
+1704 772 Pls
+1722 774 Pls
+1981 776 Pls
+2142 1140 Pls
+1761 797 Pls
+1750 855 Pls
+1711 1025 Pls
+1763 772 Pls
+2201 768 Pls
+1939 768 Pls
+1771 959 Pls
+2066 768 Pls
+3274 768 Pls
+1809 3480 Pls
+1638 768 Pls
+1808 853 Pls
+1892 977 Pls
+2061 768 Pls
+1933 1084 Pls
+1753 772 Pls
+1699 980 Pls
+1708 768 Pls
+1681 788 Pls
+1742 822 Pls
+1742 1630 Pls
+1862 1092 Pls
+1769 1126 Pls
+1723 788 Pls
+1764 847 Pls
+1884 808 Pls
+1773 2823 Pls
+1712 898 Pls
+2195 768 Pls
+1801 801 Pls
+1760 819 Pls
+1880 800 Pls
+1666 771 Pls
+1704 1696 Pls
+1739 1449 Pls
+2043 851 Pls
+1717 1036 Pls
+4081 1279 Pls
+1855 796 Pls
+1647 841 Pls
+1661 814 Pls
+1636 768 Pls
+1701 832 Pls
+1876 2521 Pls
+1648 1623 Pls
+1750 768 Pls
+1974 948 Pls
+1677 942 Pls
+1712 768 Pls
+2141 940 Pls
+2435 788 Pls
+1779 891 Pls
+1731 771 Pls
+1751 1775 Pls
+1677 1520 Pls
+1737 874 Pls
+1623 768 Pls
+1670 799 Pls
+1824 1107 Pls
+1687 768 Pls
+1815 800 Pls
+1950 791 Pls
+1696 832 Pls
+1683 1282 Pls
+1703 769 Pls
+1741 1243 Pls
+1661 796 Pls
+1834 878 Pls
+2008 788 Pls
+1928 835 Pls
+1780 834 Pls
+1694 1155 Pls
+1769 855 Pls
+2069 864 Pls
+1706 1033 Pls
+1747 768 Pls
+2927 791 Pls
+1675 827 Pls
+1645 807 Pls
+1850 824 Pls
+1942 1108 Pls
+1887 812 Pls
+1688 1407 Pls
+1694 864 Pls
+2708 768 Pls
+1689 2257 Pls
+2146 771 Pls
+1681 832 Pls
+1792 820 Pls
+1645 768 Pls
+1973 996 Pls
+1990 891 Pls
+1828 2990 Pls
+1689 885 Pls
+1688 795 Pls
+1994 4013 Pls
+1852 3171 Pls
+1705 838 Pls
+2036 768 Pls
+1686 976 Pls
+1801 2190 Pls
+1673 1532 Pls
+1828 781 Pls
+2222 768 Pls
+1735 840 Pls
+1786 793 Pls
+1720 795 Pls
+1705 788 Pls
+1778 1298 Pls
+1900 787 Pls
+1852 786 Pls
+1738 768 Pls
+1702 768 Pls
+1762 791 Pls
+1669 776 Pls
+1832 773 Pls
+1656 771 Pls
+2263 771 Pls
+1708 2289 Pls
+1639 768 Pls
+1742 2998 Pls
+1815 1410 Pls
+1772 855 Pls
+1662 789 Pls
+1923 768 Pls
+1958 768 Pls
+1807 769 Pls
+1817 1124 Pls
+1667 768 Pls
+1805 1147 Pls
+1974 794 Pls
+1662 779 Pls
+1696 832 Pls
+1678 819 Pls
+1965 781 Pls
+1741 1137 Pls
+1673 775 Pls
+1732 1047 Pls
+1753 887 Pls
+1742 1648 Pls
+2037 833 Pls
+1683 850 Pls
+1749 2278 Pls
+1761 768 Pls
+2469 807 Pls
+1682 852 Pls
+1897 817 Pls
+1832 1340 Pls
+2189 805 Pls
+1938 3465 Pls
+2007 774 Pls
+2100 772 Pls
+2139 768 Pls
+1687 795 Pls
+1795 1001 Pls
+2056 3325 Pls
+1717 1007 Pls
+1653 917 Pls
+2552 3125 Pls
+1936 1382 Pls
+1872 768 Pls
+1759 1069 Pls
+1766 818 Pls
+1735 768 Pls
+1788 845 Pls
+1681 2162 Pls
+1693 2094 Pls
+1823 2655 Pls
+1766 779 Pls
+1673 785 Pls
+1772 806 Pls
+1742 1247 Pls
+1658 800 Pls
+1874 803 Pls
+1814 1040 Pls
+1942 789 Pls
+1715 1203 Pls
+1628 768 Pls
+1887 823 Pls
+1664 818 Pls
+1690 888 Pls
+1682 771 Pls
+1830 781 Pls
+1803 1128 Pls
+1719 837 Pls
+1737 805 Pls
+1884 783 Pls
+1815 3379 Pls
+1784 1046 Pls
+1723 840 Pls
+1665 832 Pls
+1677 811 Pls
+1750 811 Pls
+1730 813 Pls
+1689 2257 Pls
+1726 768 Pls
+1813 800 Pls
+1811 927 Pls
+1932 790 Pls
+2036 2217 Pls
+1787 867 Pls
+2450 1046 Pls
+1699 776 Pls
+1715 1002 Pls
+1629 987 Pls
+1662 844 Pls
+1717 1136 Pls
+1824 1654 Pls
+1727 1250 Pls
+1651 3521 Pls
+1719 1068 Pls
+1725 3670 Pls
+2073 768 Pls
+1689 890 Pls
+1824 1606 Pls
+1723 1101 Pls
+1997 847 Pls
+1758 1011 Pls
+2033 789 Pls
+1726 804 Pls
+2216 768 Pls
+1841 1421 Pls
+1706 777 Pls
+1705 806 Pls
+1684 768 Pls
+1722 768 Pls
+1694 2021 Pls
+1802 770 Pls
+1749 809 Pls
+1870 1005 Pls
+1669 791 Pls
+2218 768 Pls
+1802 798 Pls
+1954 1511 Pls
+1696 814 Pls
+1837 793 Pls
+1962 3374 Pls
+1658 2326 Pls
+1771 1062 Pls
+1699 876 Pls
+1739 1393 Pls
+1754 3587 Pls
+1729 819 Pls
+1839 770 Pls
+1768 768 Pls
+1682 824 Pls
+2392 3216 Pls
+1789 772 Pls
+1736 960 Pls
+1732 2916 Pls
+1622 768 Pls
+1825 820 Pls
+1637 2110 Pls
+1669 980 Pls
+2215 768 Pls
+1625 768 Pls
+1787 1042 Pls
+1782 2771 Pls
+1704 949 Pls
+1725 1007 Pls
+1695 997 Pls
+1769 786 Pls
+1708 792 Pls
+1697 2877 Pls
+1762 2558 Pls
+1995 768 Pls
+1822 788 Pls
+1732 938 Pls
+1704 768 Pls
+1684 768 Pls
+1720 849 Pls
+1832 3545 Pls
+1645 811 Pls
+1926 1160 Pls
+1880 1175 Pls
+1801 817 Pls
+1772 776 Pls
+1729 832 Pls
+1686 774 Pls
+1707 785 Pls
+2216 768 Pls
+1733 2916 Pls
+1649 896 Pls
+1623 768 Pls
+1770 806 Pls
+1868 1659 Pls
+1677 1705 Pls
+1820 1047 Pls
+2218 768 Pls
+1796 768 Pls
+1953 769 Pls
+1736 821 Pls
+2051 1416 Pls
+1803 850 Pls
+1714 1158 Pls
+2216 768 Pls
+1750 772 Pls
+2104 880 Pls
+1878 896 Pls
+1717 1215 Pls
+1751 802 Pls
+1805 769 Pls
+1707 2213 Pls
+1738 811 Pls
+1648 890 Pls
+2219 768 Pls
+2138 3481 Pls
+1882 2379 Pls
+1667 789 Pls
+1722 791 Pls
+1880 768 Pls
+2440 768 Pls
+1760 3394 Pls
+1833 1046 Pls
+1689 788 Pls
+1995 783 Pls
+1958 988 Pls
+1920 811 Pls
+1697 803 Pls
+1647 768 Pls
+1657 768 Pls
+1720 781 Pls
+1823 814 Pls
+1617 768 Pls
+1812 2268 Pls
+1681 924 Pls
+1841 808 Pls
+2091 1006 Pls
+1761 3209 Pls
+1667 1108 Pls
+1829 810 Pls
+1973 1138 Pls
+1869 768 Pls
+1615 768 Pls
+1639 775 Pls
+2525 819 Pls
+1930 777 Pls
+1677 1040 Pls
+1826 801 Pls
+1638 779 Pls
+1708 817 Pls
+1777 1211 Pls
+1894 832 Pls
+1709 797 Pls
+1857 1147 Pls
+1662 881 Pls
+2166 773 Pls
+1637 773 Pls
+1709 901 Pls
+1732 819 Pls
+1688 1427 Pls
+2098 768 Pls
+1780 799 Pls
+2256 768 Pls
+1704 807 Pls
+1726 819 Pls
+1801 1380 Pls
+1814 3804 Pls
+1996 785 Pls
+1700 937 Pls
+1767 781 Pls
+1697 983 Pls
+1719 770 Pls
+1814 853 Pls
+1711 852 Pls
+1716 985 Pls
+2194 911 Pls
+1861 772 Pls
+2181 1171 Pls
+2338 771 Pls
+1722 803 Pls
+1669 768 Pls
+1734 961 Pls
+1659 811 Pls
+2221 768 Pls
+1819 1013 Pls
+1860 786 Pls
+2040 2523 Pls
+1871 792 Pls
+1740 1102 Pls
+1781 861 Pls
+1681 933 Pls
+1671 768 Pls
+1826 1113 Pls
+1675 1279 Pls
+2122 789 Pls
+1895 769 Pls
+2544 768 Pls
+1716 1289 Pls
+1661 807 Pls
+1760 2526 Pls
+1840 1485 Pls
+1776 809 Pls
+1952 895 Pls
+1819 960 Pls
+1766 838 Pls
+1780 878 Pls
+1772 783 Pls
+1764 775 Pls
+1833 3694 Pls
+1672 768 Pls
+1637 769 Pls
+2036 1653 Pls
+1775 775 Pls
+1726 2781 Pls
+1838 809 Pls
+1755 820 Pls
+1649 1279 Pls
+1725 1216 Pls
+1860 780 Pls
+2005 2728 Pls
+1909 784 Pls
+1816 792 Pls
+1840 1910 Pls
+1852 819 Pls
+2129 2482 Pls
+1722 768 Pls
+1699 921 Pls
+2331 1283 Pls
+1801 768 Pls
+1835 830 Pls
+1699 768 Pls
+2005 3295 Pls
+1624 778 Pls
+1806 819 Pls
+1746 795 Pls
+1732 778 Pls
+1751 923 Pls
+2087 776 Pls
+1626 768 Pls
+1884 780 Pls
+1646 768 Pls
+1645 816 Pls
+1684 875 Pls
+1655 789 Pls
+1779 914 Pls
+1757 774 Pls
+1701 798 Pls
+2282 769 Pls
+1873 794 Pls
+1863 831 Pls
+1907 799 Pls
+1715 1045 Pls
+1867 832 Pls
+2714 780 Pls
+1869 817 Pls
+1656 805 Pls
+1860 4239 Pls
+1782 789 Pls
+1816 1009 Pls
+1781 827 Pls
+1805 768 Pls
+1696 768 Pls
+1723 804 Pls
+1764 801 Pls
+1936 2303 Pls
+1675 1166 Pls
+1754 770 Pls
+1776 891 Pls
+1681 768 Pls
+2241 832 Pls
+1756 1097 Pls
+1768 786 Pls
+1616 768 Pls
+1653 768 Pls
+1732 1152 Pls
+1770 963 Pls
+2094 1083 Pls
+1870 788 Pls
+1775 773 Pls
+1859 823 Pls
+2234 1127 Pls
+1803 2576 Pls
+1679 898 Pls
+1672 1174 Pls
+1625 768 Pls
+1706 856 Pls
+1680 796 Pls
+2115 1786 Pls
+1678 774 Pls
+1718 836 Pls
+2065 768 Pls
+2028 802 Pls
+2097 1663 Pls
+1713 1507 Pls
+1693 1075 Pls
+1683 816 Pls
+1707 998 Pls
+1966 776 Pls
+1652 1185 Pls
+2220 768 Pls
+1859 807 Pls
+1783 782 Pls
+1677 791 Pls
+1640 775 Pls
+1694 1228 Pls
+1760 965 Pls
+1739 912 Pls
+1687 1113 Pls
+1739 1160 Pls
+2319 978 Pls
+1980 785 Pls
+1694 768 Pls
+1644 768 Pls
+1762 815 Pls
+1887 886 Pls
+1637 1052 Pls
+1764 981 Pls
+1727 840 Pls
+1999 768 Pls
+1943 1015 Pls
+1788 772 Pls
+2332 1245 Pls
+1783 798 Pls
+1740 1159 Pls
+1735 3462 Pls
+1735 780 Pls
+1704 935 Pls
+1621 768 Pls
+2216 768 Pls
+1750 908 Pls
+1867 826 Pls
+1665 939 Pls
+2165 2765 Pls
+1698 1026 Pls
+1845 913 Pls
+1746 858 Pls
+1694 768 Pls
+1676 1185 Pls
+2256 878 Pls
+2005 1087 Pls
+1800 959 Pls
+1710 772 Pls
+1941 790 Pls
+1996 928 Pls
+1807 790 Pls
+1699 784 Pls
+1806 856 Pls
+1786 2387 Pls
+1877 914 Pls
+1770 769 Pls
+1747 832 Pls
+1649 934 Pls
+1826 1246 Pls
+1810 1100 Pls
+1735 780 Pls
+1684 907 Pls
+1851 1988 Pls
+1836 771 Pls
+1815 3216 Pls
+1745 1850 Pls
+1838 830 Pls
+1779 805 Pls
+2161 773 Pls
+2104 779 Pls
+1754 2679 Pls
+1838 905 Pls
+1807 877 Pls
+1726 1443 Pls
+1732 768 Pls
+1784 1011 Pls
+1672 768 Pls
+1811 810 Pls
+1687 768 Pls
+1684 768 Pls
+1784 3129 Pls
+1853 800 Pls
+1722 790 Pls
+2033 826 Pls
+1949 3826 Pls
+1779 1321 Pls
+1682 776 Pls
+2145 1005 Pls
+1706 857 Pls
+1687 864 Pls
+2027 959 Pls
+2351 768 Pls
+1987 773 Pls
+1767 2168 Pls
+1674 1001 Pls
+1676 1120 Pls
+1697 1663 Pls
+1693 1109 Pls
+2326 1414 Pls
+1839 797 Pls
+1736 928 Pls
+2208 1680 Pls
+1742 898 Pls
+1719 835 Pls
+1693 819 Pls
+1770 805 Pls
+1711 1007 Pls
+1705 2440 Pls
+1767 801 Pls
+1629 768 Pls
+1785 794 Pls
+1735 824 Pls
+1669 768 Pls
+2001 772 Pls
+1768 828 Pls
+1653 1365 Pls
+1647 884 Pls
+1676 795 Pls
+1850 796 Pls
+1726 3250 Pls
+2093 768 Pls
+2769 798 Pls
+1642 773 Pls
+1848 1015 Pls
+1696 1855 Pls
+1906 1144 Pls
+1754 834 Pls
+1636 768 Pls
+1939 811 Pls
+1740 791 Pls
+1747 1663 Pls
+1712 2237 Pls
+1668 793 Pls
+1837 803 Pls
+1687 811 Pls
+1712 811 Pls
+1652 819 Pls
+1834 2090 Pls
+1780 810 Pls
+1803 857 Pls
+2216 768 Pls
+1775 773 Pls
+1917 788 Pls
+1872 1088 Pls
+1846 771 Pls
+1750 788 Pls
+1866 910 Pls
+1895 1181 Pls
+2243 768 Pls
+1667 768 Pls
+1627 768 Pls
+1858 768 Pls
+1644 784 Pls
+1997 793 Pls
+1777 2039 Pls
+1702 793 Pls
+2014 793 Pls
+1825 1231 Pls
+1674 768 Pls
+1660 1976 Pls
+1679 805 Pls
+1927 801 Pls
+1817 891 Pls
+1744 964 Pls
+1760 768 Pls
+1648 799 Pls
+2475 1166 Pls
+1745 768 Pls
+1667 781 Pls
+2256 800 Pls
+1753 897 Pls
+1915 1070 Pls
+1838 776 Pls
+2403 3116 Pls
+1720 832 Pls
+1711 789 Pls
+1627 768 Pls
+1964 812 Pls
+1862 3581 Pls
+1759 1231 Pls
+1727 777 Pls
+1700 776 Pls
+1731 1002 Pls
+2432 768 Pls
+1957 1191 Pls
+1689 768 Pls
+1769 784 Pls
+1908 970 Pls
+1864 768 Pls
+1850 777 Pls
+1733 1529 Pls
+1684 1042 Pls
+1781 819 Pls
+1728 769 Pls
+1957 811 Pls
+1675 774 Pls
+1868 768 Pls
+1690 1018 Pls
+1677 768 Pls
+1722 862 Pls
+1864 768 Pls
+1744 844 Pls
+1736 869 Pls
+1699 946 Pls
+1790 808 Pls
+1719 770 Pls
+1637 768 Pls
+2215 768 Pls
+1669 811 Pls
+1706 1174 Pls
+1788 1169 Pls
+1694 832 Pls
+1669 835 Pls
+1803 788 Pls
+1897 803 Pls
+1721 1109 Pls
+1727 803 Pls
+1622 768 Pls
+1683 811 Pls
+2050 790 Pls
+2404 794 Pls
+1720 1046 Pls
+1853 775 Pls
+1918 769 Pls
+1713 801 Pls
+1707 1077 Pls
+1686 771 Pls
+1751 1309 Pls
+1791 813 Pls
+1798 835 Pls
+1682 814 Pls
+1749 961 Pls
+2124 853 Pls
+1714 837 Pls
+1846 812 Pls
+1824 1076 Pls
+1695 832 Pls
+1831 799 Pls
+1751 1961 Pls
+1965 839 Pls
+1692 980 Pls
+1752 1487 Pls
+2048 887 Pls
+1772 781 Pls
+1724 949 Pls
+1725 783 Pls
+1670 951 Pls
+1971 1027 Pls
+1837 781 Pls
+1772 846 Pls
+1925 768 Pls
+2549 1867 Pls
+1857 1088 Pls
+1649 931 Pls
+1903 2179 Pls
+1869 768 Pls
+1768 1024 Pls
+1933 2861 Pls
+1790 790 Pls
+1804 1063 Pls
+1678 768 Pls
+1720 959 Pls
+3325 768 Pls
+2730 869 Pls
+1731 980 Pls
+1697 801 Pls
+1848 768 Pls
+1738 775 Pls
+1614 775 Pls
+1987 797 Pls
+1868 810 Pls
+1759 897 Pls
+1717 927 Pls
+1692 1599 Pls
+1662 845 Pls
+2463 782 Pls
+1848 790 Pls
+1999 769 Pls
+1769 855 Pls
+1668 811 Pls
+1855 876 Pls
+1779 3462 Pls
+1758 1024 Pls
+1699 780 Pls
+2224 778 Pls
+1686 787 Pls
+2013 1053 Pls
+1887 778 Pls
+2228 769 Pls
+1791 961 Pls
+1684 775 Pls
+1865 775 Pls
+1715 3454 Pls
+1717 970 Pls
+1848 1177 Pls
+1929 789 Pls
+1714 768 Pls
+1858 774 Pls
+1901 1051 Pls
+2220 785 Pls
+1703 1096 Pls
+1644 776 Pls
+1862 1034 Pls
+1723 768 Pls
+1715 768 Pls
+2184 784 Pls
+1810 815 Pls
+1830 771 Pls
+1671 2861 Pls
+1715 800 Pls
+1764 2099 Pls
+2028 2067 Pls
+1719 841 Pls
+1873 973 Pls
+1975 802 Pls
+1979 769 Pls
+1718 853 Pls
+1856 1386 Pls
+2010 3599 Pls
+1690 805 Pls
+1726 882 Pls
+1902 788 Pls
+1727 778 Pls
+1802 2899 Pls
+1806 1548 Pls
+1842 2605 Pls
+1696 859 Pls
+1925 1947 Pls
+1719 2468 Pls
+2362 1336 Pls
+1676 899 Pls
+1733 784 Pls
+1653 768 Pls
+1675 808 Pls
+1734 792 Pls
+1659 779 Pls
+1931 793 Pls
+1904 835 Pls
+1702 788 Pls
+2212 906 Pls
+1705 1048 Pls
+2010 995 Pls
+1713 1136 Pls
+1728 889 Pls
+1735 793 Pls
+2027 785 Pls
+1809 785 Pls
+2220 768 Pls
+1718 768 Pls
+2049 768 Pls
+1759 884 Pls
+1760 768 Pls
+1691 1012 Pls
+1952 863 Pls
+1786 2855 Pls
+1907 780 Pls
+1704 769 Pls
+1724 1112 Pls
+1710 772 Pls
+1771 1037 Pls
+1891 776 Pls
+1721 853 Pls
+1810 768 Pls
+1665 768 Pls
+1718 833 Pls
+1820 768 Pls
+1978 768 Pls
+1644 768 Pls
+1992 829 Pls
+1631 768 Pls
+1709 812 Pls
+1768 768 Pls
+1819 2007 Pls
+1876 1126 Pls
+1663 1000 Pls
+1705 1417 Pls
+1679 838 Pls
+1674 3168 Pls
+1690 775 Pls
+1819 1113 Pls
+1774 771 Pls
+2936 781 Pls
+2038 782 Pls
+1810 947 Pls
+1707 777 Pls
+1806 780 Pls
+1812 768 Pls
+1966 1947 Pls
+1794 772 Pls
+1646 768 Pls
+1794 849 Pls
+1845 790 Pls
+1697 3848 Pls
+1818 783 Pls
+1656 768 Pls
+1794 1114 Pls
+1689 2257 Pls
+1636 768 Pls
+1636 768 Pls
+2518 854 Pls
+1826 1430 Pls
+1701 779 Pls
+1642 780 Pls
+1730 3259 Pls
+1762 1152 Pls
+1761 1212 Pls
+1765 1005 Pls
+3382 794 Pls
+1809 982 Pls
+1818 819 Pls
+1800 975 Pls
+1827 783 Pls
+1713 1786 Pls
+1710 900 Pls
+2601 1526 Pls
+1715 993 Pls
+1766 784 Pls
+1719 777 Pls
+1715 964 Pls
+1780 1213 Pls
+1729 768 Pls
+1652 768 Pls
+1725 775 Pls
+1694 1792 Pls
+1758 998 Pls
+3702 821 Pls
+1731 1030 Pls
+1707 1235 Pls
+2012 768 Pls
+1638 896 Pls
+1880 771 Pls
+1765 1663 Pls
+1756 786 Pls
+1787 880 Pls
+2043 1024 Pls
+1667 782 Pls
+1957 794 Pls
+1665 1127 Pls
+1707 775 Pls
+1694 783 Pls
+1700 1091 Pls
+2001 783 Pls
+1840 768 Pls
+1745 770 Pls
+1914 3929 Pls
+1918 768 Pls
+1751 768 Pls
+1742 1042 Pls
+1820 775 Pls
+1985 1683 Pls
+1779 787 Pls
+1674 862 Pls
+1737 1439 Pls
+1756 783 Pls
+1743 780 Pls
+1902 821 Pls
+1799 768 Pls
+1652 768 Pls
+1699 2647 Pls
+1768 768 Pls
+1681 998 Pls
+1932 901 Pls
+1683 811 Pls
+1741 819 Pls
+1995 787 Pls
+1698 2025 Pls
+1925 1592 Pls
+1766 768 Pls
+1817 1032 Pls
+1835 1055 Pls
+1816 873 Pls
+2261 771 Pls
+1700 778 Pls
+1771 1776 Pls
+2207 768 Pls
+1620 819 Pls
+2223 768 Pls
+1948 776 Pls
+1726 768 Pls
+3589 811 Pls
+1710 1216 Pls
+1815 1135 Pls
+1888 986 Pls
+1817 834 Pls
+1892 768 Pls
+2214 768 Pls
+1658 827 Pls
+1726 768 Pls
+1676 907 Pls
+1813 853 Pls
+1735 1906 Pls
+1730 1001 Pls
+1713 921 Pls
+1709 853 Pls
+2140 779 Pls
+1847 794 Pls
+1743 811 Pls
+1758 3184 Pls
+1700 774 Pls
+1683 1328 Pls
+1843 831 Pls
+1746 1529 Pls
+1709 796 Pls
+1780 1800 Pls
+1776 1062 Pls
+1663 768 Pls
+1791 2373 Pls
+1782 888 Pls
+2128 768 Pls
+1844 981 Pls
+1918 779 Pls
+1711 768 Pls
+2907 772 Pls
+1666 768 Pls
+2024 1292 Pls
+1773 1190 Pls
+1874 1141 Pls
+1745 1961 Pls
+1930 791 Pls
+1863 773 Pls
+1702 802 Pls
+1688 769 Pls
+1718 843 Pls
+1856 2104 Pls
+1735 792 Pls
+1951 801 Pls
+1892 791 Pls
+1701 797 Pls
+1718 848 Pls
+1688 819 Pls
+2769 768 Pls
+2966 807 Pls
+1754 824 Pls
+1760 1877 Pls
+1884 2316 Pls
+1661 794 Pls
+1857 772 Pls
+1846 786 Pls
+1759 845 Pls
+1837 837 Pls
+1703 813 Pls
+1942 771 Pls
+1784 789 Pls
+1662 769 Pls
+2255 1231 Pls
+1654 768 Pls
+2318 768 Pls
+1739 946 Pls
+1689 2257 Pls
+1720 768 Pls
+1702 2745 Pls
+1772 1542 Pls
+1804 901 Pls
+1819 987 Pls
+1699 872 Pls
+1785 768 Pls
+1735 891 Pls
+1792 782 Pls
+1671 768 Pls
+1733 907 Pls
+1887 793 Pls
+1665 891 Pls
+1698 769 Pls
+1811 1740 Pls
+1708 1291 Pls
+1692 894 Pls
+1743 832 Pls
+1663 768 Pls
+1804 898 Pls
+1698 768 Pls
+1702 791 Pls
+1745 768 Pls
+1742 855 Pls
+1812 768 Pls
+1760 1194 Pls
+1807 791 Pls
+1956 800 Pls
+1683 784 Pls
+1733 805 Pls
+1749 771 Pls
+1637 1024 Pls
+1665 768 Pls
+1673 3753 Pls
+1924 1024 Pls
+1661 811 Pls
+1781 774 Pls
+1680 976 Pls
+1800 789 Pls
+1665 834 Pls
+1763 814 Pls
+1772 813 Pls
+1705 985 Pls
+1617 768 Pls
+2440 848 Pls
+1690 835 Pls
+1854 1049 Pls
+1905 1582 Pls
+2644 2926 Pls
+1726 2004 Pls
+1698 1493 Pls
+1719 894 Pls
+1849 770 Pls
+1673 811 Pls
+2235 775 Pls
+1633 870 Pls
+1675 801 Pls
+2225 768 Pls
+2026 949 Pls
+1722 1113 Pls
+1854 834 Pls
+1980 1107 Pls
+1728 2689 Pls
+1677 768 Pls
+1734 946 Pls
+1714 820 Pls
+1734 3369 Pls
+1734 768 Pls
+1763 803 Pls
+1711 838 Pls
+1664 840 Pls
+1622 768 Pls
+1802 787 Pls
+1836 881 Pls
+1696 880 Pls
+1807 802 Pls
+1717 815 Pls
+1990 923 Pls
+2168 809 Pls
+1702 791 Pls
+1816 778 Pls
+1762 853 Pls
+1693 768 Pls
+1660 800 Pls
+2433 779 Pls
+1828 929 Pls
+1781 1021 Pls
+1854 768 Pls
+1707 896 Pls
+1970 1170 Pls
+1705 2440 Pls
+1838 1097 Pls
+1635 1070 Pls
+1662 897 Pls
+1670 1141 Pls
+1880 944 Pls
+1755 775 Pls
+1828 772 Pls
+1686 920 Pls
+1621 768 Pls
+1781 1584 Pls
+1608 768 Pls
+1799 870 Pls
+1654 960 Pls
+1686 768 Pls
+1788 829 Pls
+2240 784 Pls
+1685 768 Pls
+1995 2336 Pls
+1711 1480 Pls
+1721 768 Pls
+1692 768 Pls
+1732 890 Pls
+1856 777 Pls
+2292 1569 Pls
+1734 875 Pls
+1655 1365 Pls
+1620 938 Pls
+1966 804 Pls
+1689 2760 Pls
+1680 3836 Pls
+1758 806 Pls
+2119 786 Pls
+1666 768 Pls
+1937 821 Pls
+1722 770 Pls
+1733 768 Pls
+1985 799 Pls
+2108 805 Pls
+1682 1194 Pls
+1759 1280 Pls
+1684 811 Pls
+1696 1031 Pls
+1836 941 Pls
+2282 819 Pls
+1727 775 Pls
+2059 1425 Pls
+1664 777 Pls
+1769 768 Pls
+1624 768 Pls
+1866 811 Pls
+1758 1040 Pls
+1631 3114 Pls
+1976 1448 Pls
+1699 807 Pls
+1720 1868 Pls
+1657 791 Pls
+1718 789 Pls
+2282 1780 Pls
+1728 1940 Pls
+1713 768 Pls
+1868 1046 Pls
+1728 788 Pls
+1686 854 Pls
+1816 783 Pls
+1738 833 Pls
+1744 781 Pls
+1791 846 Pls
+1686 768 Pls
+1710 1445 Pls
+1748 783 Pls
+1803 768 Pls
+1645 768 Pls
+1857 953 Pls
+1784 772 Pls
+1686 768 Pls
+1820 812 Pls
+1811 861 Pls
+1702 781 Pls
+1976 776 Pls
+1989 768 Pls
+2121 770 Pls
+1706 1491 Pls
+1721 1567 Pls
+1671 819 Pls
+1861 1463 Pls
+1672 848 Pls
+1761 905 Pls
+1770 1099 Pls
+1768 797 Pls
+1839 3069 Pls
+2073 793 Pls
+1772 768 Pls
+1762 916 Pls
+1726 768 Pls
+1681 769 Pls
+1996 1535 Pls
+1640 768 Pls
+1750 769 Pls
+1669 782 Pls
+1675 827 Pls
+1746 1228 Pls
+1629 768 Pls
+1815 879 Pls
+1673 840 Pls
+1756 1106 Pls
+1682 808 Pls
+1685 776 Pls
+1747 815 Pls
+1920 794 Pls
+1728 781 Pls
+1915 2754 Pls
+1708 1091 Pls
+1793 1616 Pls
+1697 811 Pls
+1636 2558 Pls
+2224 768 Pls
+1742 962 Pls
+1764 820 Pls
+1732 1219 Pls
+1692 788 Pls
+1822 1548 Pls
+1804 869 Pls
+1880 802 Pls
+1761 811 Pls
+2061 1650 Pls
+1693 1695 Pls
+1735 905 Pls
+1761 955 Pls
+1665 819 Pls
+1881 832 Pls
+1670 779 Pls
+1698 836 Pls
+2014 786 Pls
+1733 771 Pls
+1679 769 Pls
+1851 784 Pls
+1682 2043 Pls
+1718 864 Pls
+1670 773 Pls
+4683 768 Pls
+1654 1027 Pls
+2049 3577 Pls
+1913 1181 Pls
+1680 768 Pls
+2115 788 Pls
+1867 2283 Pls
+1808 793 Pls
+1723 775 Pls
+1705 916 Pls
+1697 872 Pls
+1678 921 Pls
+1894 997 Pls
+1888 940 Pls
+1909 887 Pls
+1688 1111 Pls
+1703 1823 Pls
+1748 872 Pls
+1794 1489 Pls
+1709 2640 Pls
+2087 768 Pls
+1679 1340 Pls
+1812 861 Pls
+1702 769 Pls
+1679 1745 Pls
+1687 819 Pls
+1775 892 Pls
+1726 814 Pls
+1949 768 Pls
+1755 1056 Pls
+1855 3788 Pls
+1780 999 Pls
+1723 768 Pls
+1745 1112 Pls
+1777 769 Pls
+1755 780 Pls
+1734 876 Pls
+1694 1282 Pls
+1715 790 Pls
+1679 890 Pls
+1717 2212 Pls
+1850 1003 Pls
+1767 870 Pls
+1662 773 Pls
+1737 807 Pls
+2009 777 Pls
+1793 1029 Pls
+2041 773 Pls
+1886 956 Pls
+1733 864 Pls
+1755 798 Pls
+1734 961 Pls
+1794 792 Pls
+1684 783 Pls
+1898 853 Pls
+1639 2222 Pls
+2044 845 Pls
+1908 786 Pls
+1787 870 Pls
+2995 2428 Pls
+1710 794 Pls
+1955 820 Pls
+1700 769 Pls
+1876 886 Pls
+1800 1827 Pls
+2129 1550 Pls
+1643 797 Pls
+1774 906 Pls
+1735 768 Pls
+1638 768 Pls
+2072 768 Pls
+1749 1096 Pls
+2409 780 Pls
+2256 768 Pls
+1844 775 Pls
+1707 1822 Pls
+1909 1692 Pls
+1609 768 Pls
+2171 986 Pls
+1650 801 Pls
+1647 784 Pls
+1803 792 Pls
+1857 816 Pls
+1645 853 Pls
+1938 805 Pls
+1651 783 Pls
+1976 3550 Pls
+1949 957 Pls
+1809 848 Pls
+1768 775 Pls
+1819 1064 Pls
+2224 768 Pls
+1859 891 Pls
+1684 819 Pls
+1671 812 Pls
+1691 929 Pls
+1622 768 Pls
+1646 853 Pls
+1760 798 Pls
+1844 768 Pls
+1695 838 Pls
+1964 1811 Pls
+1781 1005 Pls
+1720 768 Pls
+1873 939 Pls
+1876 791 Pls
+1983 768 Pls
+1804 1387 Pls
+1733 781 Pls
+1944 800 Pls
+1620 768 Pls
+1794 813 Pls
+1684 980 Pls
+1827 1517 Pls
+1823 774 Pls
+2220 768 Pls
+1861 773 Pls
+1705 2440 Pls
+1897 1010 Pls
+1881 1046 Pls
+1695 2319 Pls
+1917 902 Pls
+1746 850 Pls
+1732 769 Pls
+1716 998 Pls
+1865 777 Pls
+1754 846 Pls
+1742 1129 Pls
+1984 805 Pls
+1747 1330 Pls
+1690 3552 Pls
+1940 776 Pls
+1683 3901 Pls
+1804 1050 Pls
+1724 768 Pls
+1809 1156 Pls
+1733 773 Pls
+1754 768 Pls
+1971 1111 Pls
+2516 773 Pls
+1823 786 Pls
+1916 821 Pls
+1697 813 Pls
+1743 838 Pls
+1648 840 Pls
+1947 1709 Pls
+1979 787 Pls
+2124 772 Pls
+1735 3316 Pls
+1768 2558 Pls
+1716 1944 Pls
+2034 784 Pls
+1706 789 Pls
+1870 867 Pls
+1689 2877 Pls
+1869 778 Pls
+1735 3099 Pls
+1707 2668 Pls
+1876 789 Pls
+1785 840 Pls
+1732 783 Pls
+1804 1535 Pls
+2044 794 Pls
+1728 1083 Pls
+1692 805 Pls
+1695 926 Pls
+1786 3930 Pls
+1714 1510 Pls
+1719 807 Pls
+1781 788 Pls
+1711 768 Pls
+1717 926 Pls
+1759 1345 Pls
+1756 820 Pls
+1613 768 Pls
+1824 2259 Pls
+1783 952 Pls
+1794 772 Pls
+1712 807 Pls
+1793 1137 Pls
+2053 3701 Pls
+2940 772 Pls
+1650 768 Pls
+1700 768 Pls
+1813 769 Pls
+1829 768 Pls
+2007 848 Pls
+1634 768 Pls
+1853 776 Pls
+1782 1133 Pls
+1805 2165 Pls
+2158 772 Pls
+1779 768 Pls
+1650 896 Pls
+1684 791 Pls
+1753 776 Pls
+2194 1128 Pls
+1806 846 Pls
+1830 790 Pls
+1903 873 Pls
+2216 769 Pls
+1711 1150 Pls
+1700 864 Pls
+1808 1170 Pls
+2007 768 Pls
+2092 784 Pls
+1810 919 Pls
+1819 1668 Pls
+1689 788 Pls
+1663 954 Pls
+1662 1389 Pls
+1734 828 Pls
+1803 972 Pls
+1711 836 Pls
+1718 1128 Pls
+1630 768 Pls
+1714 871 Pls
+1828 3245 Pls
+1696 811 Pls
+1610 779 Pls
+1776 814 Pls
+1804 2678 Pls
+1826 1061 Pls
+1676 768 Pls
+1735 1016 Pls
+1808 1300 Pls
+1731 3908 Pls
+1886 961 Pls
+1742 801 Pls
+1649 939 Pls
+1753 797 Pls
+1825 893 Pls
+1841 1091 Pls
+1804 783 Pls
+1900 773 Pls
+1693 782 Pls
+2071 768 Pls
+1797 832 Pls
+1786 772 Pls
+1740 4251 Pls
+1914 2546 Pls
+2358 921 Pls
+1752 1719 Pls
+1659 803 Pls
+1639 768 Pls
+1720 791 Pls
+1761 945 Pls
+1714 780 Pls
+1664 864 Pls
+1796 781 Pls
+1967 848 Pls
+1829 820 Pls
+2154 797 Pls
+1730 778 Pls
+1754 1484 Pls
+1835 981 Pls
+1638 2562 Pls
+1782 768 Pls
+1780 780 Pls
+1796 770 Pls
+1945 835 Pls
+1620 768 Pls
+1753 779 Pls
+1701 832 Pls
+2057 2165 Pls
+1739 799 Pls
+1722 1235 Pls
+1790 2918 Pls
+2737 772 Pls
+1649 777 Pls
+1940 801 Pls
+1888 4206 Pls
+1653 849 Pls
+1872 796 Pls
+1813 1003 Pls
+1691 772 Pls
+1995 885 Pls
+1630 768 Pls
+1631 768 Pls
+1727 1201 Pls
+1672 933 Pls
+1760 798 Pls
+1852 771 Pls
+1773 1273 Pls
+1787 778 Pls
+1761 811 Pls
+1693 802 Pls
+1898 1152 Pls
+1685 1131 Pls
+1865 873 Pls
+1730 808 Pls
+1659 768 Pls
+1722 963 Pls
+1658 802 Pls
+2223 768 Pls
+1805 2582 Pls
+1699 3876 Pls
+1807 923 Pls
+1818 1203 Pls
+1717 772 Pls
+1789 3007 Pls
+1730 793 Pls
+1699 1488 Pls
+1776 781 Pls
+1811 803 Pls
+1786 984 Pls
+1700 1088 Pls
+1765 787 Pls
+1825 789 Pls
+1925 1237 Pls
+1746 768 Pls
+1676 2195 Pls
+1693 810 Pls
+1645 823 Pls
+1836 781 Pls
+1749 918 Pls
+1682 2414 Pls
+1874 782 Pls
+1811 770 Pls
+1880 1179 Pls
+1806 826 Pls
+1650 884 Pls
+1853 884 Pls
+1665 828 Pls
+1740 3218 Pls
+1702 825 Pls
+1808 1155 Pls
+1865 816 Pls
+1784 873 Pls
+2021 1054 Pls
+2413 778 Pls
+1812 837 Pls
+1793 3263 Pls
+1685 787 Pls
+1797 1520 Pls
+2035 2372 Pls
+1822 833 Pls
+1671 1262 Pls
+1691 1316 Pls
+1671 1088 Pls
+1885 768 Pls
+1840 1175 Pls
+1782 805 Pls
+2098 1547 Pls
+1663 806 Pls
+1812 768 Pls
+1819 1064 Pls
+1825 887 Pls
+1982 768 Pls
+1832 3246 Pls
+1681 768 Pls
+1735 875 Pls
+1746 812 Pls
+1641 1093 Pls
+1679 2255 Pls
+1992 976 Pls
+1786 872 Pls
+1665 775 Pls
+1841 806 Pls
+1672 801 Pls
+1927 1895 Pls
+1786 791 Pls
+1789 796 Pls
+1708 768 Pls
+2093 771 Pls
+1707 768 Pls
+1805 777 Pls
+1703 787 Pls
+1769 1109 Pls
+1849 800 Pls
+1714 777 Pls
+1806 1114 Pls
+1693 786 Pls
+1968 831 Pls
+1681 819 Pls
+1695 893 Pls
+1707 847 Pls
+1651 853 Pls
+1741 796 Pls
+1762 3489 Pls
+1686 768 Pls
+1920 815 Pls
+1910 778 Pls
+1834 2220 Pls
+1659 799 Pls
+1797 774 Pls
+1821 915 Pls
+1707 868 Pls
+1694 819 Pls
+1757 786 Pls
+1772 812 Pls
+1778 817 Pls
+1716 853 Pls
+1740 788 Pls
+1632 768 Pls
+1875 924 Pls
+1787 768 Pls
+1713 819 Pls
+1753 2456 Pls
+1730 805 Pls
+1840 794 Pls
+1740 1474 Pls
+1798 880 Pls
+1711 3506 Pls
+1715 853 Pls
+2097 1539 Pls
+2071 771 Pls
+1826 789 Pls
+1878 782 Pls
+1919 3037 Pls
+1749 2576 Pls
+1941 799 Pls
+1765 1748 Pls
+1691 1791 Pls
+1770 778 Pls
+1799 775 Pls
+1819 1064 Pls
+1923 851 Pls
+1763 1155 Pls
+1860 835 Pls
+1734 772 Pls
+1722 805 Pls
+1705 1176 Pls
+1730 817 Pls
+1678 811 Pls
+1886 787 Pls
+2220 768 Pls
+2092 898 Pls
+1980 775 Pls
+1652 3982 Pls
+1655 862 Pls
+1881 1761 Pls
+1767 1454 Pls
+1758 790 Pls
+1720 818 Pls
+1754 792 Pls
+1658 913 Pls
+1696 832 Pls
+1693 772 Pls
+2310 3272 Pls
+1783 1041 Pls
+2437 768 Pls
+1846 852 Pls
+1843 1090 Pls
+1998 1720 Pls
+1774 768 Pls
+1685 1767 Pls
+1858 800 Pls
+2154 821 Pls
+1756 880 Pls
+1689 802 Pls
+1695 782 Pls
+1823 1857 Pls
+1751 773 Pls
+1679 977 Pls
+2016 777 Pls
+1938 1974 Pls
+1659 768 Pls
+1864 781 Pls
+1721 1029 Pls
+1662 768 Pls
+1725 789 Pls
+1866 771 Pls
+1752 782 Pls
+1724 1032 Pls
+1939 899 Pls
+2127 1039 Pls
+1734 3101 Pls
+1694 832 Pls
+1696 885 Pls
+1735 775 Pls
+2028 913 Pls
+1786 781 Pls
+2166 768 Pls
+1735 799 Pls
+1691 1331 Pls
+1726 768 Pls
+1790 878 Pls
+1826 825 Pls
+1720 780 Pls
+1715 943 Pls
+1665 825 Pls
+1739 784 Pls
+1665 772 Pls
+1674 769 Pls
+1794 1112 Pls
+1706 879 Pls
+1745 793 Pls
+1796 916 Pls
+1767 775 Pls
+1702 1158 Pls
+1719 840 Pls
+1839 868 Pls
+2078 779 Pls
+1945 1348 Pls
+1790 2059 Pls
+1790 769 Pls
+1724 993 Pls
+2341 1509 Pls
+1737 1030 Pls
+2072 2536 Pls
+1886 2437 Pls
+2074 1464 Pls
+1693 1466 Pls
+1766 807 Pls
+1759 793 Pls
+1800 783 Pls
+1861 774 Pls
+1764 875 Pls
+1874 806 Pls
+2091 771 Pls
+1837 921 Pls
+1697 866 Pls
+1819 795 Pls
+1739 768 Pls
+1715 795 Pls
+1701 967 Pls
+1942 777 Pls
+1978 807 Pls
+1687 799 Pls
+1738 852 Pls
+1671 845 Pls
+1684 772 Pls
+2173 769 Pls
+1747 797 Pls
+1864 1655 Pls
+1743 772 Pls
+1684 768 Pls
+1687 832 Pls
+1758 786 Pls
+3726 838 Pls
+1704 960 Pls
+1960 1040 Pls
+1718 870 Pls
+1899 776 Pls
+1873 1686 Pls
+2022 2545 Pls
+1766 820 Pls
+1774 768 Pls
+2043 768 Pls
+1746 819 Pls
+1894 1256 Pls
+2134 786 Pls
+1618 768 Pls
+1707 769 Pls
+1638 951 Pls
+1788 1172 Pls
+1688 848 Pls
+1648 768 Pls
+2071 768 Pls
+1720 801 Pls
+2741 768 Pls
+1716 861 Pls
+1684 832 Pls
+1861 2980 Pls
+1685 768 Pls
+1823 3700 Pls
+1633 1893 Pls
+2282 3770 Pls
+1852 797 Pls
+1825 841 Pls
+1814 777 Pls
+1726 821 Pls
+2461 797 Pls
+1789 1015 Pls
+2216 768 Pls
+1758 781 Pls
+1759 775 Pls
+1798 1957 Pls
+2053 771 Pls
+1726 1026 Pls
+1722 2812 Pls
+1709 856 Pls
+1665 808 Pls
+2477 768 Pls
+1651 785 Pls
+1934 802 Pls
+1798 819 Pls
+1735 1037 Pls
+1699 1061 Pls
+1904 772 Pls
+1764 928 Pls
+1696 878 Pls
+1816 768 Pls
+1903 1262 Pls
+1844 1026 Pls
+1932 1694 Pls
+1684 781 Pls
+1667 1592 Pls
+1842 793 Pls
+1724 791 Pls
+1660 958 Pls
+1678 1274 Pls
+1706 853 Pls
+1659 812 Pls
+1818 780 Pls
+1719 787 Pls
+1671 778 Pls
+1703 819 Pls
+1659 812 Pls
+1767 807 Pls
+1711 772 Pls
+1691 877 Pls
+1972 3144 Pls
+1892 866 Pls
+1687 874 Pls
+1634 768 Pls
+1733 768 Pls
+1676 789 Pls
+1817 772 Pls
+1722 853 Pls
+1718 792 Pls
+1969 825 Pls
+1816 1329 Pls
+1688 893 Pls
+1731 783 Pls
+1732 2360 Pls
+1660 883 Pls
+1753 1974 Pls
+2326 768 Pls
+1658 825 Pls
+1698 1612 Pls
+1809 2489 Pls
+1818 786 Pls
+1660 888 Pls
+1687 788 Pls
+1610 768 Pls
+1774 872 Pls
+2434 785 Pls
+1692 773 Pls
+1880 790 Pls
+1931 854 Pls
+1818 768 Pls
+2812 928 Pls
+1738 795 Pls
+1733 899 Pls
+1722 3909 Pls
+1830 925 Pls
+1896 776 Pls
+1902 924 Pls
+1628 817 Pls
+1613 1484 Pls
+1608 768 Pls
+1685 783 Pls
+1734 932 Pls
+1864 935 Pls
+1709 771 Pls
+1806 803 Pls
+1727 789 Pls
+1793 1263 Pls
+1806 835 Pls
+1641 768 Pls
+1756 973 Pls
+1712 768 Pls
+1743 832 Pls
+5122 1110 Pls
+1769 778 Pls
+2102 783 Pls
+1784 819 Pls
+1819 776 Pls
+1708 776 Pls
+1724 819 Pls
+1935 776 Pls
+2007 768 Pls
+1828 786 Pls
+1995 803 Pls
+1736 768 Pls
+1764 1681 Pls
+2367 3988 Pls
+1965 1990 Pls
+4487 773 Pls
+1826 1042 Pls
+1687 1155 Pls
+1715 918 Pls
+1950 998 Pls
+2011 2766 Pls
+1793 2514 Pls
+1744 3234 Pls
+1784 893 Pls
+1865 786 Pls
+1848 770 Pls
+1767 771 Pls
+1643 3053 Pls
+1630 768 Pls
+2007 768 Pls
+2042 1174 Pls
+1929 1469 Pls
+1710 795 Pls
+1727 768 Pls
+2044 1041 Pls
+1754 956 Pls
+2399 1311 Pls
+2642 807 Pls
+1782 978 Pls
+2566 784 Pls
+1703 2709 Pls
+1834 810 Pls
+1822 889 Pls
+1710 1024 Pls
+1890 807 Pls
+1972 819 Pls
+1693 811 Pls
+1800 846 Pls
+1708 815 Pls
+1865 770 Pls
+1871 890 Pls
+1664 791 Pls
+1666 768 Pls
+1981 786 Pls
+1775 3295 Pls
+1773 768 Pls
+1740 2808 Pls
+1741 886 Pls
+1609 768 Pls
+1801 1843 Pls
+2293 768 Pls
+1685 851 Pls
+2164 790 Pls
+1932 783 Pls
+1675 805 Pls
+1681 811 Pls
+1683 768 Pls
+1774 3469 Pls
+1747 2499 Pls
+1845 848 Pls
+1675 857 Pls
+1631 835 Pls
+1732 856 Pls
+1716 845 Pls
+1796 914 Pls
+1703 943 Pls
+1890 768 Pls
+1814 768 Pls
+1946 768 Pls
+1901 779 Pls
+2222 768 Pls
+2480 2110 Pls
+1769 768 Pls
+1884 984 Pls
+1687 779 Pls
+1706 1809 Pls
+1692 896 Pls
+1701 780 Pls
+2397 813 Pls
+1923 913 Pls
+1678 789 Pls
+1778 1072 Pls
+1795 3820 Pls
+1647 822 Pls
+1630 768 Pls
+2039 787 Pls
+2024 1009 Pls
+1713 801 Pls
+2094 786 Pls
+1721 780 Pls
+1800 774 Pls
+1838 771 Pls
+2232 832 Pls
+1731 921 Pls
+1714 794 Pls
+1704 863 Pls
+1753 832 Pls
+1684 819 Pls
+1845 818 Pls
+1790 789 Pls
+1743 788 Pls
+1749 829 Pls
+1791 3468 Pls
+2152 771 Pls
+1805 811 Pls
+1787 2055 Pls
+1663 941 Pls
+1715 1261 Pls
+1720 987 Pls
+1859 778 Pls
+1815 788 Pls
+1712 770 Pls
+1667 840 Pls
+1665 1303 Pls
+1728 772 Pls
+1764 1104 Pls
+1792 3485 Pls
+1685 1079 Pls
+1678 776 Pls
+2224 768 Pls
+1670 807 Pls
+1824 789 Pls
+2330 772 Pls
+1729 768 Pls
+1711 768 Pls
+1677 852 Pls
+1901 795 Pls
+2249 776 Pls
+1686 812 Pls
+1768 2014 Pls
+1867 1252 Pls
+1728 814 Pls
+1719 901 Pls
+1756 1226 Pls
+1685 783 Pls
+1717 3234 Pls
+1864 1212 Pls
+1717 1081 Pls
+1869 1484 Pls
+1992 819 Pls
+1817 819 Pls
+2007 768 Pls
+1662 782 Pls
+1918 1448 Pls
+1647 768 Pls
+1787 768 Pls
+1759 817 Pls
+1672 1897 Pls
+1830 778 Pls
+1853 3400 Pls
+1664 2796 Pls
+1757 768 Pls
+2163 801 Pls
+1775 768 Pls
+1957 803 Pls
+1760 773 Pls
+1804 773 Pls
+1724 817 Pls
+1839 2993 Pls
+1731 935 Pls
+1767 1202 Pls
+1780 797 Pls
+1857 1088 Pls
+2048 3287 Pls
+1667 769 Pls
+1960 813 Pls
+2297 826 Pls
+1739 1069 Pls
+1865 792 Pls
+1696 2011 Pls
+1755 853 Pls
+1760 896 Pls
+2036 938 Pls
+2098 1492 Pls
+1820 788 Pls
+2156 979 Pls
+1739 2395 Pls
+1931 1137 Pls
+2249 773 Pls
+1693 798 Pls
+1783 1091 Pls
+1697 806 Pls
+1704 834 Pls
+1714 770 Pls
+1868 778 Pls
+1728 771 Pls
+1705 801 Pls
+1880 769 Pls
+2020 769 Pls
+1698 996 Pls
+1649 1279 Pls
+2040 782 Pls
+1784 819 Pls
+2028 768 Pls
+1960 898 Pls
+1774 924 Pls
+2090 768 Pls
+2152 770 Pls
+1807 784 Pls
+1752 909 Pls
+1725 3912 Pls
+2340 857 Pls
+1736 1026 Pls
+1884 779 Pls
+1722 768 Pls
+1713 1151 Pls
+2491 1743 Pls
+2079 1146 Pls
+1708 1135 Pls
+1683 849 Pls
+1709 3005 Pls
+1708 772 Pls
+2097 896 Pls
+1681 796 Pls
+1708 768 Pls
+1763 781 Pls
+2620 788 Pls
+1765 858 Pls
+2002 904 Pls
+1657 769 Pls
+1813 799 Pls
+1888 1225 Pls
+1686 870 Pls
+1976 1172 Pls
+1783 779 Pls
+1681 1455 Pls
+1693 1663 Pls
+1970 773 Pls
+1709 788 Pls
+1801 793 Pls
+1747 1247 Pls
+1695 3430 Pls
+1811 768 Pls
+1855 768 Pls
+1667 891 Pls
+1680 1152 Pls
+1758 863 Pls
+1894 1492 Pls
+1646 772 Pls
+1914 771 Pls
+1675 790 Pls
+1678 2068 Pls
+2191 1438 Pls
+1668 800 Pls
+1737 790 Pls
+1740 844 Pls
+1630 768 Pls
+1851 1100 Pls
+1912 853 Pls
+1730 921 Pls
+1710 840 Pls
+1632 768 Pls
+1937 930 Pls
+1733 778 Pls
+1667 768 Pls
+1834 2829 Pls
+1784 846 Pls
+1622 768 Pls
+1808 777 Pls
+1703 1678 Pls
+1687 811 Pls
+1704 853 Pls
+1909 780 Pls
+1757 773 Pls
+1856 778 Pls
+1698 820 Pls
+1717 776 Pls
+1817 796 Pls
+1831 807 Pls
+1712 912 Pls
+1743 777 Pls
+2242 781 Pls
+1810 4048 Pls
+1750 849 Pls
+1888 779 Pls
+1855 768 Pls
+1792 4043 Pls
+1678 1029 Pls
+1736 898 Pls
+1915 814 Pls
+1740 1100 Pls
+1846 882 Pls
+2561 1253 Pls
+1789 832 Pls
+1702 2001 Pls
+1810 1606 Pls
+1843 1085 Pls
+1698 1252 Pls
+1783 806 Pls
+1735 783 Pls
+1655 777 Pls
+2120 3801 Pls
+1705 1197 Pls
+1784 804 Pls
+1686 826 Pls
+1624 768 Pls
+2074 2933 Pls
+1814 772 Pls
+1881 2046 Pls
+1755 792 Pls
+1967 3978 Pls
+1678 768 Pls
+1611 768 Pls
+1790 770 Pls
+1718 2517 Pls
+1781 768 Pls
+1948 878 Pls
+1639 768 Pls
+1854 835 Pls
+1676 1220 Pls
+2231 3048 Pls
+1609 768 Pls
+1682 768 Pls
+1739 812 Pls
+1691 960 Pls
+1813 1861 Pls
+1853 1517 Pls
+1832 808 Pls
+2098 1479 Pls
+1666 791 Pls
+1699 807 Pls
+1806 813 Pls
+1923 1791 Pls
+1712 1316 Pls
+1664 786 Pls
+1764 2277 Pls
+1854 790 Pls
+1753 822 Pls
+1779 776 Pls
+1816 785 Pls
+2014 768 Pls
+2151 770 Pls
+1699 853 Pls
+1911 769 Pls
+1761 789 Pls
+1712 818 Pls
+1749 3953 Pls
+1787 1945 Pls
+1674 781 Pls
+1785 782 Pls
+1683 3295 Pls
+1712 1192 Pls
+1813 768 Pls
+1834 815 Pls
+1815 1707 Pls
+1749 800 Pls
+1719 832 Pls
+1826 785 Pls
+1825 786 Pls
+1774 3091 Pls
+1724 1242 Pls
+1851 783 Pls
+1679 768 Pls
+1726 1015 Pls
+2084 772 Pls
+2052 808 Pls
+1740 2849 Pls
+1738 783 Pls
+1725 769 Pls
+1726 3089 Pls
+1778 871 Pls
+1687 816 Pls
+1688 1065 Pls
+1780 3520 Pls
+1802 773 Pls
+1916 1255 Pls
+2461 769 Pls
+1901 1161 Pls
+1857 783 Pls
+1733 814 Pls
+2208 768 Pls
+1772 806 Pls
+1765 784 Pls
+1704 807 Pls
+1704 835 Pls
+1791 819 Pls
+1744 781 Pls
+1698 1357 Pls
+1814 774 Pls
+1936 817 Pls
+1772 775 Pls
+1699 2613 Pls
+1729 768 Pls
+2006 1536 Pls
+2799 825 Pls
+1640 2494 Pls
+2205 1492 Pls
+1719 775 Pls
+1664 779 Pls
+1720 877 Pls
+1739 782 Pls
+1725 819 Pls
+1789 3166 Pls
+1811 1259 Pls
+1765 2420 Pls
+1957 2072 Pls
+1902 773 Pls
+1687 896 Pls
+1630 768 Pls
+1685 768 Pls
+1712 999 Pls
+1735 775 Pls
+1722 3697 Pls
+1706 1357 Pls
+1985 784 Pls
+1862 796 Pls
+1896 805 Pls
+1753 1477 Pls
+1868 800 Pls
+1652 870 Pls
+1759 848 Pls
+1998 1028 Pls
+1912 810 Pls
+1988 1167 Pls
+1841 1176 Pls
+2216 1446 Pls
+1993 788 Pls
+1649 3836 Pls
+1819 1023 Pls
+1704 832 Pls
+1674 2028 Pls
+1718 768 Pls
+1788 1188 Pls
+1734 773 Pls
+1684 793 Pls
+1724 2464 Pls
+1658 768 Pls
+1718 772 Pls
+1731 962 Pls
+1727 856 Pls
+1730 768 Pls
+1699 2568 Pls
+1752 784 Pls
+1814 2421 Pls
+1761 858 Pls
+2479 772 Pls
+1722 770 Pls
+1976 778 Pls
+1846 794 Pls
+2792 768 Pls
+1914 768 Pls
+1910 811 Pls
+1674 868 Pls
+1802 771 Pls
+1735 1226 Pls
+1721 803 Pls
+2078 777 Pls
+1753 771 Pls
+1832 784 Pls
+1807 789 Pls
+3316 794 Pls
+1723 921 Pls
+1935 832 Pls
+1808 1442 Pls
+1761 3361 Pls
+1655 787 Pls
+1766 798 Pls
+1726 794 Pls
+1874 2591 Pls
+1963 3647 Pls
+1901 850 Pls
+1739 791 Pls
+1745 849 Pls
+2009 815 Pls
+1756 789 Pls
+1753 1005 Pls
+1796 1503 Pls
+1725 930 Pls
+1636 768 Pls
+1827 3245 Pls
+1705 2292 Pls
+1722 769 Pls
+1999 778 Pls
+1778 1592 Pls
+1764 923 Pls
+1699 768 Pls
+1791 1480 Pls
+1844 795 Pls
+1731 774 Pls
+1748 3108 Pls
+1918 1336 Pls
+1668 947 Pls
+1751 994 Pls
+1612 768 Pls
+1684 1367 Pls
+1676 811 Pls
+1710 784 Pls
+1828 779 Pls
+2216 768 Pls
+1827 768 Pls
+1710 768 Pls
+1809 3456 Pls
+2142 768 Pls
+1832 773 Pls
+1993 3733 Pls
+1995 775 Pls
+1721 768 Pls
+1763 1152 Pls
+1707 780 Pls
+1721 802 Pls
+1813 852 Pls
+1751 1063 Pls
+1759 794 Pls
+2135 1035 Pls
+1748 860 Pls
+1647 768 Pls
+1845 2703 Pls
+1694 830 Pls
+2354 1423 Pls
+1774 3352 Pls
+1773 1665 Pls
+1875 801 Pls
+1740 882 Pls
+1799 768 Pls
+1831 1279 Pls
+1971 1890 Pls
+1744 859 Pls
+1859 865 Pls
+1693 2011 Pls
+2153 785 Pls
+1671 791 Pls
+1902 786 Pls
+2055 773 Pls
+1664 1194 Pls
+2070 1065 Pls
+1843 1001 Pls
+1659 812 Pls
+1730 806 Pls
+1934 811 Pls
+2015 788 Pls
+1664 768 Pls
+2894 1175 Pls
+1895 786 Pls
+1781 826 Pls
+1934 782 Pls
+1746 889 Pls
+1690 890 Pls
+2221 768 Pls
+1728 891 Pls
+1699 800 Pls
+1672 967 Pls
+1744 779 Pls
+1773 853 Pls
+1797 837 Pls
+1724 3606 Pls
+1822 868 Pls
+1806 778 Pls
+2207 768 Pls
+1665 3008 Pls
+1916 782 Pls
+1885 768 Pls
+1788 791 Pls
+1821 1227 Pls
+2070 1104 Pls
+2154 772 Pls
+2126 840 Pls
+1789 1587 Pls
+1832 1063 Pls
+1724 2112 Pls
+2240 768 Pls
+1831 786 Pls
+1660 787 Pls
+1711 1398 Pls
+1673 768 Pls
+1879 784 Pls
+1669 846 Pls
+1721 800 Pls
+1763 814 Pls
+1742 1890 Pls
+1803 875 Pls
+1721 969 Pls
+1922 1166 Pls
+1816 853 Pls
+1854 785 Pls
+1854 811 Pls
+1719 770 Pls
+1854 1635 Pls
+1755 975 Pls
+1884 768 Pls
+2117 780 Pls
+1850 775 Pls
+1702 1765 Pls
+1771 777 Pls
+1749 781 Pls
+1717 768 Pls
+1782 3793 Pls
+1682 3795 Pls
+1870 812 Pls
+1833 2096 Pls
+1800 779 Pls
+2090 768 Pls
+1707 819 Pls
+1806 3275 Pls
+2577 913 Pls
+2135 774 Pls
+1763 798 Pls
+1734 934 Pls
+1761 968 Pls
+1792 992 Pls
+1790 775 Pls
+1708 876 Pls
+2295 796 Pls
+1687 868 Pls
+1896 1212 Pls
+1863 777 Pls
+1808 769 Pls
+2048 768 Pls
+1698 830 Pls
+1789 786 Pls
+1673 819 Pls
+1767 823 Pls
+1756 770 Pls
+1656 803 Pls
+1715 786 Pls
+1927 850 Pls
+1761 975 Pls
+1686 2122 Pls
+1860 816 Pls
+1821 853 Pls
+1712 890 Pls
+1629 768 Pls
+1758 976 Pls
+1737 3240 Pls
+1668 934 Pls
+1709 964 Pls
+1724 922 Pls
+1739 785 Pls
+1877 772 Pls
+1654 768 Pls
+1782 2421 Pls
+1945 848 Pls
+1690 1484 Pls
+1680 800 Pls
+2219 768 Pls
+1781 2355 Pls
+1704 2733 Pls
+1698 884 Pls
+1682 2054 Pls
+1690 853 Pls
+1806 819 Pls
+2465 791 Pls
+1784 792 Pls
+1627 768 Pls
+1719 1268 Pls
+2005 780 Pls
+1846 3115 Pls
+2134 768 Pls
+1734 790 Pls
+1934 799 Pls
+1707 832 Pls
+1723 886 Pls
+1729 798 Pls
+1713 888 Pls
+2059 1097 Pls
+1707 1639 Pls
+2293 774 Pls
+1804 1310 Pls
+2003 887 Pls
+1748 800 Pls
+1896 785 Pls
+1845 1818 Pls
+1781 777 Pls
+1678 768 Pls
+1805 768 Pls
+1758 893 Pls
+2291 824 Pls
+1853 1079 Pls
+1805 800 Pls
+1740 2901 Pls
+1775 768 Pls
+1800 1339 Pls
+1696 778 Pls
+1745 843 Pls
+1771 811 Pls
+1830 1372 Pls
+2093 786 Pls
+2273 781 Pls
+1746 834 Pls
+1840 812 Pls
+1630 768 Pls
+1731 821 Pls
+1757 1279 Pls
+1818 795 Pls
+1821 768 Pls
+1621 768 Pls
+2673 768 Pls
+1655 768 Pls
+1819 782 Pls
+1706 2958 Pls
+1653 1298 Pls
+1761 1126 Pls
+1836 2775 Pls
+1944 768 Pls
+1797 799 Pls
+2132 1972 Pls
+1800 807 Pls
+2059 885 Pls
+1876 781 Pls
+1700 1727 Pls
+1688 814 Pls
+1967 791 Pls
+1742 789 Pls
+2058 824 Pls
+1867 773 Pls
+2144 780 Pls
+1663 772 Pls
+1627 768 Pls
+1671 768 Pls
+1703 865 Pls
+1674 2659 Pls
+1810 801 Pls
+1640 768 Pls
+1980 2366 Pls
+1667 768 Pls
+1705 3416 Pls
+1729 800 Pls
+1911 1084 Pls
+1711 770 Pls
+1677 969 Pls
+1822 1232 Pls
+1840 2747 Pls
+1691 1269 Pls
+1756 2597 Pls
+1711 917 Pls
+1984 780 Pls
+1760 781 Pls
+1743 1478 Pls
+2186 771 Pls
+1644 774 Pls
+1839 999 Pls
+1663 960 Pls
+1842 939 Pls
+1875 771 Pls
+1795 926 Pls
+1847 812 Pls
+1704 1961 Pls
+1864 2997 Pls
+1720 1002 Pls
+1651 791 Pls
+1712 1316 Pls
+2219 768 Pls
+1840 768 Pls
+1707 828 Pls
+1929 779 Pls
+1770 1389 Pls
+1842 815 Pls
+2223 788 Pls
+1803 1171 Pls
+1684 774 Pls
+1695 3232 Pls
+1685 1598 Pls
+1664 805 Pls
+1668 815 Pls
+1949 773 Pls
+1775 1369 Pls
+1682 780 Pls
+1762 788 Pls
+1756 1826 Pls
+1889 773 Pls
+1946 1113 Pls
+1699 863 Pls
+1730 3407 Pls
+1819 819 Pls
+1678 768 Pls
+1900 772 Pls
+1749 1102 Pls
+1723 768 Pls
+1931 1970 Pls
+1725 799 Pls
+1741 847 Pls
+1853 776 Pls
+1779 1007 Pls
+1787 998 Pls
+1651 786 Pls
+1696 832 Pls
+1797 779 Pls
+2280 917 Pls
+1860 782 Pls
+1746 788 Pls
+1619 768 Pls
+1794 768 Pls
+1704 913 Pls
+1846 781 Pls
+1828 778 Pls
+1901 1104 Pls
+1847 878 Pls
+2190 768 Pls
+1728 824 Pls
+1705 1239 Pls
+2216 768 Pls
+1713 803 Pls
+1833 905 Pls
+2158 1971 Pls
+2223 768 Pls
+3127 781 Pls
+1692 829 Pls
+1816 771 Pls
+1812 940 Pls
+1950 769 Pls
+1870 826 Pls
+1762 807 Pls
+1709 882 Pls
+1883 934 Pls
+1813 797 Pls
+1817 848 Pls
+1726 1316 Pls
+1814 996 Pls
+1699 1179 Pls
+1689 776 Pls
+1722 792 Pls
+2295 776 Pls
+1846 801 Pls
+1867 768 Pls
+1696 1290 Pls
+1687 796 Pls
+2078 1213 Pls
+2267 768 Pls
+1726 3432 Pls
+1806 807 Pls
+1922 2873 Pls
+2288 1226 Pls
+1734 768 Pls
+1688 847 Pls
+1781 768 Pls
+1787 768 Pls
+1782 768 Pls
+1767 1029 Pls
+1714 768 Pls
+1745 768 Pls
+1717 1145 Pls
+1724 780 Pls
+1737 945 Pls
+1821 790 Pls
+1963 769 Pls
+1953 771 Pls
+1730 3556 Pls
+1654 845 Pls
+1671 811 Pls
+1757 1034 Pls
+1663 768 Pls
+1902 1349 Pls
+2121 858 Pls
+1693 768 Pls
+1756 815 Pls
+1710 826 Pls
+1660 928 Pls
+1693 833 Pls
+1929 768 Pls
+1763 883 Pls
+1717 1342 Pls
+1729 882 Pls
+1683 1041 Pls
+1723 2582 Pls
+1712 781 Pls
+1738 894 Pls
+1715 850 Pls
+1881 775 Pls
+1885 768 Pls
+1700 3484 Pls
+2110 768 Pls
+1744 782 Pls
+1772 1849 Pls
+1779 876 Pls
+1719 768 Pls
+1621 768 Pls
+1684 776 Pls
+1755 960 Pls
+1659 768 Pls
+1915 820 Pls
+2185 792 Pls
+1706 791 Pls
+1704 897 Pls
+1831 777 Pls
+2274 4075 Pls
+2029 975 Pls
+1721 830 Pls
+1733 788 Pls
+1772 787 Pls
+1741 855 Pls
+1717 2463 Pls
+1811 899 Pls
+1785 831 Pls
+1687 3073 Pls
+2223 768 Pls
+1855 836 Pls
+1708 841 Pls
+2160 784 Pls
+1866 998 Pls
+1673 900 Pls
+1899 769 Pls
+1673 1066 Pls
+1820 800 Pls
+1671 768 Pls
+1648 2161 Pls
+1732 768 Pls
+1883 1055 Pls
+1964 877 Pls
+1698 875 Pls
+1680 1102 Pls
+1938 848 Pls
+1796 1083 Pls
+1699 792 Pls
+1775 768 Pls
+1672 794 Pls
+2039 1015 Pls
+1649 769 Pls
+2087 1121 Pls
+1759 789 Pls
+1683 2231 Pls
+1733 779 Pls
+1681 792 Pls
+1699 768 Pls
+1782 790 Pls
+1904 1629 Pls
+1898 894 Pls
+1753 1024 Pls
+1936 768 Pls
+1850 785 Pls
+1842 1206 Pls
+1682 984 Pls
+1772 2196 Pls
+2017 1601 Pls
+1798 833 Pls
+1694 1928 Pls
+1852 974 Pls
+1894 768 Pls
+1785 783 Pls
+2074 1062 Pls
+1809 773 Pls
+1644 1791 Pls
+1824 936 Pls
+1771 2142 Pls
+1715 1554 Pls
+1690 1026 Pls
+1701 814 Pls
+1875 781 Pls
+1694 854 Pls
+1781 1024 Pls
+1746 813 Pls
+1765 768 Pls
+1810 784 Pls
+1687 800 Pls
+1711 930 Pls
+1705 805 Pls
+1735 770 Pls
+1802 798 Pls
+1867 781 Pls
+2122 834 Pls
+1687 842 Pls
+2220 768 Pls
+1682 2382 Pls
+1631 768 Pls
+1739 826 Pls
+1694 799 Pls
+1952 1299 Pls
+1810 773 Pls
+1685 1249 Pls
+1964 804 Pls
+1937 1013 Pls
+1644 838 Pls
+1623 768 Pls
+1684 845 Pls
+2256 1300 Pls
+1691 896 Pls
+1655 948 Pls
+1825 768 Pls
+1689 882 Pls
+1872 1010 Pls
+1905 790 Pls
+1896 783 Pls
+1696 952 Pls
+1909 944 Pls
+1697 778 Pls
+1685 977 Pls
+1661 3858 Pls
+1724 776 Pls
+1771 1408 Pls
+1672 811 Pls
+1927 791 Pls
+1639 768 Pls
+2176 782 Pls
+1657 768 Pls
+1718 804 Pls
+2424 1543 Pls
+1788 2451 Pls
+1699 800 Pls
+1986 803 Pls
+1643 938 Pls
+1817 828 Pls
+1813 905 Pls
+1672 967 Pls
+2298 791 Pls
+1707 832 Pls
+1759 777 Pls
+1777 770 Pls
+1972 779 Pls
+1762 1031 Pls
+1709 1191 Pls
+1717 1209 Pls
+1793 1005 Pls
+1758 843 Pls
+1684 1151 Pls
+1785 2288 Pls
+1633 807 Pls
+1970 806 Pls
+1780 1234 Pls
+1937 775 Pls
+1911 886 Pls
+1789 886 Pls
+2701 783 Pls
+1711 768 Pls
+1725 794 Pls
+1662 816 Pls
+1992 784 Pls
+1630 768 Pls
+1645 1167 Pls
+1672 1104 Pls
+1834 1545 Pls
+1825 2102 Pls
+1754 789 Pls
+1682 1644 Pls
+1751 2302 Pls
+2075 3889 Pls
+1899 966 Pls
+1882 821 Pls
+2019 886 Pls
+1959 2521 Pls
+1695 832 Pls
+1694 773 Pls
+1656 1121 Pls
+1770 804 Pls
+2492 839 Pls
+1669 811 Pls
+2020 806 Pls
+1665 773 Pls
+1886 877 Pls
+1988 1279 Pls
+1664 864 Pls
+2794 1121 Pls
+1767 773 Pls
+1708 832 Pls
+1917 862 Pls
+1837 1139 Pls
+2192 849 Pls
+1730 801 Pls
+1781 1069 Pls
+1674 775 Pls
+1815 816 Pls
+1812 795 Pls
+1686 773 Pls
+1767 820 Pls
+1694 811 Pls
+1858 3266 Pls
+2136 886 Pls
+1916 774 Pls
+1684 954 Pls
+1747 1570 Pls
+1718 896 Pls
+2004 785 Pls
+1630 768 Pls
+1734 768 Pls
+1910 768 Pls
+1623 769 Pls
+1682 775 Pls
+2066 801 Pls
+1743 797 Pls
+2253 1064 Pls
+1698 1194 Pls
+1959 782 Pls
+1737 833 Pls
+1748 1025 Pls
+1895 860 Pls
+1729 835 Pls
+1774 833 Pls
+1846 893 Pls
+1675 858 Pls
+1807 768 Pls
+1764 904 Pls
+1719 818 Pls
+1834 769 Pls
+1675 768 Pls
+1701 926 Pls
+1661 1265 Pls
+1699 1049 Pls
+1729 861 Pls
+1797 814 Pls
+1699 783 Pls
+1648 768 Pls
+2144 775 Pls
+1873 775 Pls
+1796 1397 Pls
+1732 1071 Pls
+2084 768 Pls
+1828 1390 Pls
+1691 1190 Pls
+1688 1244 Pls
+1835 1571 Pls
+1660 845 Pls
+1694 811 Pls
+1766 3254 Pls
+1724 922 Pls
+1715 2281 Pls
+1668 768 Pls
+1780 792 Pls
+1814 838 Pls
+1734 793 Pls
+1677 775 Pls
+1743 837 Pls
+1751 769 Pls
+2482 771 Pls
+1721 778 Pls
+1782 895 Pls
+1718 1185 Pls
+1683 768 Pls
+1664 775 Pls
+1898 787 Pls
+1728 785 Pls
+1811 2916 Pls
+1838 777 Pls
+1757 1229 Pls
+5395 768 Pls
+2178 961 Pls
+1757 1102 Pls
+1772 2745 Pls
+1718 1972 Pls
+1682 775 Pls
+1609 768 Pls
+1691 788 Pls
+1767 768 Pls
+1738 825 Pls
+1703 768 Pls
+1817 854 Pls
+1727 774 Pls
+1774 780 Pls
+2271 1362 Pls
+1705 1727 Pls
+1839 768 Pls
+1755 1386 Pls
+2438 802 Pls
+1713 2266 Pls
+1714 768 Pls
+1661 811 Pls
+1726 834 Pls
+1720 1206 Pls
+1712 768 Pls
+1790 949 Pls
+1861 789 Pls
+1676 844 Pls
+1944 1570 Pls
+1792 2143 Pls
+1879 867 Pls
+1850 881 Pls
+1967 776 Pls
+1776 826 Pls
+1749 774 Pls
+1634 768 Pls
+1672 921 Pls
+1766 1006 Pls
+1898 2176 Pls
+2102 791 Pls
+1706 816 Pls
+1709 1290 Pls
+2045 772 Pls
+1721 774 Pls
+1710 779 Pls
+1788 3272 Pls
+1725 963 Pls
+1673 774 Pls
+1859 1052 Pls
+1699 774 Pls
+1796 805 Pls
+1735 786 Pls
+1786 780 Pls
+1913 3847 Pls
+1717 768 Pls
+1662 768 Pls
+1771 936 Pls
+1709 811 Pls
+1732 1116 Pls
+1702 846 Pls
+1880 801 Pls
+1705 768 Pls
+1831 2135 Pls
+2066 768 Pls
+2802 1152 Pls
+1730 1041 Pls
+1672 807 Pls
+1711 814 Pls
+1716 1218 Pls
+2184 784 Pls
+1927 853 Pls
+1709 777 Pls
+1944 1446 Pls
+1713 801 Pls
+1674 768 Pls
+1701 798 Pls
+1702 782 Pls
+1726 781 Pls
+1665 793 Pls
+1887 776 Pls
+2109 768 Pls
+1746 791 Pls
+1855 988 Pls
+1721 919 Pls
+2127 768 Pls
+1849 1552 Pls
+1907 3062 Pls
+1732 1016 Pls
+1688 870 Pls
+1710 776 Pls
+1747 768 Pls
+1724 960 Pls
+1794 802 Pls
+1663 1443 Pls
+1738 1024 Pls
+1721 771 Pls
+1752 879 Pls
+1672 835 Pls
+1757 973 Pls
+1696 1790 Pls
+1686 1040 Pls
+1885 825 Pls
+2093 867 Pls
+2216 775 Pls
+1695 832 Pls
+1956 774 Pls
+2271 793 Pls
+1992 852 Pls
+1823 1035 Pls
+1686 772 Pls
+1835 798 Pls
+1660 1255 Pls
+1709 877 Pls
+1753 768 Pls
+1789 993 Pls
+1854 768 Pls
+2222 772 Pls
+1765 1332 Pls
+1651 1015 Pls
+1930 802 Pls
+1893 1097 Pls
+1878 798 Pls
+1811 886 Pls
+1776 775 Pls
+1782 827 Pls
+1875 976 Pls
+1717 4084 Pls
+1840 2745 Pls
+1789 795 Pls
+1722 2414 Pls
+1728 789 Pls
+1734 768 Pls
+1633 1450 Pls
+1837 803 Pls
+1647 771 Pls
+1702 804 Pls
+1968 980 Pls
+1831 804 Pls
+1797 812 Pls
+1794 1121 Pls
+1708 853 Pls
+1811 811 Pls
+1814 768 Pls
+1927 1109 Pls
+1722 819 Pls
+1689 769 Pls
+1811 1108 Pls
+1956 851 Pls
+2006 768 Pls
+1844 900 Pls
+1751 2046 Pls
+1947 2784 Pls
+1740 783 Pls
+1674 800 Pls
+1713 768 Pls
+2158 1658 Pls
+1758 846 Pls
+1727 768 Pls
+1632 790 Pls
+2114 779 Pls
+1742 813 Pls
+1676 1330 Pls
+1771 2723 Pls
+1709 791 Pls
+1784 1338 Pls
+1929 776 Pls
+1771 865 Pls
+1871 1006 Pls
+2122 857 Pls
+1738 1144 Pls
+1771 805 Pls
+1706 1563 Pls
+1754 2832 Pls
+1886 1443 Pls
+1745 965 Pls
+1725 768 Pls
+1967 1009 Pls
+1773 987 Pls
+1691 817 Pls
+1690 779 Pls
+1690 2257 Pls
+1818 783 Pls
+1742 943 Pls
+1696 834 Pls
+1712 1148 Pls
+1868 933 Pls
+1995 780 Pls
+1851 791 Pls
+1720 1195 Pls
+1775 793 Pls
+1899 772 Pls
+1647 768 Pls
+1751 970 Pls
+1767 820 Pls
+1713 1279 Pls
+1756 1009 Pls
+1648 769 Pls
+1933 773 Pls
+2465 793 Pls
+1795 783 Pls
+1694 793 Pls
+1672 826 Pls
+3109 768 Pls
+1715 2885 Pls
+1773 964 Pls
+1739 3535 Pls
+2054 768 Pls
+1826 768 Pls
+1699 781 Pls
+1732 771 Pls
+1668 1184 Pls
+1704 1745 Pls
+1742 846 Pls
+1646 845 Pls
+1962 837 Pls
+1672 768 Pls
+1641 768 Pls
+2048 789 Pls
+1783 779 Pls
+1824 770 Pls
+1800 796 Pls
+1701 1860 Pls
+1778 956 Pls
+1745 1481 Pls
+1952 774 Pls
+1802 905 Pls
+1918 784 Pls
+1772 792 Pls
+1681 851 Pls
+1756 768 Pls
+1664 768 Pls
+1803 768 Pls
+1698 857 Pls
+1681 1722 Pls
+1834 1017 Pls
+1626 768 Pls
+1827 831 Pls
+1755 1159 Pls
+1691 806 Pls
+1920 886 Pls
+1687 832 Pls
+1657 819 Pls
+1774 771 Pls
+2185 789 Pls
+1685 819 Pls
+1829 861 Pls
+1663 811 Pls
+1759 1263 Pls
+1713 857 Pls
+1789 820 Pls
+1810 772 Pls
+1763 989 Pls
+1699 786 Pls
+1812 854 Pls
+2100 888 Pls
+1699 913 Pls
+1739 829 Pls
+1729 2947 Pls
+1710 863 Pls
+1854 833 Pls
+1881 803 Pls
+1727 825 Pls
+1696 785 Pls
+1650 815 Pls
+1771 790 Pls
+2161 1860 Pls
+1609 768 Pls
+1832 776 Pls
+2036 773 Pls
+1706 959 Pls
+1916 1408 Pls
+1877 796 Pls
+1709 789 Pls
+1878 1232 Pls
+1745 837 Pls
+1766 798 Pls
+1785 992 Pls
+1802 842 Pls
+1720 768 Pls
+1981 898 Pls
+1639 768 Pls
+1883 1102 Pls
+1851 823 Pls
+1773 952 Pls
+1797 1165 Pls
+1816 789 Pls
+1657 811 Pls
+1689 3114 Pls
+1948 1209 Pls
+1819 768 Pls
+1827 1015 Pls
+1788 1160 Pls
+1690 2257 Pls
+1826 789 Pls
+1732 939 Pls
+2174 842 Pls
+1718 878 Pls
+1753 780 Pls
+1698 808 Pls
+1856 1384 Pls
+1686 785 Pls
+1860 1063 Pls
+1720 787 Pls
+1773 900 Pls
+1635 1044 Pls
+1716 788 Pls
+1759 814 Pls
+1701 796 Pls
+1894 1091 Pls
+1894 895 Pls
+1790 783 Pls
+1897 807 Pls
+1715 838 Pls
+1753 900 Pls
+1720 1019 Pls
+1755 780 Pls
+1702 799 Pls
+1880 814 Pls
+2260 785 Pls
+1688 902 Pls
+1853 1021 Pls
+1716 853 Pls
+1770 790 Pls
+1713 3692 Pls
+1692 1056 Pls
+2157 1849 Pls
+2122 851 Pls
+1697 3154 Pls
+1906 786 Pls
+1937 780 Pls
+1751 789 Pls
+1877 795 Pls
+1763 810 Pls
+1665 819 Pls
+2042 795 Pls
+1770 2452 Pls
+1737 773 Pls
+1668 866 Pls
+1771 770 Pls
+1946 938 Pls
+1979 827 Pls
+1644 768 Pls
+1679 851 Pls
+1660 841 Pls
+2060 2296 Pls
+1771 4216 Pls
+1786 1393 Pls
+1636 768 Pls
+1767 768 Pls
+1855 3349 Pls
+1728 1041 Pls
+1749 768 Pls
+1859 2928 Pls
+2056 818 Pls
+1777 785 Pls
+2001 791 Pls
+1695 1215 Pls
+2058 775 Pls
+1813 807 Pls
+1685 832 Pls
+1675 768 Pls
+1744 789 Pls
+1633 768 Pls
+1776 805 Pls
+1788 830 Pls
+2026 774 Pls
+1963 768 Pls
+1624 768 Pls
+1838 1130 Pls
+1738 3996 Pls
+1760 1664 Pls
+1786 815 Pls
+1653 796 Pls
+1747 768 Pls
+1672 921 Pls
+2016 798 Pls
+1768 860 Pls
+1721 769 Pls
+1718 829 Pls
+1723 832 Pls
+1899 1384 Pls
+1794 1055 Pls
+1851 796 Pls
+1866 808 Pls
+1826 799 Pls
+1799 775 Pls
+1688 1117 Pls
+1682 768 Pls
+1694 1029 Pls
+1709 814 Pls
+1829 1206 Pls
+1788 1024 Pls
+1817 786 Pls
+1632 775 Pls
+2253 1042 Pls
+1721 1061 Pls
+1696 861 Pls
+1835 1536 Pls
+1749 2732 Pls
+1709 795 Pls
+1781 775 Pls
+1705 1330 Pls
+1871 778 Pls
+1769 793 Pls
+1893 1194 Pls
+1810 819 Pls
+1809 784 Pls
+1716 1500 Pls
+1790 3404 Pls
+1728 919 Pls
+1712 862 Pls
+1641 2757 Pls
+2033 865 Pls
+1672 1109 Pls
+1711 773 Pls
+1784 776 Pls
+1835 772 Pls
+1937 768 Pls
+1700 812 Pls
+1707 832 Pls
+1780 1024 Pls
+1675 1027 Pls
+1719 797 Pls
+1710 796 Pls
+1858 783 Pls
+2003 847 Pls
+1968 1169 Pls
+1864 830 Pls
+2046 768 Pls
+1673 773 Pls
+1675 1703 Pls
+1735 824 Pls
+2093 787 Pls
+1663 884 Pls
+1895 934 Pls
+1692 768 Pls
+1945 837 Pls
+1682 810 Pls
+1744 1536 Pls
+1871 769 Pls
+1848 1075 Pls
+1855 801 Pls
+1862 775 Pls
+1679 768 Pls
+1694 1731 Pls
+1667 781 Pls
+1788 803 Pls
+1742 1472 Pls
+1804 1783 Pls
+1873 821 Pls
+1736 805 Pls
+1714 890 Pls
+1663 1365 Pls
+1743 951 Pls
+1867 1252 Pls
+1818 801 Pls
+1678 904 Pls
+1916 800 Pls
+1869 772 Pls
+1615 768 Pls
+1768 774 Pls
+1882 779 Pls
+1734 781 Pls
+1676 781 Pls
+1800 797 Pls
+2341 858 Pls
+1750 781 Pls
+1757 806 Pls
+1689 1700 Pls
+1712 1073 Pls
+1950 1402 Pls
+1768 768 Pls
+1784 768 Pls
+1621 768 Pls
+2352 956 Pls
+1749 1774 Pls
+1708 835 Pls
+1674 819 Pls
+1760 793 Pls
+1774 847 Pls
+1646 768 Pls
+1761 842 Pls
+1768 2029 Pls
+1743 768 Pls
+2009 773 Pls
+1853 1008 Pls
+1678 786 Pls
+2155 811 Pls
+2114 854 Pls
+1726 911 Pls
+1903 768 Pls
+1662 776 Pls
+1817 1577 Pls
+1842 879 Pls
+1720 784 Pls
+1706 776 Pls
+1806 779 Pls
+1921 780 Pls
+1813 775 Pls
+2158 845 Pls
+1693 817 Pls
+1772 823 Pls
+1662 808 Pls
+1718 902 Pls
+2187 782 Pls
+1729 1727 Pls
+1670 769 Pls
+1792 835 Pls
+1965 836 Pls
+1655 779 Pls
+1832 857 Pls
+1834 776 Pls
+1704 779 Pls
+1953 778 Pls
+1681 802 Pls
+1940 859 Pls
+1649 1024 Pls
+2107 772 Pls
+1754 858 Pls
+1611 768 Pls
+1669 768 Pls
+1657 908 Pls
+1782 1361 Pls
+1775 768 Pls
+1691 822 Pls
+1764 871 Pls
+2035 1254 Pls
+1719 768 Pls
+1821 3131 Pls
+1936 773 Pls
+1728 1181 Pls
+1781 1468 Pls
+1693 803 Pls
+1733 772 Pls
+1666 781 Pls
+1764 902 Pls
+1645 788 Pls
+1781 869 Pls
+1962 768 Pls
+1795 781 Pls
+1872 795 Pls
+1745 1093 Pls
+1703 3836 Pls
+1694 776 Pls
+1673 785 Pls
+1774 1579 Pls
+1632 768 Pls
+1830 944 Pls
+1719 774 Pls
+1986 768 Pls
+1961 1082 Pls
+1826 1732 Pls
+2914 770 Pls
+1796 784 Pls
+1977 787 Pls
+1671 848 Pls
+1720 2622 Pls
+1815 929 Pls
+1687 844 Pls
+3078 915 Pls
+1688 838 Pls
+1709 775 Pls
+1695 796 Pls
+1711 1065 Pls
+1792 909 Pls
+2696 1242 Pls
+1715 776 Pls
+1748 800 Pls
+1755 768 Pls
+1905 786 Pls
+1859 1028 Pls
+1689 777 Pls
+1661 805 Pls
+1674 993 Pls
+1995 1334 Pls
+1719 886 Pls
+1926 768 Pls
+1653 3085 Pls
+1649 768 Pls
+1734 812 Pls
+1623 768 Pls
+1828 3517 Pls
+1666 805 Pls
+1805 788 Pls
+1922 2394 Pls
+1740 1063 Pls
+1746 789 Pls
+1849 770 Pls
+1610 768 Pls
+1694 962 Pls
+1737 1109 Pls
+1726 789 Pls
+1920 815 Pls
+1926 1271 Pls
+1820 768 Pls
+1910 1510 Pls
+1779 776 Pls
+1667 1123 Pls
+1743 815 Pls
+1761 1752 Pls
+1674 787 Pls
+1753 768 Pls
+1770 853 Pls
+1875 815 Pls
+1737 878 Pls
+1728 771 Pls
+1765 1663 Pls
+1770 798 Pls
+1994 899 Pls
+1787 3183 Pls
+1822 2461 Pls
+1718 800 Pls
+1748 1126 Pls
+2896 1082 Pls
+1734 772 Pls
+1671 788 Pls
+2163 771 Pls
+1794 977 Pls
+1803 876 Pls
+1899 809 Pls
+1690 896 Pls
+1758 771 Pls
+1937 1060 Pls
+1748 775 Pls
+1680 2343 Pls
+1621 768 Pls
+1608 768 Pls
+1989 774 Pls
+1727 807 Pls
+1720 801 Pls
+1870 770 Pls
+1700 862 Pls
+2375 967 Pls
+1711 1921 Pls
+1997 911 Pls
+1771 773 Pls
+1718 796 Pls
+1803 875 Pls
+1645 768 Pls
+1809 778 Pls
+1668 769 Pls
+1694 862 Pls
+1687 806 Pls
+1741 805 Pls
+1699 790 Pls
+1695 856 Pls
+1748 768 Pls
+1690 2257 Pls
+1655 822 Pls
+1735 3453 Pls
+1777 887 Pls
+1683 793 Pls
+1766 818 Pls
+1787 828 Pls
+1726 789 Pls
+1758 800 Pls
+1745 1093 Pls
+1683 2350 Pls
+1690 2257 Pls
+1699 1056 Pls
+1739 768 Pls
+2454 3836 Pls
+1793 943 Pls
+1876 794 Pls
+2015 898 Pls
+1745 768 Pls
+1690 778 Pls
+2055 952 Pls
+1799 768 Pls
+1722 772 Pls
+1752 877 Pls
+1856 846 Pls
+1831 2351 Pls
+1704 818 Pls
+1776 963 Pls
+1762 1152 Pls
+1677 973 Pls
+1743 1043 Pls
+1725 1050 Pls
+1762 772 Pls
+1774 1226 Pls
+1923 797 Pls
+1761 769 Pls
+2021 1473 Pls
+1861 774 Pls
+1661 1215 Pls
+1668 906 Pls
+1681 1914 Pls
+1742 818 Pls
+1895 880 Pls
+1892 831 Pls
+1848 2106 Pls
+1727 856 Pls
+2050 889 Pls
+1751 1516 Pls
+1773 770 Pls
+1812 811 Pls
+1826 869 Pls
+1853 857 Pls
+1866 880 Pls
+1760 768 Pls
+1830 1033 Pls
+1807 802 Pls
+1671 829 Pls
+1733 778 Pls
+1813 982 Pls
+1776 811 Pls
+1729 1147 Pls
+1911 850 Pls
+1685 792 Pls
+1752 774 Pls
+1905 768 Pls
+1842 819 Pls
+1943 1183 Pls
+1735 1041 Pls
+1733 769 Pls
+1762 771 Pls
+1772 1717 Pls
+1829 2984 Pls
+1854 1008 Pls
+1687 3046 Pls
+2083 3154 Pls
+1703 2224 Pls
+1915 1509 Pls
+1922 768 Pls
+2014 959 Pls
+1626 768 Pls
+2095 772 Pls
+1676 1535 Pls
+1620 768 Pls
+2385 828 Pls
+1773 3862 Pls
+1811 3482 Pls
+1654 806 Pls
+1746 896 Pls
+1704 772 Pls
+1965 805 Pls
+1748 768 Pls
+1695 801 Pls
+2039 2750 Pls
+1724 796 Pls
+1702 3702 Pls
+1827 840 Pls
+1751 1875 Pls
+1893 772 Pls
+1676 985 Pls
+1804 786 Pls
+1708 856 Pls
+1737 838 Pls
+1654 3502 Pls
+1944 3367 Pls
+1717 853 Pls
+1645 768 Pls
+2101 1004 Pls
+2230 974 Pls
+1629 768 Pls
+1742 808 Pls
+2227 1517 Pls
+1950 799 Pls
+1624 783 Pls
+1621 768 Pls
+1918 772 Pls
+1826 791 Pls
+2579 785 Pls
+1796 832 Pls
+1701 768 Pls
+1701 982 Pls
+1731 1049 Pls
+2196 865 Pls
+1652 2940 Pls
+1891 812 Pls
+1780 816 Pls
+2151 3055 Pls
+1861 774 Pls
+2232 768 Pls
+1769 827 Pls
+1780 4015 Pls
+1725 808 Pls
+1930 783 Pls
+2012 772 Pls
+2088 775 Pls
+1802 811 Pls
+1966 1240 Pls
+2168 2551 Pls
+1773 815 Pls
+1615 768 Pls
+1685 784 Pls
+1838 813 Pls
+2335 768 Pls
+1728 776 Pls
+1699 843 Pls
+1943 2201 Pls
+1720 773 Pls
+2143 1145 Pls
+1717 774 Pls
+1715 880 Pls
+1674 768 Pls
+1827 1715 Pls
+1850 784 Pls
+1717 940 Pls
+1915 930 Pls
+2217 798 Pls
+1709 968 Pls
+1723 776 Pls
+2157 1771 Pls
+1666 768 Pls
+1981 976 Pls
+1877 873 Pls
+1924 1936 Pls
+1713 2546 Pls
+1788 1061 Pls
+1718 2010 Pls
+1648 805 Pls
+2024 847 Pls
+1735 773 Pls
+1818 1257 Pls
+1877 2627 Pls
+1758 787 Pls
+1765 1980 Pls
+1812 769 Pls
+1673 3030 Pls
+1771 818 Pls
+1651 774 Pls
+1802 4289 Pls
+1916 768 Pls
+1791 778 Pls
+1645 768 Pls
+1744 835 Pls
+1947 768 Pls
+1956 1006 Pls
+1724 1193 Pls
+1722 2418 Pls
+1701 882 Pls
+1817 1412 Pls
+1713 772 Pls
+1713 1320 Pls
+1784 2988 Pls
+2022 774 Pls
+1767 820 Pls
+1791 2558 Pls
+1680 1076 Pls
+1703 832 Pls
+1715 799 Pls
+1788 966 Pls
+1637 809 Pls
+1689 773 Pls
+1722 921 Pls
+1879 787 Pls
+1818 898 Pls
+1658 864 Pls
+1780 768 Pls
+1671 769 Pls
+1608 768 Pls
+1721 768 Pls
+1685 808 Pls
+1735 788 Pls
+1695 796 Pls
+1665 811 Pls
+1885 862 Pls
+1901 768 Pls
+1789 797 Pls
+1851 777 Pls
+1776 769 Pls
+1871 768 Pls
+1771 1694 Pls
+1770 1002 Pls
+1731 990 Pls
+1744 768 Pls
+1753 1187 Pls
+1785 783 Pls
+1748 768 Pls
+1936 832 Pls
+1699 844 Pls
+1797 789 Pls
+1917 803 Pls
+1639 841 Pls
+1645 768 Pls
+1821 1653 Pls
+1716 768 Pls
+2068 768 Pls
+1678 783 Pls
+1840 815 Pls
+1749 776 Pls
+1866 819 Pls
+1715 777 Pls
+1699 811 Pls
+1823 826 Pls
+1794 833 Pls
+1731 3497 Pls
+1768 774 Pls
+1888 802 Pls
+1774 970 Pls
+1862 789 Pls
+1868 796 Pls
+1972 989 Pls
+1710 801 Pls
+1938 777 Pls
+2004 804 Pls
+1708 768 Pls
+1974 774 Pls
+1958 768 Pls
+1771 850 Pls
+1699 967 Pls
+1714 768 Pls
+1726 1280 Pls
+1715 1227 Pls
+1705 768 Pls
+1939 2142 Pls
+1663 845 Pls
+1768 3771 Pls
+1743 771 Pls
+1685 874 Pls
+1853 768 Pls
+2087 988 Pls
+1609 768 Pls
+1717 2636 Pls
+1947 1349 Pls
+1891 773 Pls
+1732 812 Pls
+2113 820 Pls
+1854 775 Pls
+1687 908 Pls
+2813 926 Pls
+1751 768 Pls
+1792 779 Pls
+1758 768 Pls
+1758 775 Pls
+1851 2080 Pls
+6097 784 Pls
+1674 920 Pls
+1791 1024 Pls
+1786 1897 Pls
+2006 801 Pls
+2014 1055 Pls
+1929 769 Pls
+1967 1009 Pls
+1609 768 Pls
+1694 1250 Pls
+2029 786 Pls
+1638 1727 Pls
+1911 775 Pls
+1940 798 Pls
+1786 774 Pls
+3121 1454 Pls
+1692 896 Pls
+1950 1072 Pls
+1820 855 Pls
+1919 772 Pls
+1811 783 Pls
+1829 773 Pls
+1833 768 Pls
+1778 768 Pls
+1699 1228 Pls
+1665 779 Pls
+1813 804 Pls
+1656 816 Pls
+1864 1024 Pls
+1669 3751 Pls
+1814 869 Pls
+1628 1174 Pls
+1791 1330 Pls
+1933 877 Pls
+1794 768 Pls
+1853 770 Pls
+1909 1251 Pls
+1859 802 Pls
+1865 1174 Pls
+1787 768 Pls
+1895 1363 Pls
+1923 768 Pls
+1706 777 Pls
+1774 1627 Pls
+1798 768 Pls
+1782 1326 Pls
+1966 894 Pls
+1649 781 Pls
+1670 768 Pls
+1912 768 Pls
+1690 2257 Pls
+1628 852 Pls
+2806 2581 Pls
+2083 3908 Pls
+1770 1049 Pls
+1688 768 Pls
+1769 826 Pls
+1741 901 Pls
+2125 774 Pls
+1686 890 Pls
+1775 1002 Pls
+1721 814 Pls
+1798 912 Pls
+1648 775 Pls
+2170 775 Pls
+1839 775 Pls
+1713 1102 Pls
+1736 771 Pls
+1696 812 Pls
+1957 886 Pls
+1836 1207 Pls
+2025 790 Pls
+1885 3171 Pls
+1610 768 Pls
+1638 775 Pls
+1813 800 Pls
+1970 774 Pls
+1733 917 Pls
+1996 777 Pls
+1693 819 Pls
+1692 835 Pls
+1688 1135 Pls
+1701 794 Pls
+1888 768 Pls
+1620 768 Pls
+1702 833 Pls
+1717 794 Pls
+1859 1641 Pls
+1729 921 Pls
+1810 2137 Pls
+1705 1063 Pls
+1696 807 Pls
+1890 833 Pls
+1642 768 Pls
+1696 823 Pls
+1823 789 Pls
+1699 856 Pls
+1775 775 Pls
+1699 783 Pls
+1866 865 Pls
+1954 777 Pls
+2092 777 Pls
+1845 803 Pls
+1799 826 Pls
+1700 804 Pls
+1892 796 Pls
+1665 1177 Pls
+1642 821 Pls
+1831 864 Pls
+1666 814 Pls
+1664 768 Pls
+1760 810 Pls
+1814 768 Pls
+1739 781 Pls
+2186 803 Pls
+1766 853 Pls
+1950 772 Pls
+1731 853 Pls
+1723 825 Pls
+1927 883 Pls
+1693 970 Pls
+1839 768 Pls
+1815 846 Pls
+1801 1169 Pls
+1976 819 Pls
+1892 1025 Pls
+2453 793 Pls
+1797 925 Pls
+1709 1490 Pls
+1926 810 Pls
+1898 789 Pls
+2090 1156 Pls
+1692 768 Pls
+2557 771 Pls
+1827 3245 Pls
+1688 805 Pls
+2203 772 Pls
+1680 792 Pls
+3000 768 Pls
+1766 876 Pls
+1718 768 Pls
+1995 891 Pls
+1880 768 Pls
+1700 1647 Pls
+1750 892 Pls
+1866 770 Pls
+1721 774 Pls
+1657 768 Pls
+1719 853 Pls
+1681 1007 Pls
+1840 774 Pls
+1725 801 Pls
+1713 1024 Pls
+1721 854 Pls
+1686 952 Pls
+1778 3609 Pls
+1804 789 Pls
+1731 859 Pls
+1929 779 Pls
+1694 1175 Pls
+1880 792 Pls
+1773 1192 Pls
+2064 783 Pls
+1761 1051 Pls
+1652 796 Pls
+1703 789 Pls
+1736 990 Pls
+1702 880 Pls
+1696 799 Pls
+1698 1141 Pls
+1750 814 Pls
+1727 768 Pls
+1708 768 Pls
+2229 768 Pls
+1904 776 Pls
+1693 822 Pls
+1689 851 Pls
+1723 992 Pls
+1774 860 Pls
+1681 777 Pls
+2118 783 Pls
+1784 823 Pls
+1757 792 Pls
+2291 2941 Pls
+1935 788 Pls
+1899 768 Pls
+1690 1229 Pls
+1855 973 Pls
+3219 768 Pls
+1710 805 Pls
+1741 795 Pls
+1885 772 Pls
+1869 791 Pls
+1636 772 Pls
+1751 768 Pls
+1748 950 Pls
+1729 2341 Pls
+1731 805 Pls
+2005 898 Pls
+1696 1134 Pls
+1917 783 Pls
+2089 786 Pls
+1825 783 Pls
+1873 789 Pls
+1714 797 Pls
+1707 781 Pls
+1907 924 Pls
+1789 3128 Pls
+2722 774 Pls
+1666 768 Pls
+2270 824 Pls
+1778 768 Pls
+1671 832 Pls
+1675 788 Pls
+1902 769 Pls
+1906 799 Pls
+1762 802 Pls
+1805 802 Pls
+1666 770 Pls
+1753 1222 Pls
+1711 958 Pls
+1730 847 Pls
+1730 768 Pls
+1915 795 Pls
+1773 771 Pls
+1703 805 Pls
+1797 781 Pls
+1864 918 Pls
+1937 788 Pls
+1734 769 Pls
+1689 772 Pls
+2113 832 Pls
+1664 811 Pls
+1904 919 Pls
+2079 776 Pls
+1799 3104 Pls
+2241 943 Pls
+2429 768 Pls
+2427 2659 Pls
+1610 768 Pls
+1705 1087 Pls
+1658 928 Pls
+1853 881 Pls
+1758 822 Pls
+1849 1018 Pls
+2219 1246 Pls
+1767 802 Pls
+1690 1194 Pls
+1659 768 Pls
+1655 777 Pls
+1811 1216 Pls
+1903 968 Pls
+1781 768 Pls
+1959 822 Pls
+1883 904 Pls
+1762 851 Pls
+1714 3653 Pls
+1904 2627 Pls
+1686 897 Pls
+1888 928 Pls
+1799 830 Pls
+2029 830 Pls
+1740 959 Pls
+1865 811 Pls
+1718 1342 Pls
+1842 998 Pls
+1824 884 Pls
+1637 782 Pls
+1709 772 Pls
+1736 769 Pls
+1690 808 Pls
+1885 1044 Pls
+1720 953 Pls
+1923 768 Pls
+1791 1434 Pls
+1825 773 Pls
+1744 825 Pls
+1780 798 Pls
+1682 895 Pls
+1697 792 Pls
+1873 1517 Pls
+1808 802 Pls
+1785 773 Pls
+1780 919 Pls
+1690 776 Pls
+1740 778 Pls
+1738 922 Pls
+1747 816 Pls
+1879 818 Pls
+1819 1784 Pls
+2329 772 Pls
+1680 784 Pls
+1829 783 Pls
+1819 845 Pls
+1976 2501 Pls
+1867 1182 Pls
+1662 768 Pls
+1818 1520 Pls
+1781 935 Pls
+1682 805 Pls
+1906 778 Pls
+2041 1639 Pls
+1803 847 Pls
+2262 1216 Pls
+1924 1448 Pls
+1792 779 Pls
+2806 786 Pls
+1742 980 Pls
+1696 809 Pls
+1784 974 Pls
+1767 886 Pls
+1677 1865 Pls
+1948 1048 Pls
+2277 781 Pls
+1912 2545 Pls
+2112 2174 Pls
+1713 772 Pls
+2073 774 Pls
+1886 883 Pls
+1740 1576 Pls
+1701 1009 Pls
+1785 1198 Pls
+1828 784 Pls
+1735 971 Pls
+1685 814 Pls
+1842 1077 Pls
+1695 788 Pls
+1991 2863 Pls
+1835 887 Pls
+1683 793 Pls
+1705 2294 Pls
+1943 986 Pls
+1712 779 Pls
+1982 840 Pls
+1865 901 Pls
+1855 1689 Pls
+1836 815 Pls
+1792 1121 Pls
+1708 973 Pls
+2041 796 Pls
+3205 890 Pls
+1783 787 Pls
+1800 910 Pls
+1744 1056 Pls
+1704 982 Pls
+1933 1699 Pls
+1676 829 Pls
+1750 810 Pls
+1853 821 Pls
+1814 768 Pls
+1685 893 Pls
+1947 769 Pls
+1993 771 Pls
+1786 840 Pls
+1710 783 Pls
+1753 911 Pls
+1701 809 Pls
+1690 987 Pls
+1926 1575 Pls
+2107 860 Pls
+1729 873 Pls
+2140 779 Pls
+1686 773 Pls
+1837 775 Pls
+1815 1087 Pls
+1722 811 Pls
+1969 785 Pls
+1819 1096 Pls
+1711 3692 Pls
+1966 1273 Pls
+1700 788 Pls
+1828 1170 Pls
+1838 968 Pls
+1738 863 Pls
+1750 1463 Pls
+1676 1111 Pls
+1922 800 Pls
+1730 805 Pls
+2073 811 Pls
+1702 768 Pls
+1697 797 Pls
+1760 932 Pls
+1907 833 Pls
+1885 1254 Pls
+1737 835 Pls
+1734 796 Pls
+1772 829 Pls
+1784 2997 Pls
+1828 823 Pls
+1769 769 Pls
+1862 1880 Pls
+1671 932 Pls
+2117 1712 Pls
+1686 799 Pls
+1673 769 Pls
+1734 829 Pls
+1711 800 Pls
+1688 774 Pls
+1714 778 Pls
+1716 808 Pls
+1817 776 Pls
+% End plot #1
+1.000 UL
+LTb
+1608 4319 N
+0 -3551 V
+5159 0 V
+0 3551 V
+-5159 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+stroke
+grestore
+end
+showpage
