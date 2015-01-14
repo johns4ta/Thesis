@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  14 JAN 2015 11:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  14 JAN 2015 14:21
 entering extended mode
 **main.tex
 (C:\Users\johns4ta\Desktop\Thesis\main.tex
@@ -1139,78 +1139,61 @@ Package pdftex.def Info: ./images/Fig8.pdf used on input line 283.
 a/Desktop/Thesis/images/Fig7-b.pdf>] [37 <C:/Users/johns4ta/Desktop/Thesis/imag
 es/Fig8.pdf>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 312.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.312  }
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.312  }
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[38]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 310.
+ [38]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 321.
+               Default added (so using `tbp') on input line 319.
 
-<./images/overall_bytes_over_24_hours.png, id=790, 490.83376pt x 338.76563pt>
+<./images/overall_bytes_over_24_hours.png, id=791, 490.83376pt x 338.76563pt>
 File: ./images/overall_bytes_over_24_hours.png Graphic file (type png)
 
 <use ./images/overall_bytes_over_24_hours.png>
 Package pdftex.def Info: ./images/overall_bytes_over_24_hours.png used on input
- line 323.
+ line 321.
 (pdftex.def)             Requested size: 487.0pt x 336.12851pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 328.
+               Default added (so using `tbp') on input line 326.
 
 
-<./images/overall_responses_over_24_hours.png, id=791, 518.6878pt x 336.50719pt
+<./images/overall_responses_over_24_hours.png, id=792, 518.6878pt x 336.50719pt
 >
 File: ./images/overall_responses_over_24_hours.png Graphic file (type png)
  <use ./images/overall_responses_over_24_hours.png>
 Package pdftex.def Info: ./images/overall_responses_over_24_hours.png used on i
-nput line 330.
+nput line 328.
 (pdftex.def)             Requested size: 487.0pt x 315.96762pt.
  [39 <C:/Users/johns4ta/Desktop/Thesis/images/overall_bytes_over_24_hours.png>]
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 339.
+               Default added (so using `tbp') on input line 337.
 
 
-<./images/simulated_bytes_remaining_in_cache_24_hours.png, id=802, 506.6428pt x
+<./images/simulated_bytes_remaining_in_cache_24_hours.png, id=803, 506.6428pt x
  341.02406pt>
 File: ./images/simulated_bytes_remaining_in_cache_24_hours.png Graphic file (ty
 pe png)
  <use ./images/simulated_bytes_remaining_in_cache_24_hours.png>
 Package pdftex.def Info: ./images/simulated_bytes_remaining_in_cache_24_hours.p
-ng used on input line 341.
+ng used on input line 339.
 (pdftex.def)             Requested size: 487.0pt x 327.81128pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 346.
+               Default added (so using `tbp') on input line 344.
 
 
-<./images/simulated_responses_remaining_in_cache_24_hours.png, id=803, 489.3281
+<./images/simulated_responses_remaining_in_cache_24_hours.png, id=804, 489.3281
 3pt x 333.49594pt>
 File: ./images/simulated_responses_remaining_in_cache_24_hours.png Graphic file
  (type png)
 
 <use ./images/simulated_responses_remaining_in_cache_24_hours.png>
 Package pdftex.def Info: ./images/simulated_responses_remaining_in_cache_24_hou
-rs.png used on input line 348.
+rs.png used on input line 346.
 (pdftex.def)             Requested size: 487.0pt x 331.9176pt.
 )
 (C:\Users\johns4ta\Desktop\Thesis\content/Chapter5_CharacteristicsMobileDesktop
@@ -1224,21 +1207,21 @@ _responses_remaining_in_cache_24_hours.png>] [43
 pdfTeX warning: pdflatex.exe (file C:/Users/johns4ta/Desktop/Thesis/images/setu
 p.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<./images/setup.pdf, id=845, 365.19937pt x 102.13156pt>
+<./images/setup.pdf, id=846, 365.19937pt x 102.13156pt>
 File: ./images/setup.pdf Graphic file (type pdf)
 
 <use ./images/setup.pdf>
 Package pdftex.def Info: ./images/setup.pdf used on input line 45.
 (pdftex.def)             Requested size: 487.0pt x 136.19792pt.
  [44] [45 <C:/Users/johns4ta/Desktop/Thesis/images/setup.pdf>] [46] <./images/t
-heil_reqs.pdf, id=881, 716.34337pt x 510.20523pt>
+heil_reqs.pdf, id=882, 716.34337pt x 510.20523pt>
 File: ./images/theil_reqs.pdf Graphic file (type pdf)
 
 <use ./images/theil_reqs.pdf>
 Package pdftex.def Info: ./images/theil_reqs.pdf used on input line 82.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
-<./images/theil_bytes.pdf, id=882, 714.03476pt x 510.20523pt>
+<./images/theil_bytes.pdf, id=883, 714.03476pt x 510.20523pt>
 File: ./images/theil_bytes.pdf Graphic file (type pdf)
 
 <use ./images/theil_bytes.pdf>
@@ -1247,7 +1230,7 @@ Package pdftex.def Info: ./images/theil_bytes.pdf used on input line 83.
  [47 <C:/Users/johns4ta/Desktop/Thesis/images/theil_reqs.pdf, page is rotated 9
 0 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/theil_bytes.pdf, page is ro
 tated 90 degrees>]
-<./images/totalRequests_all.pdf, id=907, 716.34337pt x 491.83661pt>
+<./images/totalRequests_all.pdf, id=908, 716.34337pt x 491.83661pt>
 File: ./images/totalRequests_all.pdf Graphic file (type pdf)
 
 <use ./images/totalRequests_all.pdf>
@@ -1255,7 +1238,7 @@ Package pdftex.def Info: ./images/totalRequests_all.pdf used on input line 108.
 
 (pdftex.def)             Requested size: 219.14851pt x 150.46399pt.
 
-<./images/req_by_type_fixed_all.pdf, id=908, 715.2392pt x 510.20523pt>
+<./images/req_by_type_fixed_all.pdf, id=909, 715.2392pt x 510.20523pt>
 File: ./images/req_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_fixed_all.pdf>
@@ -1263,7 +1246,7 @@ Package pdftex.def Info: ./images/req_by_type_fixed_all.pdf used on input line
 109.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/req_by_type_mobile_all.pdf, id=909, 715.2392pt x 510.20523pt>
+<./images/req_by_type_mobile_all.pdf, id=910, 715.2392pt x 510.20523pt>
 File: ./images/req_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/req_by_type_mobile_all.pdf>
@@ -1274,14 +1257,14 @@ Package pdftex.def Info: ./images/req_by_type_mobile_all.pdf used on input line
 is rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/req_by_type_fix
 ed_all.pdf, page is rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/image
 s/req_by_type_mobile_all.pdf, page is rotated 90 degrees>]
-<./images/bytes_total_all.pdf, id=946, 717.54788pt x 510.20523pt>
+<./images/bytes_total_all.pdf, id=947, 717.54788pt x 510.20523pt>
 File: ./images/bytes_total_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_total_all.pdf>
 Package pdftex.def Info: ./images/bytes_total_all.pdf used on input line 142.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
-<./images/bytes_by_type_fixed_all.pdf, id=947, 717.54788pt x 510.20523pt>
+<./images/bytes_by_type_fixed_all.pdf, id=948, 717.54788pt x 510.20523pt>
 File: ./images/bytes_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed_all.pdf>
@@ -1289,7 +1272,7 @@ Package pdftex.def Info: ./images/bytes_by_type_fixed_all.pdf used on input lin
 e 143.
 (pdftex.def)             Requested size: 219.14851pt x 155.82645pt.
 
-<./images/bytes_by_type_fixed.pdf, id=948, 716.34337pt x 510.20523pt>
+<./images/bytes_by_type_fixed.pdf, id=949, 716.34337pt x 510.20523pt>
 File: ./images/bytes_by_type_fixed.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_fixed.pdf>
@@ -1297,7 +1280,7 @@ Package pdftex.def Info: ./images/bytes_by_type_fixed.pdf used on input line 14
 4.
 (pdftex.def)             Requested size: 219.14851pt x 156.08336pt.
 
-<./images/bytes_by_type_mobile_all.pdf, id=949, 716.34337pt x 510.20523pt>
+<./images/bytes_by_type_mobile_all.pdf, id=950, 716.34337pt x 510.20523pt>
 File: ./images/bytes_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bytes_by_type_mobile_all.pdf>
@@ -1314,14 +1297,14 @@ op/Thesis/images/bytes_by_type_mobile_all.pdf, page is rotated 90 degrees>] [52
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 179.
 
-<./images/bpr_all.pdf, id=998, 715.2392pt x 510.20523pt>
+<./images/bpr_all.pdf, id=999, 715.2392pt x 510.20523pt>
 File: ./images/bpr_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_all.pdf>
 Package pdftex.def Info: ./images/bpr_all.pdf used on input line 181.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/bpr_by_type_fixed_all.pdf, id=999, 715.2392pt x 510.20523pt>
+<./images/bpr_by_type_fixed_all.pdf, id=1000, 715.2392pt x 510.20523pt>
 File: ./images/bpr_by_type_fixed_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_fixed_all.pdf>
@@ -1329,7 +1312,7 @@ Package pdftex.def Info: ./images/bpr_by_type_fixed_all.pdf used on input line
 182.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/bpr_by_type_mobile_all.pdf, id=1000, 715.2392pt x 510.20523pt>
+<./images/bpr_by_type_mobile_all.pdf, id=1001, 715.2392pt x 510.20523pt>
 File: ./images/bpr_by_type_mobile_all.pdf Graphic file (type pdf)
 
 <use ./images/bpr_by_type_mobile_all.pdf>
@@ -1340,14 +1323,14 @@ Package pdftex.def Info: ./images/bpr_by_type_mobile_all.pdf used on input line
  90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bpr_by_type_fixed_all.pdf
 , page is rotated 90 degrees> <C:/Users/johns4ta/Desktop/Thesis/images/bpr_by_t
 ype_mobile_all.pdf, page is rotated 90 degrees>] <./images/cache_fix_all.pdf, i
-d=1038, 715.2392pt x 510.20523pt>
+d=1039, 715.2392pt x 510.20523pt>
 File: ./images/cache_fix_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_fix_all.pdf>
 Package pdftex.def Info: ./images/cache_fix_all.pdf used on input line 215.
 (pdftex.def)             Requested size: 219.14851pt x 156.32469pt.
 
-<./images/cache_mob_all.pdf, id=1039, 715.2392pt x 491.83661pt>
+<./images/cache_mob_all.pdf, id=1040, 715.2392pt x 491.83661pt>
 File: ./images/cache_mob_all.pdf Graphic file (type pdf)
 
 <use ./images/cache_mob_all.pdf>
@@ -1384,13 +1367,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 13469 strings out of 493921
- 201207 string characters out of 3147274
+ 13470 strings out of 493921
+ 201230 string characters out of 3147274
  388383 words of memory out of 3000000
- 16378 multiletter control sequences out of 15000+200000
+ 16379 multiletter control sequences out of 15000+200000
  21873 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,12n,40p,1938b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,40p,1938b,584s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -1404,9 +1387,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
 /utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (72 pages, 2030499 bytes).
+Output written on main.pdf (72 pages, 2029142 bytes).
 PDF statistics:
- 1207 PDF objects out of 1440 (max. 8388607)
+ 1208 PDF objects out of 1440 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
  628 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -297,20 +297,18 @@ As an additional project, the possible power savings achievable through pre-cach
 
 \subsection*{Simulation Set Up}
 \addcontentsline{toc}{subsection}{Simulation Set Up}
-To determine the overall potential savings we will simulate a 24 hour browsing session for a user. The two behavioral attributes of the user that we incorporate into the simulation model are the user think time and the webpage visited. User think time is the time in between page requests that a user spends viewing a web page before navigating to another webpage. The user think time is determined similarly to the process outlined in [4]. The user think time follows a Pareto distribution with $\beta$ = 1.5 and k = 30. Website popularity was shown in [5] to follow a zipf distribution with $\alpha$ = 0.85. So, to determine what webpage the user visits, an integer will be drawn from a zipf distribution with $\alpha$ = 0.85 and the webpage with the corresponding page rank will be the webpage that we simulate the user navigating to. The overall algorithm for simulating a 24 hour user browsing session can be seen below.
+To determine the overall potential savings we will simulate a 24 hour browsing session for a user. The two behavioral attributes of the user that we incorporate into the simulation model are the user think time and the webpage visited. User think time is the time in between page requests that a user spends viewing a web page before navigating to another webpage. The user think time is determined similarly to the process outlined in [4]. The user think time follows a Pareto distribution with $\beta$ = 1.5 and k = 30. Website popularity was shown in [5] to follow a zipf distribution with $\alpha$ = 0.85. So, to determine what webpage the user visits, an integer will be drawn from a zipf distribution with $\alpha$ = 0.85 and the webpage with the corresponding page rank will be the webpage that we simulate the user navigating to. The overall algorithm for simulating a 24 hour user browsing session can be seen below in algorithm \ref{alg:overnight_caching}.
 
 \begin{algorithm}[H]
- |initialization|
- \While{time < 86400}{
-  |Select webpage based on zipf distribution|
-  \forall{cache item in webpage}
-  \eIf{expAge > time}{
-   |AccumulateSavings()|\newline
-   
+\label{alg:overnight_caching}
+ \While{time < 86400 (1 day)}{
+  Select webpage based on zipf distribution\;
+  \If{expAge > time //Item hasn't expired}{
+   AccumulateSavings()\;
    }
-   |time += Pareto($\beta$ = 1.5, k = 30)|\newline
+   time += Pareto($\beta$ = 1.5,k=30)\;
  }
- \caption{How to write algorithms}
+ \caption{Algorithm for calculating savings and simulating a 24 hour user browsing session}
 \end{algorithm}
 
 \subsection*{Overall Cache Lifetime Behavior}
