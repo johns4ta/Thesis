@@ -1,0 +1,6 @@
+These graphs shows the proportion of bytes left in cache over time.
+
+Files ending in _60 show the data where 0 <= expAge < 60
+Files ending in _600 show the data where 60 <= expAge < 600
+Files ending in _600 show the data where 600 <= expAge < 3600
+Files ending in _600 show the data where 3600 <= expAge

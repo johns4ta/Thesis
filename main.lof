@@ -2,23 +2,43 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Workflow of mobile application tested on testbed.\relax }}{5}{figure.caption.8}
 \contentsline {figure}{\numberline {3}{\ignorespaces Overview of the measurement setup\relax }}{9}{figure.caption.14}
 \contentsline {figure}{\numberline {4}{\ignorespaces Energy consumption while performing 100 web requests directly or through a mobile SOCKSv5 service, smoothed over time.\relax }}{11}{figure.caption.17}
-\contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{11}{figure.caption.18}
+\contentsline {figure}{\numberline {5}{\ignorespaces Compounded energy consumption for performing 100 web requests directly or through a mobile SOCKSv5 service.\relax }}{12}{figure.caption.18}
 \contentsline {figure}{\numberline {6}{\ignorespaces Average energy consumption and standard deviation for requesting different amounts of data from a local server using a direct or mobile SOCKSv5 proxy server.\relax }}{13}{figure.caption.23}
-\contentsline {figure}{\numberline {7}{\ignorespaces Average energy consumption overhead for requesting different amounts of data from a local server\relax }}{13}{figure.caption.24}
+\contentsline {figure}{\numberline {7}{\ignorespaces Average energy consumption overhead for requesting different amounts of data from a local server\relax }}{14}{figure.caption.24}
 \contentsline {figure}{\numberline {8}{\ignorespaces Average time difference and standard deviation between the direct and the proxy approach for requesting different amounts of data from a local server.\relax }}{16}{figure.caption.26}
 \contentsline {figure}{\numberline {9}{\ignorespaces Energy consumption while performing the video streaming of the Tears of Steel open-source video sequence directly and through a mobile SOCKSv5 proxy server, smoothed over time.\relax }}{17}{figure.caption.28}
 \contentsline {figure}{\numberline {10}{\ignorespaces Summary values for HTML5 video streaming of the open-source Tears of Steel movie (video-only) over an ethernet and a wireless network.\relax }}{18}{figure.caption.30}
-\contentsline {figure}{\numberline {11}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{21}{figure.caption.34}
-\contentsline {figure}{\numberline {12}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{23}{figure.caption.36}
-\contentsline {figure}{\numberline {13}{\ignorespaces Energy required to download web page data via cellular connection or through combination with partial local exchange with Bluetooth/WLAN.\relax }}{26}{figure.caption.40}
-\contentsline {figure}{\numberline {14}{\ignorespaces Relative number of items and data amounts in cache and savings resulting from local data exchange with a desktop client.\relax }}{27}{figure.caption.41}
-\contentsline {figure}{\numberline {15}{\ignorespaces Cumulative probability of expiration times for desktop and mobile responses.\relax }}{29}{figure.caption.45}
-\contentsline {figure}{\numberline {16}{\ignorespaces Simulation results for the number of responses and bytes that are in the transfered mobile device cache as averages in 1-hour bins.\relax }}{32}{figure.caption.48}
-\contentsline {figure}{\numberline {17}{\ignorespaces Simulation results for the attained savings for the number of responses and bytes by transferring to the mobile device cache in 1-hour bins.\relax }}{33}{figure.caption.49}
-\contentsline {figure}{\numberline {18}{\ignorespaces Average proportions of data in mobile cache for different Zipf distribution parameters $\alpha $.\relax }}{33}{figure.caption.50}
-\contentsline {figure}{\numberline {19}{\ignorespaces Approach for gathering the general statistics evaluated in this contribution: based on the original archives, we compare the fixed and mobile web pages contained in each bi-monthly measurement and evaluate only those that can be found in desktop and mobile web page requests to allow for a direct comparison.\relax }}{37}{figure.caption.54}
-\contentsline {figure}{\numberline {20}{\ignorespaces Theil entropy for the number of objects requested and the number of bytes for web pages present in the httparchive.org's desktop and mobile client data files for all pages at each measurement point (all) and the subset of continuously included pages.\relax }}{40}{figure.caption.58}
-\contentsline {figure}{\numberline {21}{\ignorespaces Average total number of requests for objects constituting a web page in desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{41}{figure.caption.61}
-\contentsline {figure}{\numberline {22}{\ignorespaces Average total number of bytes constituting a web page in desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{44}{figure.caption.63}
-\contentsline {figure}{\numberline {23}{\ignorespaces Average number of bytes per web page object request for desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{47}{figure.caption.65}
-\contentsline {figure}{\numberline {24}{\ignorespaces Maximum age of web page objects for desktop and mobile web clients.\relax }}{49}{figure.caption.67}
+\contentsline {figure}{\numberline {11}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{22}{figure.caption.34}
+\contentsline {figure}{\numberline {12}{\ignorespaces Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.\relax }}{24}{figure.caption.36}
+\contentsline {figure}{\numberline {13}{\ignorespaces Energy required to download web page data via cellular connection or through combination with partial local exchange with Bluetooth/WLAN.\relax }}{27}{figure.caption.40}
+\contentsline {figure}{\numberline {14}{\ignorespaces Relative number of items and data amounts in cache and savings resulting from local data exchange with a desktop client.\relax }}{28}{figure.caption.41}
+\contentsline {figure}{\numberline {15}{\ignorespaces Cumulative probability of expiration times for desktop and mobile responses.\relax }}{30}{figure.caption.45}
+\contentsline {figure}{\numberline {16}{\ignorespaces Simulation results for the number of responses that are in the transfered mobile device cache as averages in 1-hour bins..\relax }}{33}{figure.caption.48}
+\contentsline {figure}{\numberline {17}{\ignorespaces Simulation results for the attained savings for the number of bytes by transferring to the mobile device cache in 1-hour bins.\relax }}{34}{figure.caption.49}
+\contentsline {figure}{\numberline {18}{\ignorespaces Simulation results for the attained savings for the number of requests by transferring to the mobile device cache in 1-hour bins.\relax }}{35}{figure.caption.50}
+\contentsline {figure}{\numberline {19}{\ignorespaces Simulation results for the attained savings for the number of bytes by transferring to the mobile device cache in 1-hour bins.\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {20}{\ignorespaces Average proportions of data in mobile cache for different Zipf distribution parameters $\alpha $.\relax }}{37}{figure.caption.52}
+\contentsline {figure}{\numberline {21}{\ignorespaces The proportion of bytes remaining in cache over a 24 hour period.\relax }}{39}{figure.caption.56}
+\contentsline {figure}{\numberline {22}{\ignorespaces The proportion of HTTP responses remaining in cache over a 24 hour period.\relax }}{40}{figure.caption.57}
+\contentsline {figure}{\numberline {23}{\ignorespaces The proportion of bytes remaining in cache over a 24 hour period using our simulation model.\relax }}{41}{figure.caption.59}
+\contentsline {figure}{\numberline {24}{\ignorespaces The proportion of HTTP responses remaining in cache over a 24 hour period using our simulation model.\relax }}{42}{figure.caption.60}
+\contentsline {figure}{\numberline {25}{\ignorespaces Approach for gathering the general statistics evaluated in this contribution: based on the original archives, we compare the fixed and mobile web pages contained in each bi-monthly measurement and evaluate only those that can be found in desktop and mobile web page requests to allow for a direct comparison.\relax }}{45}{figure.caption.64}
+\contentsline {figure}{\numberline {26}{\ignorespaces Theil entropy for the number of objects requested and the number of bytes for web pages present in the httparchive.org's desktop and mobile client data files for all pages at each measurement point (all) and the subset of continuously included pages.\relax }}{47}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Number of requests per page}}}{47}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Number of bytes per page}}}{47}{subfigure.26.2}
+\contentsline {figure}{\numberline {27}{\ignorespaces Average total number of requests for objects constituting a web page in desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{49}{figure.caption.71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Average requests for desktop and mobile client versions.}}}{49}{subfigure.27.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Categorized requests for desktop client (all pages).}}}{49}{subfigure.27.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Categorized requests for mobile client (all pages)}}}{49}{subfigure.27.3}
+\contentsline {figure}{\numberline {28}{\ignorespaces Average total number of bytes constituting a web page in desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{51}{figure.caption.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Averages for desktop and mobile client versions.}}}{51}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Categorized for desktop client (all pages).}}}{51}{subfigure.28.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Categorized for desktop client (subset).}}}{51}{subfigure.28.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Categorized by category for mobile client (all pages).}}}{51}{subfigure.28.4}
+\contentsline {figure}{\numberline {29}{\ignorespaces Average number of bytes per web page object request for desktop and mobile versions and decomposition into HTML, CSS, Java Script, Images, and Other object categories.\relax }}{54}{figure.caption.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Averages for desktop and mobile client versions.}}}{54}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Categorized for desktop client (all pages).}}}{54}{subfigure.29.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Categorized for mobile client (all pages).}}}{54}{subfigure.29.3}
+\contentsline {figure}{\numberline {30}{\ignorespaces Maximum age of web page objects for desktop and mobile web clients.\relax }}{56}{figure.caption.77}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Desktop clients}}}{56}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mobile clients}}}{56}{subfigure.30.2}

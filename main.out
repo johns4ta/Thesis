@@ -32,19 +32,23 @@
 \BOOKMARK [2][-]{section*.46}{Simulation Model Description}{section*.42}% 32
 \BOOKMARK [2][-]{section*.46}{Simulation Model Description}{section*.42}% 33
 \BOOKMARK [1][-]{section*.47}{Performance Evaluation Results}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{}% 35
-\BOOKMARK [1][-]{section*.52}{Introduction}{chapter.5}% 36
-\BOOKMARK [1][-]{section*.53}{Data Set and Pre-Processing}{chapter.5}% 37
-\BOOKMARK [2][-]{section*.55}{General Notes}{section*.53}% 38
-\BOOKMARK [2][-]{section*.56}{Web Page Selection and Processing}{section*.53}% 39
-\BOOKMARK [2][-]{section*.57}{Time Variability of the Dataset}{section*.53}% 40
-\BOOKMARK [1][-]{section*.59}{Comparison of Desktop and Mobile Web Page Characteristics}{chapter.5}% 41
-\BOOKMARK [2][-]{section*.60}{Average Number of Web Site Objects}{section*.59}% 42
-\BOOKMARK [2][-]{section*.62}{Average Web Page Sizes}{section*.59}% 43
-\BOOKMARK [2][-]{section*.64}{Data per Web Page Object}{section*.59}% 44
-\BOOKMARK [2][-]{section*.66}{Caching of Web Page Objects}{section*.59}% 45
-\BOOKMARK [1][-]{section*.68}{Implications}{chapter.5}% 46
-\BOOKMARK [1][-]{section*.69}{Conclusion}{chapter.5}% 47
-\BOOKMARK [0][-]{chapter.6}{CONCLUSION}{}% 48
-\BOOKMARK [1][-]{section*.70}{Future Work}{chapter.6}% 49
-\BOOKMARK [0][-]{chapter*.71}{REFERENCES}{}% 50
+\BOOKMARK [1][-]{section*.53}{Overnight Caching}{chapter.4}% 35
+\BOOKMARK [2][-]{section*.54}{Simulation Set Up}{section*.53}% 36
+\BOOKMARK [2][-]{section*.55}{Overall Cache Lifetime Behavior}{section*.53}% 37
+\BOOKMARK [2][-]{section*.58}{Results}{section*.53}% 38
+\BOOKMARK [0][-]{chapter.5}{Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{}% 39
+\BOOKMARK [1][-]{section*.62}{Introduction}{chapter.5}% 40
+\BOOKMARK [1][-]{section*.63}{Data Set and Pre-Processing}{chapter.5}% 41
+\BOOKMARK [2][-]{section*.65}{General Notes}{section*.63}% 42
+\BOOKMARK [2][-]{section*.66}{Web Page Selection and Processing}{section*.63}% 43
+\BOOKMARK [2][-]{section*.67}{Time Variability of the Dataset}{section*.63}% 44
+\BOOKMARK [1][-]{section*.69}{Comparison of Desktop and Mobile Web Page Characteristics}{chapter.5}% 45
+\BOOKMARK [2][-]{section*.70}{Average Number of Web Site Objects}{section*.69}% 46
+\BOOKMARK [2][-]{section*.72}{Average Web Page Sizes}{section*.69}% 47
+\BOOKMARK [2][-]{section*.74}{Data per Web Page Object}{section*.69}% 48
+\BOOKMARK [2][-]{section*.76}{Caching of Web Page Objects}{section*.69}% 49
+\BOOKMARK [1][-]{section*.78}{Implications}{chapter.5}% 50
+\BOOKMARK [1][-]{section*.79}{Conclusion}{chapter.5}% 51
+\BOOKMARK [0][-]{chapter.6}{CONCLUSION}{}% 52
+\BOOKMARK [1][-]{section*.80}{Future Work}{chapter.6}% 53
+\BOOKMARK [0][-]{chapter*.81}{REFERENCES}{}% 54

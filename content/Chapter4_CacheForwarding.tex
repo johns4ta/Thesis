@@ -44,7 +44,7 @@ On February 12, 2014, we performed a speed test online using ($i$) Internet Expl
 An example screenshot of the web page as rendered is provided in Figure~\ref{fig:screens}.
 \begin{figure}
 \centering
-\includegraphics[scale=1,keepaspectratio,width=\textwidth]{1screen}
+\includegraphics[scale=1,keepaspectratio,width=\columnwidth]{1screen}
 	\caption{Screenshot of rendered web page from WebPageSpeedTest.org. As illustrated, the main textual and pictorial content items are flanked by background and interactive advertisements.}
 \label{fig:screens}
 \end{figure}
@@ -119,7 +119,7 @@ The Bluetooth and WLAN data exchanges with other local clients both follow the s
 We illustrate the relative amount of data/items within the cache in addition to the attainable savings in Figure~\ref{fig:rel_ios_time} as a function of delayed access time. 
 \begin{figure}
 \centering
-\includegraphics[scale=1,keepaspectratio,width=\textwidth]{rel_ios_time}
+\includegraphics[scale=1,keepaspectratio,width=\columnwidth]{rel_ios_time}
 	\caption{Relative number of items and data amounts in cache and savings resulting from local data exchange with a desktop client.}
 \label{fig:rel_ios_time}
 \end{figure}
@@ -143,10 +143,12 @@ Furthermore, the dataset contains the individual response details, including cac
 
 Similar to the individual web page example, we provide an overall description of the response sizes and maximum expiration ages in Table~\ref{tab:dataset}.
 \begin{table*}
+\small
 \centering
 \caption{Overview of the large dataset characteristics for all pages and response objects with a focus on the cache lifetime.}
 \label{tab:dataset}
-\begin{tabular}{|l||c|c|c|c||c|c|c|c|}
+\begin{tabularx}{\columnwidth}{|X||X|X|X|X||X|X|X|X|}
+
 	\hline
 	Category                         & \multicolumn{4}{|c||}{Desktop (IE)}                       & \multicolumn{4}{|c|}{Mobile (iOS)}                      \\
 	                                 & $\sum X_i $ &   $N$    & $\sigma(X_i)$ & $\overline{X_i}$ & $\sum X_i $ &  $N$   & $\sigma(X_i)$ & $\overline{X_i}$ \\
@@ -158,7 +160,7 @@ Similar to the individual web page example, we provide an overall description of
 	12 hours $\le$ expAge $<$ 1 day  &   6188.57   &  358998  &    227.63     &      17.24       &    91.37    &  5952  &     91.37     &      15.35       \\ \hline
 	1 day $\le$ expAge               &  195784.64  & 9888147  &    1337.36    &      19.80       &   2122.96   & 126629 &    750.51     &      16.77       \\ \hline\hline
 	Average                          &  80937.59   & 4655225  &    718.75     &      17.39       &   684.79    & 48226  &    321.95     &      14.20       \\ \hline
-\end{tabular}
+\end{tabularx}
 \end{table*}
 We note that the overall average response size as result of desktop requests (when batched into the outlined time frames) is around 17 kB, with the largest average sizes occurring between one and twelve hours.
 Mostly, we note that the majority of objects exhibit a short expiration time between zero and 30 seconds.
@@ -169,7 +171,7 @@ For more details of the differences between fixed and mobile web pages, we refer
 We illustrate the cumulative distribution for the desktop and mobile client response expiration ages in Figure~\ref{fig:comp_cpd}.
 \begin{figure}
 \centering
-\includegraphics[scale=1,keepaspectratio,width=\textwidth]{comp_cpd}
+\includegraphics[scale=1,keepaspectratio,width=\columnwidth]{comp_cpd}
 	\caption{Cumulative probability of expiration times for desktop and mobile responses.}
 \label{fig:comp_cpd}
 \end{figure}
@@ -232,16 +234,20 @@ To maintain tractability, we bundle the presented results into bins of 3600 seco
 We present our results for the individual responses or web objects and the total number of bytes.
 We note that through approximations, such as the ones described in Section~\ref{s:example}, an inference of energy consumption would be possible as well.
 We perform the simulations with an average $\alpha=0.85$ for the utilized Zipf distribution and repeat each week-long evaluation 2000 times.
-Initially, we present the total number of responses and bytes that would not require a download (i.e., would reside in the mobile cache) as a function of time in Figure~\ref{fig:sim1}.
-\begin{figure}[h!]
+Initially, we present the total number of responses and bytes that would not require a download (i.e., would reside in the mobile cache) as a function of time in figures \ref{fig:simr_abs_reqs} and \ref{fig:simr_abs_byte}.
+
+\begin{figure}
 	\centering
-	\subfloat[Objects]{\includegraphics[width=.45\textwidth]{Fig6-a}
-	\label{fig:simr_abs_reqs}}
-	\qquad
-	\subfloat[Bytes]{\includegraphics[width=.45\textwidth]{Fig6-b}
-	\label{fig:simr_abs_byte}}
-	\caption{Simulation results for the number of responses and bytes that are in the transfered mobile device cache as averages in 1-hour bins.}
-	\label{fig:sim1}
+	\includegraphics[width=\columnwidth]{Fig6-a}
+	\caption{Simulation results for the number of responses that are in the transfered mobile device cache as averages in 1-hour bins..}
+	 \label{fig:simr_abs_reqs}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{Fig6-b}
+	\caption{Simulation results for the attained savings for the number of bytes by transferring to the mobile device cache in 1-hour bins.}
+	 \label{fig:simr_abs_byte}
 \end{figure}
 
 We note an immediate decrease in the number of requests, which is mirrored by the number of bytes as well (indicating a linear relationship as observed in, e.g., \cite{JoSe14Commag}).
@@ -250,19 +256,23 @@ This indicates that within the simulation period of one week, initially a large 
 In a following group of objects, cache lifetimes increase logarithmically, which leads to the exponential decline we observe here.
 The narrow confidence intervals and low level of standard deviation indicate that the presented results are stable within simulation confines.
 
-Next, we present how these findings translate into attainable savings with respect to requests for objects and bytes in Figure~\ref{fig:sim2} in relationship to the total web page data without caching.
-\begin{figure}[]
+Next, we present how these findings translate into attainable savings with respect to requests for objects and bytes in figures \ref{fig:simr_sav_reqs} and \ref{fig:simr_sav_byte} in relationship to the total web page data without caching.
+
+\begin{figure}
 	\centering
-	\subfloat[Objects]{\includegraphics[width=.45\textwidth]{Fig7-a}
-	\label{fig:simr_sav_reqs}}
-	\qquad
-	\subfloat[Bytes]{\includegraphics[width=.45\textwidth]{Fig7-b}
-	\label{fig:simr_sav_byte}}
-	\caption{Simulation results for the attained savings for the number of responses and bytes by transferring to the mobile device cache in 1-hour bins.}
-	\label{fig:sim2}
+	\includegraphics[width=\columnwidth]{Fig7-a}
+	\caption{Simulation results for the attained savings for the number of requests by transferring to the mobile device cache in 1-hour bins.}
+	 \label{fig:simr_sav_reqs}
 \end{figure}
 
-We initially note a declining trend similar to the one observed for the cached items in Figure~\ref{fig:sim1}, but with more distinct ``jumps'' observable at half-day and day times of the simulation.
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{Fig7-b}
+	\caption{Simulation results for the attained savings for the number of bytes by transferring to the mobile device cache in 1-hour bins.}
+	 \label{fig:simr_sav_byte}
+\end{figure}
+
+We initially note a declining trend similar to the one observed for the cached items in figures \ref{fig:simr_abs_byte} and \ref{fig:simr_abs_reqs}, but with more distinct ``jumps'' observable at half-day and day times of the simulation.
 Overall, we note that almost 15 \% savings for objects and bytes decline to around 10 \% after the boundaries of a day (whereby objects exhibit lower levels and bytes exhibit higher levels).
 
 To evaluate the impact of different web page popularity distributions, we present an evaluation of different $\alpha$ for the Zipf distribution in Figure~\ref{fig:sim3}, each with 500 simulation repetitions for $0.65 \le \alpha \le 1.05$.
@@ -270,7 +280,7 @@ To evaluate the impact of different web page popularity distributions, we presen
 We limit our comparison to bytes due to space constraints, noting that results obtained for objects are similar.
 \begin{figure}[]
 	\centering
-	\includegraphics[width=.45\textwidth]{Fig8}
+	\includegraphics[width=\columnwidth]{Fig8}
 	\caption{Average proportions of data in mobile cache for different Zipf distribution parameters $\alpha$.}
 	\label{fig:sim3}
 \end{figure}
@@ -280,6 +290,66 @@ We conclude that the distribution of web page popularity and the composition the
 Overall, we find a significant reduction in the required downloads for mobile clients that can be directly attributed to lower energy consumption levels and potential download latencies (and even costs for the mobile user through saved data transmissions).
 Furthermore, this approach does not require sophisticated live evaluations, but only relies on cache forwarding to the mobile device.
 
+\section*{Overnight Caching}
+\addcontentsline{toc}{section}{Overnight Caching}
+
+As an additional project, the possible power savings achievable through pre-caching contents of websites. Typically, most people tend to plug their mobile devices into a power source over night while they are sleeping. Also, many people tend to have Wi-Fi access in their homes, which can be accessible by the phone while the user is sleeping. Due to this, during the night or early morning, when a user is usually still sleeping, would be a great time for a mobile phone to go out and pre-cache the webpages a user visited the previous day since users are more likely to visit these same sites again the next day. By performing the pre-caching at night, the user would have the advantage of a power source and a Wi-Fi connection so they don’t drain their battery or data plan. As a result, they may also have faster load times throughout the day when they try to access the webpages since the webpages will already be cached locally on their mobile devices. This can also result in power savings since many of the items on the webpages may already be cached, so the mobile devices won’t have to make as many requests to go out and fetch as many of the required objects for a web page.
+
+\subsection*{Simulation Set Up}
+\addcontentsline{toc}{subsection}{Simulation Set Up}
+To determine the overall potential savings we will simulate a 24 hour browsing session for a user. The two behavioral attributes of the user that we incorporate into the simulation model are the user think time and the webpage visited. User think time is the time in between page requests that a user spends viewing a web page before navigating to another webpage. The user think time is determined similarly to the process outlined in [4]. The user think time follows a Pareto distribution with $\beta$ = 1.5 and k = 30. Website popularity was shown in [5] to follow a zipf distribution with $\alpha$ = 0.85. So, to determine what webpage the user visits, an integer will be drawn from a zipf distribution with $\alpha$ = 0.85 and the webpage with the corresponding page rank will be the webpage that we simulate the user navigating to. The overall algorithm for simulating a 24 hour user browsing session can be seen below.
+
+\begin{algorithm}[H]
+ |initialization|
+ \While{time < 86400}{
+  |Select webpage based on zipf distribution|
+  \forall{cache item in webpage}
+  \eIf{expAge > time}{
+   |AccumulateSavings()|\newline
+   
+   }
+   |time += Pareto($\beta$ = 1.5, k = 30)|\newline
+ }
+ \caption{How to write algorithms}
+\end{algorithm}
+
+\subsection*{Overall Cache Lifetime Behavior}
+\addcontentsline{toc}{subsection}{Overall Cache Lifetime Behavior}
+
+The overall lifetime of cache objects from mobile sites is shown in Figure \ref{fig:overall_bytes_over_24_hours}. Figure \ref{fig:overall_bytes_over_24_hours} depicts the total bytes remaining in cache over a 24 hour period. Roughly 35\% of bytes expire in cache almost immediately. Subsequently, there are also noticeable drops at periods of one hour, four hours, and twelve hours before slowly starting to level off to about 52\% of bytes remaining in cache after 24 hours. Figure \ref{fig:overall_responses_over_24_hours} depicts the total responses remaining in the mobile device’s cache over a 24 hour period. There is also a steep initial drop to about 55\% after the responses with an expiration age of zero expire. There are subsequent noticeable drops at periods of one hour, four hours, six hours, and twelve hours, before starting a steady decline to about 45\% of responses remaining in cache at the end of the 24 hour period.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=\columnwidth]{overall_bytes_over_24_hours}
+	\caption{The proportion of bytes remaining in cache over a 24 hour period.}
+	\label{fig:overall_bytes_over_24_hours}
+\end{figure}
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=\columnwidth]{overall_responses_over_24_hours}
+	\caption{The proportion of HTTP responses remaining in cache over a 24 hour period.}
+	\label{fig:overall_responses_over_24_hours}
+\end{figure}
+
+\subsection*{Results}
+\addcontentsline{toc}{subsection}{Results}
+We ran the simulation for two-thousand rounds to determine the possible savings along with their confidence intervals. The overall savings for a 24 hour period determined from our simulations seen be seen in Figure \ref{fig:simulated_bytes_remaining_in_cache_24_hours} and Figure \ref{fig:simulated_responses_remaining_in_cache_24_hours} along with their confidence intervals. In Figure \ref{fig:simulated_bytes_remaining_in_cache_24_hours}, after the initial drop from cache items with expiration ages of zero, the amount of bytes remaining in cache starts out at 43\% and starts to level off at about 35\% by the end of the day. The most significant visible drops occur at the two hour and twelve hour periods with other smaller noticeable drops throughout the day. Figure \ref{fig:simulated_responses_remaining_in_cache_24_hours} depicts the total proportion of responses remaining in cache over a 24 hour period along with the 95\% confidence intervals. After the initial drop from cache items with expiration ages of zero, the proportion of responses remaining in cache starts out at about 37\% and levels off to about 30\% by the end of the day. As expected, the most visible drops are in similar locations as Figure \ref{fig:simulated_bytes_remaining_in_cache_24_hours}, at the two hour and twelve hour periods with other smaller noticeable drops throughout the day.
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=\columnwidth]{simulated_bytes_remaining_in_cache_24_hours}
+	\caption{The proportion of bytes remaining in cache over a 24 hour period using our simulation model.}
+	\label{fig:simulated_bytes_remaining_in_cache_24_hours}
+\end{figure}
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=\columnwidth]{simulated_responses_remaining_in_cache_24_hours}
+	\caption{The proportion of HTTP responses remaining in cache over a 24 hour period using our simulation model.}
+	\label{fig:simulated_responses_remaining_in_cache_24_hours}
+\end{figure}
+
 \section*{Conclusion}
 Performance Evaluation Results
 \label{s:conc}
@@ -287,4 +357,4 @@ We exemplarily evaluated the content of modern web pages and the identical objec
 Assuming mobile users visit the same pages on their mobile device that they visit on their desktop computer as well, we simulated the access of landing web pages and evaluated the potential for cache forwarding.
 Our basic approach is able to save upward of 7.5 \% of mobile request or bytes even for very distant time horizons.
 In the more typical daily time range, our approach can yield almost linearly decreasing savings stating at about 14 \%, without requiring any sophisticated prediction mechanisms, but only a direct cache transfer.
-We note that similarly, exchanges between mobile and fixed devices belonging to a user are possible, including keeping a cloud-based reference of pages that a user visits (similar to Google Chrome's synchronization features). 
+We note that similarly, exchanges between mobile and fixed devices belonging to a user are possible, including keeping a cloud-based reference of pages that a user visits (similar to Google Chrome's synchronization features).

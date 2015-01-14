@@ -16,37 +16,41 @@
 \contentsline {section}{Performance Evaluation For Web Requests}{8}{figure.caption.14}
 \contentsline {subsection}{Fixed Network}{9}{section*.15}
 \contentsline {subsection}{Wireless Network}{10}{table.caption.19}
-\contentsline {section}{Impact of Web Request Variations}{12}{section*.20}
+\contentsline {section}{Impact of Web Request Variations}{11}{section*.20}
 \contentsline {subsection}{Power Consumption}{12}{section*.21}
 \contentsline {section}{Delay Difference}{15}{figure.caption.24}
-\contentsline {section}{Media Streaming}{15}{figure.caption.26}
-\contentsline {section}{Fixed Network}{16}{figure.caption.28}
-\contentsline {section}{Wireless Network}{17}{figure.caption.30}
-\contentsline {section}{Conclusions and Future Work}{18}{section*.31}
-\contentsline {chapter}{\chapternumberline {IV}Web Cache Object Forwarding From Desktop to Mobile for Energy Consumption Optimizations}{20}{chapter.4}
-\contentsline {section}{Introduction}{20}{section*.33}
-\contentsline {section}{Introduction}{22}{section*.35}
-\contentsline {subsection}{Data Description}{24}{section*.37}
-\contentsline {subsection}{Evaluation of Local Cache Forwarding}{25}{section*.39}
-\contentsline {section}{Large Dataset Performance Evaluation}{27}{section*.42}
-\contentsline {subsection}{Dataset Description}{28}{section*.43}
-\contentsline {subsection}{Dataset Description}{28}{section*.43}
-\contentsline {subsection}{Simulation Model Description}{29}{section*.46}
-\contentsline {subsection}{Simulation Model Description}{29}{section*.46}
-\contentsline {section}{Performance Evaluation Results}{31}{section*.47}
-\contentsline {chapter}{\chapternumberline {V}Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{35}{chapter.5}
-\contentsline {section}{Introduction}{35}{section*.52}
-\contentsline {section}{Data Set and Pre-Processing}{37}{section*.53}
-\contentsline {subsection}{General Notes}{37}{section*.55}
-\contentsline {subsection}{Web Page Selection and Processing}{38}{section*.56}
-\contentsline {subsection}{Time Variability of the Dataset}{39}{section*.57}
-\contentsline {section}{Comparison of Desktop and Mobile Web Page Characteristics}{40}{section*.59}
-\contentsline {subsection}{Average Number of Web Site Objects}{41}{section*.60}
-\contentsline {subsection}{Average Web Page Sizes}{43}{section*.62}
-\contentsline {subsection}{Data per Web Page Object}{46}{section*.64}
-\contentsline {subsection}{Caching of Web Page Objects}{49}{section*.66}
-\contentsline {section}{Implications}{50}{section*.68}
-\contentsline {section}{Conclusion}{52}{section*.69}
-\contentsline {chapter}{\chapternumberline {VI}CONCLUSION}{54}{chapter.6}
-\contentsline {subsection}{Future Work}{54}{section*.70}
-\contentsline {chapter}{REFERENCES}{55}{chapter*.71}
+\contentsline {section}{Media Streaming}{16}{figure.caption.26}
+\contentsline {section}{Fixed Network}{17}{figure.caption.28}
+\contentsline {section}{Wireless Network}{18}{figure.caption.30}
+\contentsline {section}{Conclusions and Future Work}{19}{section*.31}
+\contentsline {chapter}{\chapternumberline {IV}Web Cache Object Forwarding From Desktop to Mobile for Energy Consumption Optimizations}{21}{chapter.4}
+\contentsline {section}{Introduction}{21}{section*.33}
+\contentsline {section}{Introduction}{23}{section*.35}
+\contentsline {subsection}{Data Description}{25}{section*.37}
+\contentsline {subsection}{Evaluation of Local Cache Forwarding}{26}{section*.39}
+\contentsline {section}{Large Dataset Performance Evaluation}{28}{section*.42}
+\contentsline {subsection}{Dataset Description}{29}{section*.43}
+\contentsline {subsection}{Dataset Description}{29}{section*.43}
+\contentsline {subsection}{Simulation Model Description}{31}{section*.46}
+\contentsline {subsection}{Simulation Model Description}{31}{section*.46}
+\contentsline {section}{Performance Evaluation Results}{32}{section*.47}
+\contentsline {section}{Overnight Caching}{36}{section*.53}
+\contentsline {subsection}{Simulation Set Up}{37}{section*.54}
+\contentsline {subsection}{Overall Cache Lifetime Behavior}{38}{section*.55}
+\contentsline {subsection}{Results}{39}{section*.58}
+\contentsline {chapter}{\chapternumberline {V}Desktop and Mobile Web Page Comparison: Characteristics, Trends, and Implications}{43}{chapter.5}
+\contentsline {section}{Introduction}{43}{section*.62}
+\contentsline {section}{Data Set and Pre-Processing}{45}{section*.63}
+\contentsline {subsection}{General Notes}{45}{section*.65}
+\contentsline {subsection}{Web Page Selection and Processing}{46}{section*.66}
+\contentsline {subsection}{Time Variability of the Dataset}{47}{section*.67}
+\contentsline {section}{Comparison of Desktop and Mobile Web Page Characteristics}{48}{section*.69}
+\contentsline {subsection}{Average Number of Web Site Objects}{48}{section*.70}
+\contentsline {subsection}{Average Web Page Sizes}{51}{section*.72}
+\contentsline {subsection}{Data per Web Page Object}{53}{section*.74}
+\contentsline {subsection}{Caching of Web Page Objects}{56}{section*.76}
+\contentsline {section}{Implications}{57}{section*.78}
+\contentsline {section}{Conclusion}{59}{section*.79}
+\contentsline {chapter}{\chapternumberline {VI}CONCLUSION}{61}{chapter.6}
+\contentsline {subsection}{Future Work}{61}{section*.80}
+\contentsline {chapter}{REFERENCES}{62}{chapter*.81}

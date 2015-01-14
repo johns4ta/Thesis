@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  7 JAN 2015 14:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.3.2)  13 JAN 2015 17:17
 entering extended mode
 **JoSe_BBN_20140702.tex
 
@@ -345,6 +345,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 73.
 
+LaTeX Warning: Reference `fig:setup' on page 1 undefined on input line 98.
+
+
 ! LaTeX Error: File `cache_forwarding_setup' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -466,15 +469,15 @@ Online/CapacitySharing_GreenComOnline/figures/Fig8.pdf>]
 ("C:\Users\johns4ta\Desktop\Thesis\Publication Files\CapacitySharing_GreenComOn
 line\CapacitySharing_GreenComOnline\JoSe_BBN_20140702.aux")
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3823 strings out of 493921
- 61761 string characters out of 3147274
+ 3824 strings out of 493921
+ 61767 string characters out of 3147274
  131678 words of memory out of 3000000
  7067 multiletter control sequences out of 15000+200000
- 37690 words of font info for 71 fonts, out of 3000000 for 9000
+ 38797 words of font info for 72 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,10n,47p,395b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
@@ -493,7 +496,7 @@ lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on JoSe_BBN_20140702.pdf (6 pages, 356641 bytes).
+Output written on JoSe_BBN_20140702.pdf (6 pages, 356863 bytes).
 PDF statistics:
  179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

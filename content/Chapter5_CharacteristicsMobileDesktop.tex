@@ -42,7 +42,7 @@ The overall starting points are the initial client view statistics, i.e., non-ca
 We illustrate the overall process in Figure~\ref{fig:setup}.
 \begin{figure}
 	\centering
-	\includegraphics[width=.45\textwidth]{setup}
+	\includegraphics[width=\columnwidth]{setup}
 	\caption{Approach for gathering the general statistics evaluated in this contribution: based on the original archives, we compare the fixed and mobile web pages contained in each bi-monthly measurement and evaluate only those that can be found in desktop and mobile web page requests to allow for a direct comparison.}
 	\label{fig:setup}
 \end{figure}
@@ -75,13 +75,16 @@ To evaluate how these changes impact the diversity of values encountered in the 
 
 Specifically, we evaluate the number of web requests and the total number of bytes for each request type over time, as we are more interested in the overall quality of the selected data subset (i.e., statistics for pages that can be found in both datasets).
 We illustrate the result as function of time in Figure~\ref{fig:theil}, whereby we initially note that higher values represent a higher diversity of the underlying dataset (Theil population).
+
+
 \begin{figure}[t]
 	\centering
-	\subfloat[Number of requests per page]{\includegraphics[width=.45\textwidth]{theil_reqs}}\qquad
-	\subfloat[Number of bytes per page]{\includegraphics[width=.45\textwidth]{theil_bytes}}
+	\subfloat[Number of requests per page]{\includegraphics[width=0.45\columnwidth]{theil_reqs}}\qquad
+	\subfloat[Number of bytes per page]{\includegraphics[width=0.45\columnwidth]{theil_bytes}}
 	\caption{Theil entropy for the number of objects requested and the number of bytes for web pages present in the httparchive.org's desktop and mobile client data files for all pages at each measurement point (all) and the subset of continuously included pages.}
 	\label{fig:theil}
 \end{figure}
+
 We observe that the entropy curves for each of the selected features (requests, bytes) are fairly close for each of the two modes (fixed, mobile), with significant ``jumps,'' i.e., changes of their overall level, at two distinct measurement points for the larger dataset.
 These ``jumps'' occur at times where the underlying number and source set of the httparchive.org base URLs were changed, as outlined above.
 We note that these changes, however, affect all client modes and type of characteristics evaluated in a similar manner by significantly increasing the diversity of measurement results, which is immediately visible from Figure~\ref{fig:theil}.
@@ -99,6 +102,7 @@ In this section, we compare the average values we obtained from the joint httpar
 \addcontentsline{toc}{subsection}{Average Number of Web Site Objects}
 \label{ss:objects}
 Initially, we investigate the average number of objects requested when accessing a web page for the first time and illustrate the results in Figure~\ref{fig:requests} for both client types and all web pages compared to the subset present throughout all measurement points.
+
 \begin{figure}
 \centering
 	\subfloat[Average requests for desktop and mobile client versions.]{\includegraphics[width=.45\textwidth]{totalRequests_all}}\\ 
@@ -106,6 +110,7 @@ Initially, we investigate the average number of objects requested when accessing
 	\subfloat[Categorized requests for mobile client (all pages)]{\includegraphics[width=.45\textwidth]{req_by_type_mobile_all}}\qquad
 \caption{Average total number of requests for objects constituting a web page in desktop and mobile versions and decomposition into  HTML, CSS, Java Script, Images, and Other object categories.\label{fig:requests}}
 \end{figure}
+
 We initially note that the desktop versions exhibit a significantly larger number of requested objects in comparison to the mobile counterparts.
 We additionally observe an overall continuous increase, which tends to have slight ``jumps'' in certain time frames (more pronounced for mobile client requests). 
 These slight increases are in line with the earlier observations concerning changes to the underlying web pages constituting the measurement points in time. While significant variability between individual measurement points can be noted,  the overall trend remains steady and slowly growing.
